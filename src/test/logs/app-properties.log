@@ -1,1 +1,59 @@
 [INFO ] 19-08-2023 14:58:02 [main] Log - This is log
+[INFO ] 20-08-2023 11:08:36 [main] Log - [RUNNING THE TEST: null]
+[INFO ] 20-08-2023 11:08:36 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 11:08:36 [main] Log - [RUNNING THE TEST: null]
+[INFO ] 20-08-2023 11:08:36 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 11:08:36 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 11:11:17 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 11:11:17 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 11:11:17 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 11:11:17 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 11:11:17 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 11:13:35 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 11:13:36 [main] Log - [null]is FAILED
+[INFO ] 20-08-2023 11:13:36 [main] Log - [null]is FAILED
+[INFO ] 20-08-2023 11:13:36 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 11:14:46 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 11:14:47 [main] Log - [null]is FAILED
+[INFO ] 20-08-2023 11:14:47 [main] Log - This testcase is failed expected [true] but found [false]
+[INFO ] 20-08-2023 11:14:47 [main] Log - [null]is FAILED
+[INFO ] 20-08-2023 11:14:47 [main] Log - null
+[INFO ] 20-08-2023 11:14:47 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 11:15:15 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 11:15:16 [main] Log - [loginTest]is FAILED
+[INFO ] 20-08-2023 11:15:16 [main] Log - This testcase is failed expected [true] but found [false]
+[INFO ] 20-08-2023 11:15:16 [main] Log - [loginTest]is FAILED
+[INFO ] 20-08-2023 11:15:16 [main] Log - null
+[INFO ] 20-08-2023 11:15:16 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 11:16:04 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 11:16:04 [main] Log - [loginTest]is FAILED
+[INFO ] 20-08-2023 11:16:04 [main] Log - This testcase is failed expected [true] but found [false]
+[INFO ] 20-08-2023 11:16:04 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 11:16:04 [main] Log - [test2]is SKIPPED
+[INFO ] 20-08-2023 11:16:04 [main] Log - Method Test1.test2() on instance Test1@38afe297 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@38afe297]
+[INFO ] 20-08-2023 11:16:04 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 11:18:29 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 11:18:30 [main] Log - [loginTest] is FAILED
+[INFO ] 20-08-2023 11:18:30 [main] Log - This testcase is failed expected [true] but found [false]
+[INFO ] 20-08-2023 11:18:30 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 11:18:30 [main] Log - [test2] is SKIPPED
+[INFO ] 20-08-2023 11:18:30 [main] Log - Method Test1.test2() on instance Test1@55b0dcab depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@55b0dcab]
+[INFO ] 20-08-2023 11:18:30 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 11:19:33 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 11:19:33 [main] Log - [loginTest] is FAILED
+[INFO ] 20-08-2023 11:19:33 [main] Log - This testcase is failed expected [true] but found [false]
+[INFO ] 20-08-2023 11:19:33 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 11:19:33 [main] Log - [test2] is SKIPPED
+[INFO ] 20-08-2023 11:19:33 [main] Log - Method Test1.test2() on instance Test1@3d34d211 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@3d34d211]
+[INFO ] 20-08-2023 11:19:33 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 11:24:29 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 11:24:29 [main] Log - [loginTest] is FAILED
+[INFO ] 20-08-2023 11:24:29 [main] Log - This testcase is failed expected [true] but found [false]
+[INFO ] 20-08-2023 11:24:29 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 11:24:29 [main] Log - [test2] is SKIPPED
+[INFO ] 20-08-2023 11:24:29 [main] Log - Method Test1.test2() on instance Test1@43c1b556 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@43c1b556]
+[INFO ] 20-08-2023 11:24:29 [main] Log - Completed test case [RESULT]: Regression 1

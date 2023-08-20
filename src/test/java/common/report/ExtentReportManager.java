@@ -14,8 +14,8 @@ import java.util.Map;
 public class ExtentReportManager {
 
     private static final ExtentReports extentReport = new ExtentReports();
-    private static Map<Integer, ExtentTest> extentTestMap = new HashMap<>();
-    private static ExtentReports extendTest = getExtentReport();
+    private static final Map<Integer, ExtentTest> extentTestMap = new HashMap<>();
+    private static final ExtentReports extendTest = getExtentReport();
 
     //this method using to generate the report instances
     public synchronized static ExtentReports getExtentReport(){
@@ -53,9 +53,26 @@ public class ExtentReportManager {
         return extentTestInstance;
     }
 
-    public static void logMessage(String message){
-        getTest().log(Status.INFO, message);
+    public static void logMessage(Status status, String message){
+        getTest().log(status, message);
     }
 
+    public static void logSuccess(String message){
+        getTest().log(Status.PASS, message);
+    }
+
+    public static void logFailure(String message){
+
+        getTest().log(Status.FAIL, message);
+    }
+
+    public static void logSkipped(String message){
+
+        getTest().log(Status.SKIP, message);
+    }
+
+    public static void logThrowable(Throwable throwable){
+        getTest().log(Status.WARNING, throwable);
+    }
 
 }
