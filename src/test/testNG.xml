@@ -4,6 +4,7 @@
     <listeners>
         <listener class-name="common.listener.TestListener"></listener>
     </listeners>
+    <parameter name="device" value="Windows 11 22H1"></parameter>
     <test name="Regression 1">
         <classes>
             <class name="Test1"/>

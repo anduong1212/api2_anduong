@@ -3,8 +3,13 @@ package common.report;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.Markup;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import common.logger.Log;
+import org.testng.ITestResult;
+import org.testng.annotations.Parameters;
 
 import java.io.File;
 import java.io.IOException;
@@ -58,21 +63,37 @@ public class ExtentReportManager {
     }
 
     public static void logSuccess(String message){
-        getTest().log(Status.PASS, message);
+        getTest().pass(createMarkup(message, ExtentColor.GREEN));
     }
 
     public static void logFailure(String message){
-
-        getTest().log(Status.FAIL, message);
+        getTest().fail(createMarkup(message, ExtentColor.RED));
     }
 
     public static void logSkipped(String message){
-
-        getTest().log(Status.SKIP, message);
+        getTest().skip(createMarkup(message, ExtentColor.YELLOW));
     }
 
     public static void logThrowable(Throwable throwable){
         getTest().log(Status.WARNING, throwable);
+    }
+
+    public static void stepNode(String nodeName, String nodeDesc){
+        logMessage(Status.INFO, nodeName);
+        getTest().createNode("<b style =\"color:Orange\">STEP </b>" + nodeName).info(createMarkup(nodeDesc, ExtentColor.PINK));
+    }
+
+    public static Markup createMarkup(String message, ExtentColor color){
+        Markup markup = MarkupHelper.createLabel(message,color);
+        return markup;
+    }
+
+    public static void setDevice(String device){
+        extentTestMap.get((int) Thread.currentThread().getId()).assignDevice(device);
+    }
+
+    public static void extentReportFailedOperation(ITestResult iTestResult){
+        logFailure("FAILED - handle as adding a attachment would be added later");
     }
 
 }

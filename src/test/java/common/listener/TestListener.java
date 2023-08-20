@@ -1,11 +1,13 @@
 package common.listener;
 
 import com.aventstack.extentreports.Status;
+import com.beust.jcommander.Parameter;
 import common.logger.Log;
 import common.report.ExtentReportManager;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.annotations.Parameters;
 
 public class TestListener implements ITestListener {
     public String getTestName(ITestResult result){
@@ -14,6 +16,12 @@ public class TestListener implements ITestListener {
 
     public String getTestDescription(ITestResult result){
         return result.getMethod().getDescription() != null ? result.getMethod().getDescription() : getTestName(result);
+    }
+
+    @Override
+    public void onStart(ITestContext testContext){
+        Log.info("=================================================");
+        Log.info("====== START TEST AT [" + testContext.getStartDate() + "]");
     }
 
     @Override
@@ -35,7 +43,7 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult testResult){
-        Log.info("[" + testResult.getTestName() + "]" + " is PASSED !");
+        Log.info("[" + testResult.getName() + "]" + " is PASSED !");
 
         //Save the pass status to report
         ExtentReportManager.logSuccess("<b>[" + testResult.getName() + "]</b>" + " is PASSED");

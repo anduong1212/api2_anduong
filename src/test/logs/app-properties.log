@@ -57,3 +57,225 @@
 [INFO ] 20-08-2023 11:24:29 [main] Log - Method Test1.test2() on instance Test1@43c1b556 depends on not successfully finished methods 
 [Test1.loginTest() on instance Test1@43c1b556]
 [INFO ] 20-08-2023 11:24:29 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 17:53:37 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 17:53:37 [main] Log - [loginTest] is FAILED
+[INFO ] 20-08-2023 17:53:37 [main] Log - This testcase is failed expected [true] but found [false]
+[INFO ] 20-08-2023 17:53:37 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 17:53:37 [main] Log - [test2] is SKIPPED
+[INFO ] 20-08-2023 17:53:37 [main] Log - Method Test1.test2() on instance Test1@70325e14 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@70325e14]
+[INFO ] 20-08-2023 17:53:37 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 17:53:56 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 17:53:56 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 17:53:57 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 17:53:57 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 17:53:57 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 17:59:13 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 17:59:13 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 17:59:13 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 17:59:13 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 17:59:13 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 17:59:13 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:02:23 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:02:24 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:02:24 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:02:24 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:02:24 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:02:24 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:02:59 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:02:59 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:02:59 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:02:59 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:02:59 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:02:59 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:16:37 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:16:37 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:16:37 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:16:37 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:16:37 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:16:37 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:33:18 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:33:19 [main] Log - [loginTest] is FAILED
+[INFO ] 20-08-2023 18:33:19 [main] Log - null
+[INFO ] 20-08-2023 18:33:19 [main] Log - [loginTest] is FAILED
+[INFO ] 20-08-2023 18:33:19 [main] Log - Could not initialize class common.report.ExtentReportManager
+[INFO ] 20-08-2023 18:33:19 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:34:17 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:34:17 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:34:17 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:34:17 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:34:17 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:34:17 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:34:45 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:34:45 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:34:45 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:34:45 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:34:45 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:34:45 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:36:09 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:36:09 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:36:09 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:36:09 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:36:09 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:36:09 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:36:23 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:36:24 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:36:24 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:36:24 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:36:24 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:36:24 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:36:32 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:36:32 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:36:32 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:36:32 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:36:32 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:36:32 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:36:45 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:36:46 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:36:46 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:36:46 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:36:46 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:36:46 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:36:57 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:36:58 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:36:58 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:36:58 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:36:58 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:36:58 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:38:16 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:38:17 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:38:17 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:38:17 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:38:17 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:38:17 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:42:34 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:42:34 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:42:34 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:42:34 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:42:34 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:42:34 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:46:58 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:46:58 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:46:58 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:46:58 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:46:58 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:46:58 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:47:57 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:47:58 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:47:58 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:47:58 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:47:58 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:47:58 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:49:05 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:49:05 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:49:05 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:49:05 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:49:05 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:49:05 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:50:18 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:50:19 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:50:19 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:50:19 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:50:19 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:50:19 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:50:33 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:50:33 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:50:33 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:50:33 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:50:33 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:50:33 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:51:25 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:51:25 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:51:25 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:51:25 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:51:25 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:51:25 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:52:15 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:52:15 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:52:15 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:52:15 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:52:15 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:52:15 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:52:42 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:52:42 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:52:42 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:52:42 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:52:42 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:52:42 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:53:01 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:53:01 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:53:01 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:53:01 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:53:01 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:53:01 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:53:24 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:53:24 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:53:24 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:53:24 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:53:24 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:53:24 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:54:05 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:54:05 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:54:05 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:54:05 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:54:05 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:54:05 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:54:39 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:54:39 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:54:39 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:54:39 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:54:39 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:54:39 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:55:20 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:55:20 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:55:20 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:55:20 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:55:20 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:55:20 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 18:58:26 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 18:58:26 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 18:58:26 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 18:58:26 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 18:58:26 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 18:58:26 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 19:30:59 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 19:30:59 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 19:30:59 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 19:30:59 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 19:30:59 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 19:30:59 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 19:31:42 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 19:31:42 [main] Log - [null] is PASSED !
+[INFO ] 20-08-2023 19:31:42 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 19:31:42 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 19:31:42 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 19:31:42 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 19:32:38 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 19:32:38 [main] Log - [loginTest] is PASSED !
+[INFO ] 20-08-2023 19:32:38 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 19:32:38 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 19:32:38 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 19:32:38 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 19:34:09 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 19:34:09 [main] Log - [loginTest] is PASSED !
+[INFO ] 20-08-2023 19:34:09 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 19:34:09 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 19:34:09 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 19:34:09 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 19:37:08 [main] Log - =================================================
+[INFO ] 20-08-2023 19:37:40 [main] Log - =================================================
+[INFO ] 20-08-2023 19:37:40 [main] Log -        START TEST AT Sun Aug 20 19:37:39 ICT 2023======
+[INFO ] 20-08-2023 19:37:40 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 19:37:40 [main] Log - [loginTest] is PASSED !
+[INFO ] 20-08-2023 19:37:40 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 19:37:40 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 19:37:40 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 19:37:40 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 20-08-2023 19:38:29 [main] Log - =================================================
+[INFO ] 20-08-2023 19:38:29 [main] Log - ====== START TEST AT [Sun Aug 20 19:38:29 ICT 2023]
+[INFO ] 20-08-2023 19:38:29 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 20-08-2023 19:38:30 [main] Log - [loginTest] is PASSED !
+[INFO ] 20-08-2023 19:38:30 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 20-08-2023 19:38:30 [main] Log - [test2] is FAILED
+[INFO ] 20-08-2023 19:38:30 [main] Log - expected [false] but found [true]
+[INFO ] 20-08-2023 19:38:30 [main] Log - Completed test case [RESULT]: Regression 1

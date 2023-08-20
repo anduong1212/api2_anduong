@@ -9,5 +9,5 @@
   "reportName": "API Level 2 - Jira API",
   "timeStampFormat": "MMM dd, yyyy HH:mm:ss a",
   "js": "",
-  "css": ""
+  "css": ".header{background-color:#185ABC} .badge-primary{background-color:#FBA01B}"
 }
