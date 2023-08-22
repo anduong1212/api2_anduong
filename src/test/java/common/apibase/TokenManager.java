@@ -3,6 +3,9 @@ package common.apibase;
 import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import constant.Constants;
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import io.restassured.response.ValidatableResponse;
 import org.json.JSONObject;
 import utilities.JacksonObjectUtils;
 
@@ -32,7 +35,7 @@ public class TokenManager {
     public static synchronized void getAccessTokenResponse(){
         try {
             if(Constants.ACCESS_TOKEN == null || Instant.now().isAfter(Constants.EXPIRED_TIME)){
-                JSONObject access_token_response_body = new JSONObject(get)
+                JSONObject access_token_response_body = new JSONObject(((Response)((ValidatableResponse)((Response) RestAssured.given())))
             }
         }
     }
