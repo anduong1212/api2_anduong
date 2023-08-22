@@ -9,12 +9,14 @@ import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import common.logger.Log;
+import org.apache.http.Header;
 import org.testng.ITestResult;
 import org.testng.annotations.Parameters;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class ExtentReportManager {
@@ -81,6 +83,16 @@ public class ExtentReportManager {
 
     public static void logJson(String jsonLog){
         getTest().info(MarkupHelper.createCodeBlock(jsonLog, CodeLanguage.JSON));
+    }
+
+    public static void logJson(String jsonContext){
+        getTest().info(MarkupHelper.createCodeBlock(jsonContext, CodeLanguage.JSON));
+    }
+
+    public static void logHeaders(List<Header> headerList){
+       String[][] headerArray = headerList.stream().map(header -> new String[] {header.getName(), header.getValue()})
+                .toArray(String[][]::new);
+        getTest().info(MarkupHelper.createTable(headerArray));
     }
 
     public static void stepNode(String nodeName, String nodeDesc){

@@ -9,6 +9,9 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.annotations.Parameters;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class TestListener implements ITestListener {
     public String getTestName(ITestResult result){
         return result.getTestName() != null ? result.getTestName() : result.getMethod().getConstructorOrMethod().getName();
