@@ -3,6 +3,7 @@ package common.report;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.CodeLanguage;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
@@ -75,13 +76,23 @@ public class ExtentReportManager {
     }
 
     public static void logThrowable(Throwable throwable){
-        getTest().log(Status.WARNING, throwable);
+        getTest().warning(throwable);
+    }
+
+    public static void logJson(String jsonLog){
+        getTest().info(MarkupHelper.createCodeBlock(jsonLog, CodeLanguage.JSON));
     }
 
     public static void stepNode(String nodeName, String nodeDesc){
         logMessage(Status.INFO, nodeName);
         getTest().createNode("<b style =\"color:Orange\">STEP </b>" + nodeName).info(createMarkup(nodeDesc, ExtentColor.PINK));
     }
+
+    public static void stepJsonNode(String nodeName, String description){
+        logMessage(Status.INFO, nodeName);
+        getTest().createNode("<b style =\"color:Blue\">JSON STEP </b>" + nodeName).info(MarkupHelper.createCodeBlock(description,CodeLanguage.JSON));
+    }
+
 
     public static Markup createMarkup(String message, ExtentColor color){
         Markup markup = MarkupHelper.createLabel(message,color);

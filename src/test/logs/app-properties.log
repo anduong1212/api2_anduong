@@ -279,3 +279,138 @@
 [INFO ] 20-08-2023 19:38:30 [main] Log - [test2] is FAILED
 [INFO ] 20-08-2023 19:38:30 [main] Log - expected [false] but found [true]
 [INFO ] 20-08-2023 19:38:30 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 13:35:45 [main] Log - =================================================
+[INFO ] 23-08-2023 13:35:45 [main] Log - ====== START TEST AT [Wed Aug 23 13:35:44 ICT 2023]
+[INFO ] 23-08-2023 13:35:45 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 13:35:45 [main] Log - [loginTest] is PASSED !
+[INFO ] 23-08-2023 13:35:45 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 13:35:45 [main] Log - [test2] is FAILED
+[INFO ] 23-08-2023 13:35:45 [main] Log - expected [false] but found [true]
+[INFO ] 23-08-2023 13:35:45 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 13:38:15 [main] Log - =================================================
+[INFO ] 23-08-2023 13:38:15 [main] Log - ====== START TEST AT [Wed Aug 23 13:38:14 ICT 2023]
+[INFO ] 23-08-2023 13:38:15 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 13:38:15 [main] Log - [loginTest] is PASSED !
+[INFO ] 23-08-2023 13:38:15 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 13:38:15 [main] Log - [test2] is FAILED
+[INFO ] 23-08-2023 13:38:15 [main] Log - expected [false] but found [true]
+[INFO ] 23-08-2023 13:38:15 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 13:38:51 [main] Log - =================================================
+[INFO ] 23-08-2023 13:38:51 [main] Log - ====== START TEST AT [Wed Aug 23 13:38:51 ICT 2023]
+[INFO ] 23-08-2023 13:38:51 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 13:38:51 [main] Log - [loginTest] is PASSED !
+[INFO ] 23-08-2023 13:38:51 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 13:38:51 [main] Log - [test2] is FAILED
+[INFO ] 23-08-2023 13:38:51 [main] Log - expected [false] but found [true]
+[INFO ] 23-08-2023 13:38:51 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 13:39:31 [main] Log - =================================================
+[INFO ] 23-08-2023 13:39:31 [main] Log - ====== START TEST AT [Wed Aug 23 13:39:31 ICT 2023]
+[INFO ] 23-08-2023 13:39:31 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:39:31 [main] Log - Token is good to use
+[INFO ] 23-08-2023 13:39:31 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 13:39:31 [main] Log - [loginTest] is PASSED !
+[INFO ] 23-08-2023 13:39:31 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:39:31 [main] Log - Token is good to use
+[INFO ] 23-08-2023 13:39:31 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 13:39:31 [main] Log - [test2] is FAILED
+[INFO ] 23-08-2023 13:39:31 [main] Log - expected [false] but found [true]
+[INFO ] 23-08-2023 13:39:31 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 13:43:28 [main] Log - =================================================
+[INFO ] 23-08-2023 13:43:28 [main] Log - ====== START TEST AT [Wed Aug 23 13:43:27 ICT 2023]
+[INFO ] 23-08-2023 13:43:28 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:43:28 [main] Log - Token is good to use
+[INFO ] 23-08-2023 13:43:28 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 13:43:28 [main] Log - [loginTest] is PASSED !
+[INFO ] 23-08-2023 13:43:28 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:43:28 [main] Log - Token is good to use
+[INFO ] 23-08-2023 13:43:28 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 13:43:28 [main] Log - [test2] is FAILED
+[INFO ] 23-08-2023 13:43:28 [main] Log - expected [false] but found [true]
+[INFO ] 23-08-2023 13:43:28 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 13:44:21 [main] Log - =================================================
+[INFO ] 23-08-2023 13:44:21 [main] Log - ====== START TEST AT [Wed Aug 23 13:44:20 ICT 2023]
+[INFO ] 23-08-2023 13:44:21 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:44:25 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 13:44:25 [main] Log - [loginTest] is SKIPPED
+[INFO ] 23-08-2023 13:44:25 [main] Log - null
+[INFO ] 23-08-2023 13:44:25 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 13:44:25 [main] Log - [test2] is SKIPPED
+[INFO ] 23-08-2023 13:44:25 [main] Log - Method Test1.test2() on instance Test1@4988d8b8 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@4988d8b8]
+[INFO ] 23-08-2023 13:44:25 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 13:45:21 [main] Log - =================================================
+[INFO ] 23-08-2023 13:45:21 [main] Log - ====== START TEST AT [Wed Aug 23 13:45:21 ICT 2023]
+[INFO ] 23-08-2023 13:45:21 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:45:24 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 13:45:24 [main] Log - [loginTest] is SKIPPED
+[INFO ] 23-08-2023 13:45:24 [main] Log - null
+[INFO ] 23-08-2023 13:45:24 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 13:45:24 [main] Log - [test2] is SKIPPED
+[INFO ] 23-08-2023 13:45:24 [main] Log - Method Test1.test2() on instance Test1@305b7c14 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@305b7c14]
+[INFO ] 23-08-2023 13:45:24 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 13:46:03 [main] Log - =================================================
+[INFO ] 23-08-2023 13:46:03 [main] Log - ====== START TEST AT [Wed Aug 23 13:46:03 ICT 2023]
+[INFO ] 23-08-2023 13:46:03 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 23-08-2023 13:46:05 [main] Log - JSONObject["expires_in"] not a string.
+[INFO ] 23-08-2023 13:46:05 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 13:46:06 [main] Log - [loginTest] is SKIPPED
+[INFO ] 23-08-2023 13:46:06 [main] Log - FAILED to get TOKEN
+[INFO ] 23-08-2023 13:46:06 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 13:46:06 [main] Log - [test2] is SKIPPED
+[INFO ] 23-08-2023 13:46:06 [main] Log - Method Test1.test2() on instance Test1@37ceb1df depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@37ceb1df]
+[INFO ] 23-08-2023 13:46:06 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 13:47:21 [main] Log - =================================================
+[INFO ] 23-08-2023 13:47:21 [main] Log - ====== START TEST AT [Wed Aug 23 13:47:20 ICT 2023]
+[INFO ] 23-08-2023 13:47:21 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:47:23 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 13:47:23 [main] Log - [loginTest] is PASSED !
+[INFO ] 23-08-2023 13:47:23 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:47:23 [main] Log - Token is good to use
+[INFO ] 23-08-2023 13:47:23 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 13:47:23 [main] Log - [test2] is FAILED
+[INFO ] 23-08-2023 13:47:23 [main] Log - expected [false] but found [true]
+[INFO ] 23-08-2023 13:47:23 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 13:49:48 [main] Log - =================================================
+[INFO ] 23-08-2023 13:49:48 [main] Log - ====== START TEST AT [Wed Aug 23 13:49:47 ICT 2023]
+[INFO ] 23-08-2023 13:49:48 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:49:50 [main] Log - [ACCESS_TOKEN]: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI5MDgwMDM2Yy1lNWFmLTRiYjctODc2Ni04Yzg0YjRlNDY1NDIiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyNzczMzg5LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjc3MzM4OSwiZXhwIjoxNjkyNzc2OTg5LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwic2NvcGUiOiJtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IG1hbmFnZTpqaXJhLXByb2plY3QgcmVhZDptZSBtYW5hZ2U6amlyYS13ZWJob29rIHJlYWQ6c2VydmljZW1hbmFnZW1lbnQtaW5zaWdodC1vYmplY3RzIHdyaXRlOmppcmEtd29yayBtYW5hZ2U6amlyYS1kYXRhLXByb3ZpZGVyIHJlYWQ6amlyYS13b3JrIG1hbmFnZTpqaXJhLWNvbmZpZ3VyYXRpb24gcmVhZDpqaXJhLXVzZXIgd3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.hyhF-3wvTS8gY5THrsV-PsuO1Kz9pVyKkEjKtJ_O6XP7mPIpba_pbqJU4c9JBeL28fzFnOhS8XGz4eIJIHl9Bd_vS3NceaOQttYwoWy2C-kPy4ico9MKXryevXeSkzE6fCjbR_xadCeJiLPuN6RsSMJSm7pOYENA5CRretw5nm8Kv4pGxBjBZKkMTpbbsF4Z4ZrkFLRHo7EkBJpvmFJ514g90dSjLIvcVxxZxA1vnSbeX9DXDVoYG8ZXJRCYbQLGuWdZgov884kSnXZiRMTN3ZCM81T-wydh7zYDNchLFGhxNiwkS6U4-E09M9MM7onZ9vl_jRsQrM9hHvKl5jQZNw
+[INFO ] 23-08-2023 13:49:50 [main] Log - [AUTHORIZATION]: Bearer eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI5MDgwMDM2Yy1lNWFmLTRiYjctODc2Ni04Yzg0YjRlNDY1NDIiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyNzczMzg5LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjc3MzM4OSwiZXhwIjoxNjkyNzc2OTg5LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwic2NvcGUiOiJtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IG1hbmFnZTpqaXJhLXByb2plY3QgcmVhZDptZSBtYW5hZ2U6amlyYS13ZWJob29rIHJlYWQ6c2VydmljZW1hbmFnZW1lbnQtaW5zaWdodC1vYmplY3RzIHdyaXRlOmppcmEtd29yayBtYW5hZ2U6amlyYS1kYXRhLXByb3ZpZGVyIHJlYWQ6amlyYS13b3JrIG1hbmFnZTpqaXJhLWNvbmZpZ3VyYXRpb24gcmVhZDpqaXJhLXVzZXIgd3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.hyhF-3wvTS8gY5THrsV-PsuO1Kz9pVyKkEjKtJ_O6XP7mPIpba_pbqJU4c9JBeL28fzFnOhS8XGz4eIJIHl9Bd_vS3NceaOQttYwoWy2C-kPy4ico9MKXryevXeSkzE6fCjbR_xadCeJiLPuN6RsSMJSm7pOYENA5CRretw5nm8Kv4pGxBjBZKkMTpbbsF4Z4ZrkFLRHo7EkBJpvmFJ514g90dSjLIvcVxxZxA1vnSbeX9DXDVoYG8ZXJRCYbQLGuWdZgov884kSnXZiRMTN3ZCM81T-wydh7zYDNchLFGhxNiwkS6U4-E09M9MM7onZ9vl_jRsQrM9hHvKl5jQZNw
+[INFO ] 23-08-2023 13:49:50 [main] Log - [EXPIRED_TIME]: 2023-08-23T07:44:50.035020900Z
+[INFO ] 23-08-2023 13:49:50 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 13:49:50 [main] Log - [loginTest] is PASSED !
+[INFO ] 23-08-2023 13:49:50 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:49:50 [main] Log - Token is good to use
+[INFO ] 23-08-2023 13:49:50 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 13:49:50 [main] Log - [test2] is FAILED
+[INFO ] 23-08-2023 13:49:50 [main] Log - expected [false] but found [true]
+[INFO ] 23-08-2023 13:49:50 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 13:56:33 [main] Log - =================================================
+[INFO ] 23-08-2023 13:56:33 [main] Log - ====== START TEST AT [Wed Aug 23 13:56:32 ICT 2023]
+[INFO ] 23-08-2023 13:56:33 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:56:35 [main] Log - [ACCESS_TOKEN]: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJhN2E3NmY5Mi0wMzNkLTQ5NWUtOWQ1Ny1lM2JjZWRkODA1ZDgiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyNzczNzk0LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjc3Mzc5NCwiZXhwIjoxNjkyNzc3Mzk0LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwic2NvcGUiOiJtYW5hZ2U6amlyYS1kYXRhLXByb3ZpZGVyIHdyaXRlOmppcmEtd29yayByZWFkOnNlcnZpY2VtYW5hZ2VtZW50LWluc2lnaHQtb2JqZWN0cyBtYW5hZ2U6amlyYS13ZWJob29rIHJlYWQ6bWUgbWFuYWdlOmppcmEtcHJvamVjdCByZWFkOnNlcnZpY2VkZXNrLXJlcXVlc3QgbWFuYWdlOnNlcnZpY2VkZXNrLWN1c3RvbWVyIHdyaXRlOnNlcnZpY2VkZXNrLXJlcXVlc3QgcmVhZDpqaXJhLXVzZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOmppcmEtd29yayIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.CmIua6sXqHHG2L-2bUyGdwLNCDUS06ymuGcKOoWx96egkcHVaIcy9IA-exmiMHwDh3CCh-v4M5jI-3rTfsqr5ztTnym94XcpYzraBmIOo-6ask6Ur6fpWOpEw0u06N-7-Yj40JUjK9JTJPnpFxC-Eep9z8K0KRHf0FH7oIhaLZ1MLWvc1bu7uPXJsBrjEX7puv7SwPWtqhVXIFxFLzUa5zsOkUZx5WG8_frkC1f1-sckQwCW57wm1mcUK2py5FMi2ZFkyDPIbw2sdMK-_CtRPtA2JHTLQSxdZCn7nXbTcUAOBBL2q_DRjIAOKVDMnR_PFO7M8QnRxZXEQBkz8VbNGg
+[INFO ] 23-08-2023 13:56:35 [main] Log - [AUTHORIZATION]: Bearer eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJhN2E3NmY5Mi0wMzNkLTQ5NWUtOWQ1Ny1lM2JjZWRkODA1ZDgiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyNzczNzk0LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjc3Mzc5NCwiZXhwIjoxNjkyNzc3Mzk0LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwic2NvcGUiOiJtYW5hZ2U6amlyYS1kYXRhLXByb3ZpZGVyIHdyaXRlOmppcmEtd29yayByZWFkOnNlcnZpY2VtYW5hZ2VtZW50LWluc2lnaHQtb2JqZWN0cyBtYW5hZ2U6amlyYS13ZWJob29rIHJlYWQ6bWUgbWFuYWdlOmppcmEtcHJvamVjdCByZWFkOnNlcnZpY2VkZXNrLXJlcXVlc3QgbWFuYWdlOnNlcnZpY2VkZXNrLWN1c3RvbWVyIHdyaXRlOnNlcnZpY2VkZXNrLXJlcXVlc3QgcmVhZDpqaXJhLXVzZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOmppcmEtd29yayIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.CmIua6sXqHHG2L-2bUyGdwLNCDUS06ymuGcKOoWx96egkcHVaIcy9IA-exmiMHwDh3CCh-v4M5jI-3rTfsqr5ztTnym94XcpYzraBmIOo-6ask6Ur6fpWOpEw0u06N-7-Yj40JUjK9JTJPnpFxC-Eep9z8K0KRHf0FH7oIhaLZ1MLWvc1bu7uPXJsBrjEX7puv7SwPWtqhVXIFxFLzUa5zsOkUZx5WG8_frkC1f1-sckQwCW57wm1mcUK2py5FMi2ZFkyDPIbw2sdMK-_CtRPtA2JHTLQSxdZCn7nXbTcUAOBBL2q_DRjIAOKVDMnR_PFO7M8QnRxZXEQBkz8VbNGg
+[INFO ] 23-08-2023 13:56:35 [main] Log - [EXPIRED_TIME]: 2023-08-23T07:51:35.051963400Z
+[INFO ] 23-08-2023 13:56:35 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 13:56:35 [main] Log - [loginTest] is PASSED !
+[INFO ] 23-08-2023 13:56:35 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 13:56:35 [main] Log - Token is good to use
+[INFO ] 23-08-2023 13:56:35 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 13:56:35 [main] Log - [test2] is FAILED
+[INFO ] 23-08-2023 13:56:35 [main] Log - expected [false] but found [true]
+[INFO ] 23-08-2023 13:56:35 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 23-08-2023 16:46:28 [main] Log - =================================================
+[INFO ] 23-08-2023 16:46:28 [main] Log - ====== START TEST AT [Wed Aug 23 16:46:27 ICT 2023]
+[INFO ] 23-08-2023 16:46:28 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 16:46:31 [main] Log - [ACCESS_TOKEN]: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI0NDFjMjQzNy1jYzZlLTQzZjAtYTAxNS04NWVlZWZjNTRjNmEiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyNzgzOTkwLCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjc4Mzk5MCwiZXhwIjoxNjkyNzg3NTkwLCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsInNjb3BlIjoicmVhZDptZSBtYW5hZ2U6amlyYS13ZWJob29rIHJlYWQ6c2VydmljZW1hbmFnZW1lbnQtaW5zaWdodC1vYmplY3RzIHdyaXRlOmppcmEtd29yayBtYW5hZ2U6amlyYS1kYXRhLXByb3ZpZGVyIHJlYWQ6amlyYS13b3JrIG1hbmFnZTpqaXJhLWNvbmZpZ3VyYXRpb24gcmVhZDpqaXJhLXVzZXIgd3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IG1hbmFnZTpqaXJhLXByb2plY3QiLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsIjoiMTA3N2FiODktZGI3Ni00YmU3LTljNDktOTA0ZGZmMWIzM2E1QGNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hdGxfdG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6ImFwaS5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL2ZpcnN0UGFydHkiOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vM2xvIjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRFbWFpbERvbWFpbiI6ImNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.AGcTaugMQSY7kp2ndopqabEsNaSea-7SP-lKk4YHDSiJ0mbJu6svIjLkacySGOLl9Cddoihy2l9vssCIyIbiyStNZWCZcotsFZ1LiGRPwnwHFVMQfm98Up11Q4iow6xIq-PVIbbuU_72h4r0Oy_vcLGGQwn_vObu3Zwt2A2AwzSBAD8AcvdMjg5b9iqLnzDmBGYinn88AiuQKF8ZA2diX83H5wHMC_aBHs5jN8j7rCIQKxLvrJW4idcjGUKRFPzkNGI6DI3JAA8CVP5wVRJKj3qnWnl5THhlHMykc5FZMPcvydIw5mzsTVMiMe0hBXdxtfz4XKzPaKiUWeCPAjyhmA
+[INFO ] 23-08-2023 16:46:31 [main] Log - [AUTHORIZATION]: Bearer eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI0NDFjMjQzNy1jYzZlLTQzZjAtYTAxNS04NWVlZWZjNTRjNmEiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyNzgzOTkwLCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjc4Mzk5MCwiZXhwIjoxNjkyNzg3NTkwLCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsInNjb3BlIjoicmVhZDptZSBtYW5hZ2U6amlyYS13ZWJob29rIHJlYWQ6c2VydmljZW1hbmFnZW1lbnQtaW5zaWdodC1vYmplY3RzIHdyaXRlOmppcmEtd29yayBtYW5hZ2U6amlyYS1kYXRhLXByb3ZpZGVyIHJlYWQ6amlyYS13b3JrIG1hbmFnZTpqaXJhLWNvbmZpZ3VyYXRpb24gcmVhZDpqaXJhLXVzZXIgd3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IG1hbmFnZTpqaXJhLXByb2plY3QiLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsIjoiMTA3N2FiODktZGI3Ni00YmU3LTljNDktOTA0ZGZmMWIzM2E1QGNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hdGxfdG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6ImFwaS5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL2ZpcnN0UGFydHkiOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vM2xvIjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRFbWFpbERvbWFpbiI6ImNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.AGcTaugMQSY7kp2ndopqabEsNaSea-7SP-lKk4YHDSiJ0mbJu6svIjLkacySGOLl9Cddoihy2l9vssCIyIbiyStNZWCZcotsFZ1LiGRPwnwHFVMQfm98Up11Q4iow6xIq-PVIbbuU_72h4r0Oy_vcLGGQwn_vObu3Zwt2A2AwzSBAD8AcvdMjg5b9iqLnzDmBGYinn88AiuQKF8ZA2diX83H5wHMC_aBHs5jN8j7rCIQKxLvrJW4idcjGUKRFPzkNGI6DI3JAA8CVP5wVRJKj3qnWnl5THhlHMykc5FZMPcvydIw5mzsTVMiMe0hBXdxtfz4XKzPaKiUWeCPAjyhmA
+[INFO ] 23-08-2023 16:46:31 [main] Log - [EXPIRED_TIME]: 2023-08-23T10:41:31.027456600Z
+[INFO ] 23-08-2023 16:46:31 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 23-08-2023 16:46:31 [main] Log - [loginTest] is PASSED !
+[INFO ] 23-08-2023 16:46:31 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 23-08-2023 16:46:31 [main] Log - Token is good to use
+[INFO ] 23-08-2023 16:46:31 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 23-08-2023 16:46:31 [main] Log - [test2] is FAILED
+[INFO ] 23-08-2023 16:46:31 [main] Log - expected [false] but found [true]
+[INFO ] 23-08-2023 16:46:31 [main] Log - Completed test case [RESULT]: Regression 1
