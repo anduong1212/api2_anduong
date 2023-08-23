@@ -6,7 +6,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class SpecBuilder {
 
-    public static RequestSpecification getAuthRequest(String URI){
+    public static RequestSpecification getAuthRequestSpec(String URI){
         return (new RequestSpecBuilder())
                 .setBaseUri(URI)
                 .setContentType(ContentType.JSON)

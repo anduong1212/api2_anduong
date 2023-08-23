@@ -81,10 +81,6 @@ public class ExtentReportManager {
         getTest().warning(throwable);
     }
 
-    public static void logJson(String jsonLog){
-        getTest().info(MarkupHelper.createCodeBlock(jsonLog, CodeLanguage.JSON));
-    }
-
     public static void logJson(String jsonContext){
         getTest().info(MarkupHelper.createCodeBlock(jsonContext, CodeLanguage.JSON));
     }

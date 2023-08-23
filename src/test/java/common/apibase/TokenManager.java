@@ -11,11 +11,13 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
+import org.json.JSONArray;
 import org.json.JSONObject;
 import testbase.TestBase;
 import utilities.JacksonObjectUtils;
 
 import java.time.Instant;
+import java.util.function.LongFunction;
 
 public class TokenManager{
 
@@ -38,14 +40,14 @@ public class TokenManager{
         return payload;
     }
 
-    public static synchronized void getAccessTokenResponse(){
+    public static synchronized void extractAccessTokenResponse(){
         Log.info("GETTING ACCESS TOKEN");
         try {
             if(Constants.ACCESS_TOKEN != null && !Instant.now().isAfter(Constants.EXPIRED_TIME)) {
                 Log.info("Token is good to use");
             } else {
-                JSONObject access_token_response_body = new JSONObject (((Response) ((ValidatableResponse)
-                        ((Response) RestAssured.given(SpecBuilder.getAuthRequest(Constants.TOKEN_URI))
+                JSONObject access_token_response_body = new JSONObject (((
+                        (RestAssured.given(SpecBuilder.getAuthRequestSpec(Constants.TOKEN_URI))
                                 .contentType(ContentType.JSON)
                                 .body(oauth2Payload())
                                 .when()
@@ -63,7 +65,45 @@ public class TokenManager{
             }
         } catch (Exception exception){
             Log.error(exception.getMessage());
-            throw new RuntimeException("FAILED to get TOKEN");
+            throw new RuntimeException("[ACCESS TOKEN] - FAILED to get TOKEN");
+        }
+    }
+
+    public static void extractCloudIDResponse(){
+        try {
+            if(Constants.CLOUD_ID == null){
+                JSONArray cloud_id_response_body = new JSONArray((((
+                        RestAssured.given(SpecBuilder.getAuthRequestSpec(Constants.CLOUD_ID_URI))
+                                .header(RequestHeaders.AUTHORIZATION.toString(), Constants.AUTHORIZATION)
+                                .when()
+                                .get())
+                        .then())
+                        .extract()
+                        .response())
+                        .getBody()
+                        .asString());
+
+                Log.info("cloud_ID" + cloud_id_response_body);
+
+                Constants.CLOUD_ID = ((JSONObject) cloud_id_response_body.get(0)).getString("id");
+            }
+        } catch (Exception exception){
+            Log.error(exception.getMessage());
+            throw new RuntimeException("[CLOUD ID] - Failed to get Cloud ID");
+        }
+    }
+
+    public static void getAccessToken(){
+        if (Constants.ACCESS_TOKEN == null){
+            extractAccessTokenResponse();
+            Log.info("Access Token: " + Constants.ACCESS_TOKEN);
+        }
+    }
+
+    public static void getCloudID(){
+        if(Constants.CLOUD_ID == null){
+            extractCloudIDResponse();
+            Log.info("Cloud ID: " + Constants.CLOUD_ID);
         }
     }
 }
