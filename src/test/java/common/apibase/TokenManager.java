@@ -28,11 +28,11 @@ public class TokenManager{
         JsonNodeFactory jsonNodeFactory = JsonNodeFactory.instance;
         ObjectNode payload = jsonNodeFactory.objectNode();
         {
-            payload.put("grant_type", "client_credentials");
+            payload.put("grant_type", "authorization_code");
             payload.put("client_id", Constants.CLIENT_ID);
             payload.put("client_secret", Constants.CLIENT_SECRET);
-            payload.put("scope", "read:write");
             payload.put("redirect_uri", Constants.API_URL);
+            payload.put("scope", "read:jira-work manage:jira-project manage:jira-configuration read:jira-user write:jira-work manage:jira-webhook manage:jira-provider");
         }
 
         JacksonObjectUtils.connectJacksonObjectMapperToUnirest();
@@ -53,13 +53,15 @@ public class TokenManager{
                                 .when()
                                 .post())
                                 .then())
-                        .extract().response()).getBody()
+                        .extract()
+                        .response())
+                        .getBody()
                         .asString());
 
                 Constants.AUTH_RESPONSE = access_token_response_body.toString();
 
                 Constants.ACCESS_TOKEN = access_token_response_body.getString("access_token");
-                Constants.AUTHORIZATION = String.format("Bearer %s", Constants.ACCESS_TOKEN);
+//                Constants.AUTHORIZATION = String.format("Bearer %s", Constants.ACCESS_TOKEN);
                 Constants.EXPIRED_TIME = Instant.now().plusSeconds((long) (access_token_response_body.getInt("expires_in")) - 300);
 
             }
@@ -72,12 +74,12 @@ public class TokenManager{
     public static void extractCloudIDResponse(){
         try {
             if(Constants.CLOUD_ID == null){
-                JSONArray cloud_id_response_body = new JSONArray((((
-                        RestAssured.given(SpecBuilder.getAuthRequestSpec(Constants.CLOUD_ID_URI))
-                                .header(RequestHeaders.AUTHORIZATION.toString(), Constants.AUTHORIZATION)
+                JSONObject cloud_id_response_body = new JSONObject(((
+                        (RestAssured.given(SpecBuilder.getAuthRequestSpec(Constants.CLOUD_ID_URI))
+                                .header("Authorization", Constants.AUTHORIZATION)
                                 .when()
                                 .get())
-                        .then())
+                                .then())
                         .extract()
                         .response())
                         .getBody()
@@ -85,10 +87,15 @@ public class TokenManager{
 
                 Log.info("cloud_ID" + cloud_id_response_body);
 
-                Constants.CLOUD_ID = ((JSONObject) cloud_id_response_body.get(0)).getString("id");
+                Constants.CLOUD_ID_RESPONSE = cloud_id_response_body.toString();
+
+                Constants.CLOUD_ID = ((JSONObject) cloud_id_response_body).getString("id");
             }
         } catch (Exception exception){
             Log.error(exception.getMessage());
+
+            Log.info("Cloud Response: " + Constants.CLOUD_ID_RESPONSE);
+
             throw new RuntimeException("[CLOUD ID] - Failed to get Cloud ID");
         }
     }

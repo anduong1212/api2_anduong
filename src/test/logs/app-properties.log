@@ -493,3 +493,418 @@
 [INFO ] 23-08-2023 22:40:33 [main] Log - Method Test1.test2() on instance Test1@192c3f1e depends on not successfully finished methods 
 [Test1.loginTest() on instance Test1@192c3f1e]
 [INFO ] 23-08-2023 22:40:33 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 11:52:33 [main] Log - =================================================
+[INFO ] 24-08-2023 11:52:33 [main] Log - ====== START TEST AT [Thu Aug 24 11:52:32 ICT 2023]
+[INFO ] 24-08-2023 11:52:33 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 11:52:36 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIxYmJlMWJlMS0wNGJjLTRmZTItYTEwMi00ZDg1YmRkMGQ0MjEiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyODUyNzU1LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjg1Mjc1NSwiZXhwIjoxNjkyODU2MzU1LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsInNjb3BlIjoibWFuYWdlOmppcmEtd2ViaG9vayByZWFkOm1lIG1hbmFnZTpqaXJhLXByb2plY3QgcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IG1hbmFnZTpzZXJ2aWNlZGVzay1jdXN0b21lciB3cml0ZTpzZXJ2aWNlZGVzay1yZXF1ZXN0IHJlYWQ6amlyYS11c2VyIG1hbmFnZTpqaXJhLWNvbmZpZ3VyYXRpb24gcmVhZDpqaXJhLXdvcmsgbWFuYWdlOmppcmEtZGF0YS1wcm92aWRlciB3cml0ZTpqaXJhLXdvcmsgcmVhZDpzZXJ2aWNlbWFuYWdlbWVudC1pbnNpZ2h0LW9iamVjdHMiLCJodHRwczovL2F0bGFzc2lhbi5jb20vb2F1dGhDbGllbnRJZCI6IlNMN0lJZUloYVNVaEJ2YmVBMWUxNTBTNjFNMnhyOW5IIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL3Byb2Nlc3NSZWdpb24iOiJ1cy1lYXN0LTEiLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsIjoiMTA3N2FiODktZGI3Ni00YmU3LTljNDktOTA0ZGZmMWIzM2E1QGNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hdGxfdG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6ImFwaS5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL2ZpcnN0UGFydHkiOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vM2xvIjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRFbWFpbERvbWFpbiI6ImNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.CW1sBZR_AzLkNBtw51KHDzbOmNG8l-OLhZIqZ7bpFH-CPYMuxfSabYSG6cWPqNli1vWp2hLzCUaugfehnd-dobmAzlEpUob2XZXqVnV8DQLnxBUu2c_ESdz8v1nfqGrh3W-ZICgVV4WFGb1oj-OoO3IS0LjgaZoFnbP26zKMTeNICTqlornJ0koZrEX081jifSq5u2gd-HHA1hG6ItD4np-WGnXj3Tskp7kNqxCv_kvk-8oy9f_500mJhXNvCWqe-dKKRi-uBJeCUC0Qk5SdK-HFYvbYHy5GIoFH1b2zT3QwMNzHdNzOiCb0I5IeQFQsdAFFbcDOC4i3hB9xjTjv_A
+[INFO ] 24-08-2023 11:52:36 [main] Log - cloud_ID[]
+[ERROR] 24-08-2023 11:52:36 [main] Log - JSONArray[0] not found.
+[INFO ] 24-08-2023 11:52:36 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 11:52:36 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 11:52:36 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 11:52:36 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 11:52:36 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 11:52:36 [main] Log - Method Test1.test2() on instance Test1@2df3b89c depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@2df3b89c]
+[INFO ] 24-08-2023 11:52:36 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 11:53:27 [main] Log - =================================================
+[INFO ] 24-08-2023 11:53:27 [main] Log - ====== START TEST AT [Thu Aug 24 11:53:27 ICT 2023]
+[INFO ] 24-08-2023 11:53:27 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 11:53:29 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJiZTBmMThhZC0wMjA1LTQxODMtYmI5Ny1jZjVhYTY3ZDc3ZDIiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyODUyODA5LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjg1MjgwOSwiZXhwIjoxNjkyODU2NDA5LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsInNjb3BlIjoibWFuYWdlOmppcmEtd2ViaG9vayByZWFkOm1lIG1hbmFnZTpqaXJhLXByb2plY3QgcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IG1hbmFnZTpzZXJ2aWNlZGVzay1jdXN0b21lciB3cml0ZTpzZXJ2aWNlZGVzay1yZXF1ZXN0IHJlYWQ6amlyYS11c2VyIG1hbmFnZTpqaXJhLWNvbmZpZ3VyYXRpb24gcmVhZDpqaXJhLXdvcmsgbWFuYWdlOmppcmEtZGF0YS1wcm92aWRlciB3cml0ZTpqaXJhLXdvcmsgcmVhZDpzZXJ2aWNlbWFuYWdlbWVudC1pbnNpZ2h0LW9iamVjdHMiLCJodHRwczovL2F0bGFzc2lhbi5jb20vb2F1dGhDbGllbnRJZCI6IlNMN0lJZUloYVNVaEJ2YmVBMWUxNTBTNjFNMnhyOW5IIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL3Byb2Nlc3NSZWdpb24iOiJ1cy1lYXN0LTEiLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsIjoiMTA3N2FiODktZGI3Ni00YmU3LTljNDktOTA0ZGZmMWIzM2E1QGNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hdGxfdG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6ImFwaS5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL2ZpcnN0UGFydHkiOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vM2xvIjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRFbWFpbERvbWFpbiI6ImNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.LYz-G76WUB1Qqo_aVDiIlK99wz9fJNnBqr31BGnowjpRpacbn66s4Uu3MUyB6IoqB5FZUrBpwHnmRXbRCVDhx3f7tYCwlbJfnCzmvYWQ2LP8OybdYPpOUxy9GqymSx2mZ-P_e_G0ud2ry3Je76HrMx7eglxRjvx2h5W3gMMqnUoHm7IPJJZMq6HtwL_IKtvChwi54lO_uXkjPRGx4agPR2QXehiwyCi396JHAMIddr4iFeCCNZic09DQbJLpi-_qdID4POXY5QHpOdnsUsKN1cJNXSbbQQ3g_vw66HJAlgKm97HX3hLlNZSbC51N0gYydrDYxzxTyTzo8jJiofZqxQ
+[INFO ] 24-08-2023 11:53:29 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 11:53:30 [main] Log - [loginTest] is PASSED !
+[INFO ] 24-08-2023 11:53:30 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 11:53:30 [main] Log - [test2] is FAILED
+[INFO ] 24-08-2023 11:53:30 [main] Log - expected [false] but found [true]
+[INFO ] 24-08-2023 11:53:30 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 12:06:01 [main] Log - =================================================
+[INFO ] 24-08-2023 12:06:01 [main] Log - ====== START TEST AT [Thu Aug 24 12:06:00 ICT 2023]
+[INFO ] 24-08-2023 12:06:01 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 12:06:04 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIzZDgyYWY5Zi1lNTVkLTQ4NDktOGY5Zi1jNGFhMWUzZGNlNDYiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyODUzNTYzLCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjg1MzU2MywiZXhwIjoxNjkyODU3MTYzLCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsInNjb3BlIjoibWFuYWdlOmppcmEtcHJvamVjdCByZWFkOnNlcnZpY2VkZXNrLXJlcXVlc3QgbWFuYWdlOnNlcnZpY2VkZXNrLWN1c3RvbWVyIHdyaXRlOnNlcnZpY2VkZXNrLXJlcXVlc3QgcmVhZDpqaXJhLXVzZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOmppcmEtd29yayBtYW5hZ2U6amlyYS1kYXRhLXByb3ZpZGVyIHdyaXRlOmppcmEtd29yayByZWFkOnNlcnZpY2VtYW5hZ2VtZW50LWluc2lnaHQtb2JqZWN0cyBtYW5hZ2U6amlyYS13ZWJob29rIHJlYWQ6bWUiLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsIjoiMTA3N2FiODktZGI3Ni00YmU3LTljNDktOTA0ZGZmMWIzM2E1QGNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hdGxfdG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6ImFwaS5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL2ZpcnN0UGFydHkiOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vM2xvIjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRFbWFpbERvbWFpbiI6ImNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.GYehmaJvSzC3yov36VfBBlP_eSvzxwC7aKGv7DUI0zkJXFLKfNEHfsaGpD6XcjgF5U_C8FlL9IWaqIyKxVj_7iU3vyoO6XUi9uCVzbrsVX67nE9iszCjtQd5J5SQyNn6QD0_HzklcqprYf4KGSIwjWJps397RkKco71HFnk4Li8LuSjyx_0PY2MS7491WbhE8bH8CmzOusCRIUNfyh6AdqA5qCC0b39Lmageca19XDcMZInYSabiuVD8zE_hDbdtJle5HDN8-FTKFbcl9Of-cTVoUwMBTA04zjTcQGAsHtSosqXRxrik2E7hZMibMVAS0EF0Mg0BiAaJv_K-4ZGJuA
+[INFO ] 24-08-2023 12:06:04 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 12:06:04 [main] Log - [loginTest] is PASSED !
+[INFO ] 24-08-2023 12:06:04 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 12:06:04 [main] Log - [test2] is FAILED
+[INFO ] 24-08-2023 12:06:04 [main] Log - expected [false] but found [true]
+[INFO ] 24-08-2023 12:06:04 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 12:06:54 [main] Log - =================================================
+[INFO ] 24-08-2023 12:06:54 [main] Log - ====== START TEST AT [Thu Aug 24 12:06:53 ICT 2023]
+[INFO ] 24-08-2023 12:06:54 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 12:06:56 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIyMDRkNGFkZi0zMTg4LTRmNzAtYjZlYi0wNmJkNzhlMjJlN2YiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyODUzNjE1LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjg1MzYxNSwiZXhwIjoxNjkyODU3MjE1LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJzY29wZSI6InJlYWQ6c2VydmljZW1hbmFnZW1lbnQtaW5zaWdodC1vYmplY3RzIG1hbmFnZTpqaXJhLXdlYmhvb2sgcmVhZDptZSBtYW5hZ2U6amlyYS1wcm9qZWN0IHJlYWQ6c2VydmljZWRlc2stcmVxdWVzdCBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgd3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCByZWFkOmppcmEtdXNlciBtYW5hZ2U6amlyYS1jb25maWd1cmF0aW9uIHJlYWQ6amlyYS13b3JrIG1hbmFnZTpqaXJhLWRhdGEtcHJvdmlkZXIgd3JpdGU6amlyYS13b3JrIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRFbWFpbERvbWFpbiI6ImNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.m4sahupTHWJiENd8_xjoIqmpUHMxEe-7RIhVSNtDy_jGi0TgJIeZ87m12H5KA1O2U2SM8GdCfPpA7FAlKCV7iWqfNY-xcqPFaTVbH7MAPOVSQQiFC02WW44BAWOvpxmE-o8EyavM9ON9jCcHaRnCx7SLpmcUuwq4TQR_qh0kp4x8wF0tfme4JqNwgU9KImxS8RyOVlsGB8c2m2_OR3-8Bj57uw6avNXkdA2GHCPEJOHsjC_yH5oEO4bhDxExFogYKIR2irvUeVA2fXWEmpSxNvNLjQTTV9uenL06h_g1CVVzuHZ30d9lXLqt9bzCY0JTA_ioHKVr_fIbgiSnmFpoDA
+[INFO ] 24-08-2023 12:06:56 [main] Log - cloud_ID[]
+[ERROR] 24-08-2023 12:06:56 [main] Log - JSONArray[0] not found.
+[INFO ] 24-08-2023 12:06:56 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 12:06:56 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 12:06:56 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 12:06:56 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 12:06:56 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 12:06:56 [main] Log - Method Test1.test2() on instance Test1@7d20d0b depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@7d20d0b]
+[INFO ] 24-08-2023 12:06:56 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 12:08:03 [main] Log - =================================================
+[INFO ] 24-08-2023 12:08:03 [main] Log - ====== START TEST AT [Thu Aug 24 12:08:03 ICT 2023]
+[INFO ] 24-08-2023 12:08:03 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 12:08:05 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 12:08:05 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 12:08:05 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 12:08:05 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 12:08:05 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 12:08:05 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 12:08:05 [main] Log - Method Test1.test2() on instance Test1@24313fcc depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@24313fcc]
+[INFO ] 24-08-2023 12:08:05 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 12:09:42 [main] Log - =================================================
+[INFO ] 24-08-2023 12:09:42 [main] Log - ====== START TEST AT [Thu Aug 24 12:09:41 ICT 2023]
+[INFO ] 24-08-2023 12:09:42 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 12:09:44 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 12:09:44 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 12:09:44 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 12:09:44 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 12:09:44 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 12:09:44 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 12:09:44 [main] Log - Method Test1.test2() on instance Test1@2df3b89c depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@2df3b89c]
+[INFO ] 24-08-2023 12:09:44 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 12:10:18 [main] Log - =================================================
+[INFO ] 24-08-2023 12:10:18 [main] Log - ====== START TEST AT [Thu Aug 24 12:10:17 ICT 2023]
+[INFO ] 24-08-2023 12:10:18 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 12:10:20 [main] Log - Access Token: null
+[INFO ] 24-08-2023 12:10:20 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 12:10:20 [main] Log - [loginTest] is PASSED !
+[INFO ] 24-08-2023 12:10:20 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 12:10:20 [main] Log - Access Token: null
+[INFO ] 24-08-2023 12:10:20 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 12:10:20 [main] Log - [test2] is FAILED
+[INFO ] 24-08-2023 12:10:20 [main] Log - expected [false] but found [true]
+[INFO ] 24-08-2023 12:10:20 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 12:10:48 [main] Log - =================================================
+[INFO ] 24-08-2023 12:10:48 [main] Log - ====== START TEST AT [Thu Aug 24 12:10:48 ICT 2023]
+[INFO ] 24-08-2023 12:10:48 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 12:10:50 [main] Log - Access Token: null
+[INFO ] 24-08-2023 12:10:50 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 12:10:51 [main] Log - [loginTest] is PASSED !
+[INFO ] 24-08-2023 12:10:51 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 12:10:51 [main] Log - Access Token: null
+[INFO ] 24-08-2023 12:10:51 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 12:10:51 [main] Log - [test2] is FAILED
+[INFO ] 24-08-2023 12:10:51 [main] Log - expected [false] but found [true]
+[INFO ] 24-08-2023 12:10:51 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 12:14:49 [main] Log - =================================================
+[INFO ] 24-08-2023 12:14:49 [main] Log - ====== START TEST AT [Thu Aug 24 12:14:49 ICT 2023]
+[INFO ] 24-08-2023 12:14:49 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 12:14:52 [main] Log - Access Token: null
+[INFO ] 24-08-2023 12:14:52 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 12:14:52 [main] Log - [loginTest] is PASSED !
+[INFO ] 24-08-2023 12:14:52 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 12:14:52 [main] Log - Access Token: null
+[INFO ] 24-08-2023 12:14:52 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 12:14:52 [main] Log - [test2] is FAILED
+[INFO ] 24-08-2023 12:14:52 [main] Log - expected [false] but found [true]
+[INFO ] 24-08-2023 12:14:52 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 12:15:25 [main] Log - =================================================
+[INFO ] 24-08-2023 12:15:25 [main] Log - ====== START TEST AT [Thu Aug 24 12:15:24 ICT 2023]
+[INFO ] 24-08-2023 12:15:25 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 12:15:27 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJjNTYwZDllNS1hZGIwLTQ2MTEtYjRhMy1jM2JkMjA2YTlmNWUiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyODU0MTI2LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjg1NDEyNiwiZXhwIjoxNjkyODU3NzI2LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsInNjb3BlIjoibWFuYWdlOmppcmEtcHJvamVjdCByZWFkOnNlcnZpY2VkZXNrLXJlcXVlc3QgbWFuYWdlOnNlcnZpY2VkZXNrLWN1c3RvbWVyIHdyaXRlOnNlcnZpY2VkZXNrLXJlcXVlc3QgcmVhZDpqaXJhLXVzZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOmppcmEtd29yayBtYW5hZ2U6amlyYS1kYXRhLXByb3ZpZGVyIHdyaXRlOmppcmEtd29yayByZWFkOnNlcnZpY2VtYW5hZ2VtZW50LWluc2lnaHQtb2JqZWN0cyBtYW5hZ2U6amlyYS13ZWJob29rIHJlYWQ6bWUiLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsIjoiMTA3N2FiODktZGI3Ni00YmU3LTljNDktOTA0ZGZmMWIzM2E1QGNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hdGxfdG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6ImFwaS5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL2ZpcnN0UGFydHkiOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vM2xvIjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRFbWFpbERvbWFpbiI6ImNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.ofjAUpYhZD2FFlhpq6gIlDkcoKpkg2iRyySGbySaEhW98eHRHXCwNTRbys7XYZ-zEkNfE4vnTM3F_lFgVfNXu-4ZQ-q0XNX0_YMRpyfhWia9qviYA_WWIcHi29CRbEf1GBojfyqT-OXf9FQauuHptHN83xEjUV3chaYyDDajBO8SPZIs2bJrDA4NyHXBwq2_6Z4o0uyWDyO1SL4GnxO6TxqBGugc9nZs1CxVdaeYdI8DK4VQS60tw8J5RuqyufLIvpCQ1ceqtilU4AcYHBVDfh3hYruII0w0L1Ptq7IkHuVQ1zNqzgzKt8-Ngerapxd5dLcXHLG3K9_f7C1hpAvOHw
+[INFO ] 24-08-2023 12:15:27 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 12:15:27 [main] Log - [loginTest] is PASSED !
+[INFO ] 24-08-2023 12:15:27 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 12:15:27 [main] Log - [test2] is FAILED
+[INFO ] 24-08-2023 12:15:27 [main] Log - expected [false] but found [true]
+[INFO ] 24-08-2023 12:15:27 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 12:15:41 [main] Log - =================================================
+[INFO ] 24-08-2023 12:15:41 [main] Log - ====== START TEST AT [Thu Aug 24 12:15:41 ICT 2023]
+[INFO ] 24-08-2023 12:15:41 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 12:15:43 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIxMTU2ZGU3MS1jYjM0LTQ4YzMtOWJkZS1hNjU2ZDU5NGM1ODIiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyODU0MTQzLCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjg1NDE0MywiZXhwIjoxNjkyODU3NzQzLCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsInNjb3BlIjoid3JpdGU6amlyYS13b3JrIHJlYWQ6c2VydmljZW1hbmFnZW1lbnQtaW5zaWdodC1vYmplY3RzIG1hbmFnZTpqaXJhLXdlYmhvb2sgcmVhZDptZSBtYW5hZ2U6amlyYS1wcm9qZWN0IHJlYWQ6c2VydmljZWRlc2stcmVxdWVzdCBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgd3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCByZWFkOmppcmEtdXNlciBtYW5hZ2U6amlyYS1jb25maWd1cmF0aW9uIHJlYWQ6amlyYS13b3JrIG1hbmFnZTpqaXJhLWRhdGEtcHJvdmlkZXIiLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsIjoiMTA3N2FiODktZGI3Ni00YmU3LTljNDktOTA0ZGZmMWIzM2E1QGNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hdGxfdG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6ImFwaS5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL2ZpcnN0UGFydHkiOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vM2xvIjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRFbWFpbERvbWFpbiI6ImNvbm5lY3QuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50SWQiOiI3MTIwMjA6MWU3ZmJiYTMtOTk1ZC00MTI5LWI2YzYtY2E5NzVjOGZkYjIzIn0.okbsVBt3B68QaPAoUM-oC2U9ia76ZG_g1d-Z25sRcDskkJ5sfOa21yidutqdQKSa3KmNGCpEE5a9x_b7tA_-xzv7gbSLSKze__S-2TEzpwH4oJjpDLeLdsZaUZtYxTAGGW3AmKFhrxjvphREI-JOZdmR0DH0mwrSFfyduiSvh-W6PLI-UimM249gm_DBbMlzQNULSOF2bI8lyi2Fcm9G1JDzy22ITp2fsCyWevzx6xwoXXGgyp_cMoL9ERGeC438sRaS3VGG6LicamSFilPqzB2YlMJ6HvnkLanfxmI5_dbv4yU-M5MzK0vig5wvZMuz8m65FmNJLc5S5yDuqU0olQ
+[INFO ] 24-08-2023 12:15:43 [main] Log - cloud_ID[]
+[ERROR] 24-08-2023 12:15:43 [main] Log - JSONArray[0] not found.
+[INFO ] 24-08-2023 12:15:43 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 12:15:43 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 12:15:43 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 12:15:43 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 12:15:43 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 12:15:43 [main] Log - Method Test1.test2() on instance Test1@70325e14 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@70325e14]
+[INFO ] 24-08-2023 12:15:43 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 13:27:47 [main] Log - =================================================
+[INFO ] 24-08-2023 13:27:47 [main] Log - ====== START TEST AT [Thu Aug 24 13:27:47 ICT 2023]
+[INFO ] 24-08-2023 13:27:47 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 13:27:50 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIyNzk0NTRhZC1kOTJmLTQ4YjQtYjg1Yy02ZDNiYWRjNjNlNTUiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyODU4NDcwLCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjg1ODQ3MCwiZXhwIjoxNjkyODYyMDcwLCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwic2NvcGUiOiJtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgcmVhZDpqaXJhLXVzZXIgcmVwb3J0OnBlcnNvbmFsLWRhdGEgbWFuYWdlOmppcmEtd2ViaG9vayBtYW5hZ2U6amlyYS1wcm9qZWN0IG1hbmFnZTpqaXJhLWRhdGEtcHJvdmlkZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOmppcmEtd29yayByZWFkOnNlcnZpY2VtYW5hZ2VtZW50LWluc2lnaHQtb2JqZWN0cyByZWFkOmFjY291bnQgcmVhZDptZSB3cml0ZTpqaXJhLXdvcmsgd3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCByZWFkOnNlcnZpY2VkZXNrLXJlcXVlc3QiLCJjbGllbnRfaWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9maXJzdFBhcnR5IjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tLzNsbyI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWxEb21haW4iOiJjb25uZWN0LmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudElkIjoiNzEyMDIwOjFlN2ZiYmEzLTk5NWQtNDEyOS1iNmM2LWNhOTc1YzhmZGIyMyJ9.fkDkg3XThQ8Wc4yMM5o1DOC0C4pVic9Hdzr6ejCrbG6IqjEijILfZLmK5naLIVSd7Ty3-8HtggiDt_Yy5ps4DNhH7LlbcxXLrZtHh3hs90TYeIy4o5gOpzbXetXHa_pFAXeAPpxFPBtedk4THNa5w0CXLPvjOtoxzqZ7FNMqaL-4S74zbAhBi8dLbkkiIftCE3BOBHXEm5X181Qj1WE4niJNW0pUR3_MxWYYJJb6_VVoo3aE5hSymK__7SAsDvgzEo8U3g-tvOUQxXa2G01BbJIcaDead4k3wTbSQDxu56Un75sxE5-fCRerK5KkDTPQYOiJNRwRreEoR9bfHScysA
+[INFO ] 24-08-2023 13:27:51 [main] Log - cloud_ID[]
+[ERROR] 24-08-2023 13:27:51 [main] Log - JSONArray[0] not found.
+[INFO ] 24-08-2023 13:27:51 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 13:27:51 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 13:27:51 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 13:27:51 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 13:27:51 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 13:27:51 [main] Log - Method Test1.test2() on instance Test1@77f1baf5 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@77f1baf5]
+[INFO ] 24-08-2023 13:27:51 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 13:28:13 [main] Log - =================================================
+[INFO ] 24-08-2023 13:28:13 [main] Log - ====== START TEST AT [Thu Aug 24 13:28:12 ICT 2023]
+[INFO ] 24-08-2023 13:28:13 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 13:28:15 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIzN2NiYmE0ZC1mNzc4LTRiYTgtYTMyNy0yMTEyYTA2ZjU5MDYiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyODU4NDk0LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjg1ODQ5NCwiZXhwIjoxNjkyODYyMDk0LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsInNjb3BlIjoid3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCB3cml0ZTpqaXJhLXdvcmsgcmVhZDptZSByZWFkOmFjY291bnQgcmVhZDpzZXJ2aWNlbWFuYWdlbWVudC1pbnNpZ2h0LW9iamVjdHMgcmVhZDpqaXJhLXdvcmsgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiBtYW5hZ2U6amlyYS1kYXRhLXByb3ZpZGVyIG1hbmFnZTpqaXJhLXByb2plY3QgbWFuYWdlOmppcmEtd2ViaG9vayByZXBvcnQ6cGVyc29uYWwtZGF0YSByZWFkOmppcmEtdXNlciBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRFbWFpbCI6IjEwNzdhYjg5LWRiNzYtNGJlNy05YzQ5LTkwNGRmZjFiMzNhNUBjb25uZWN0LmF0bGFzc2lhbi5jb20iLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vYXRsX3Rva2VuX3R5cGUiOiJBQ0NFU1MiLCJjbGllbnRfaWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9maXJzdFBhcnR5IjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tLzNsbyI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWxEb21haW4iOiJjb25uZWN0LmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudElkIjoiNzEyMDIwOjFlN2ZiYmEzLTk5NWQtNDEyOS1iNmM2LWNhOTc1YzhmZGIyMyJ9.T59OoHreHYCxCBk8ptWJWV8unIQGBMgxZ1XTrkOiV95-P0N9ztA8OIFBZ-RVaszOXGaZAZh_fggCPCJbySCcVeX0iyNBn5xPXAXCuS3-GP03k87mDSngGfeYGqyoTaQ-SHnpz2PIn_YXgbYTfLMJ2XYzWyacstt2kbKylIGfvW7CYEYp5ggr0K2cAL8uVkBS14pep8_Q5a_fn7aQPI3A-VxTQAFKRlOTqN7XEaorsTamKLsnCN3XBtjONFNExcrAeFA-9mLv8apvIMdVY3OnZlXonE3lCncBGuVRpK-TyUcm7EYT2OOsqp9EZoxxfN4PlXAHf5kJCOKRWXBfQVPeLQ
+[INFO ] 24-08-2023 13:28:15 [main] Log - cloud_ID[]
+[ERROR] 24-08-2023 13:28:15 [main] Log - JSONArray[0] not found.
+[INFO ] 24-08-2023 13:28:15 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 13:28:15 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 13:28:15 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 13:28:15 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 13:28:15 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 13:28:15 [main] Log - Method Test1.test2() on instance Test1@5e5d171f depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@5e5d171f]
+[INFO ] 24-08-2023 13:28:15 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 13:29:36 [main] Log - =================================================
+[INFO ] 24-08-2023 13:29:36 [main] Log - ====== START TEST AT [Thu Aug 24 13:29:36 ICT 2023]
+[ERROR] 24-08-2023 13:29:37 [main] Log - Header value cannot be null
+[INFO ] 24-08-2023 13:29:37 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 13:29:37 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 13:29:37 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 13:29:37 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 13:29:37 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 13:29:37 [main] Log - Method Test1.test2() on instance Test1@305b7c14 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@305b7c14]
+[INFO ] 24-08-2023 13:29:37 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 13:30:11 [main] Log - =================================================
+[INFO ] 24-08-2023 13:30:11 [main] Log - ====== START TEST AT [Thu Aug 24 13:30:10 ICT 2023]
+[INFO ] 24-08-2023 13:30:11 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 13:30:13 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJmMGEwNmRlYi1jY2YzLTQzNDItYjNhNi1kMDU1ZDdiNzA1MWUiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyODU4NjEyLCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjg1ODYxMiwiZXhwIjoxNjkyODYyMjEyLCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwic2NvcGUiOiJtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgcmVhZDpqaXJhLXVzZXIgcmVwb3J0OnBlcnNvbmFsLWRhdGEgbWFuYWdlOmppcmEtd2ViaG9vayBtYW5hZ2U6amlyYS1wcm9qZWN0IG1hbmFnZTpqaXJhLWRhdGEtcHJvdmlkZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOmppcmEtd29yayByZWFkOnNlcnZpY2VtYW5hZ2VtZW50LWluc2lnaHQtb2JqZWN0cyByZWFkOmFjY291bnQgcmVhZDptZSB3cml0ZTpqaXJhLXdvcmsgd3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCByZWFkOnNlcnZpY2VkZXNrLXJlcXVlc3QiLCJjbGllbnRfaWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9maXJzdFBhcnR5IjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tLzNsbyI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWxEb21haW4iOiJjb25uZWN0LmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudElkIjoiNzEyMDIwOjFlN2ZiYmEzLTk5NWQtNDEyOS1iNmM2LWNhOTc1YzhmZGIyMyJ9.fL05zvhGw01NxBPqOwc0zoLQMkJWWOnhm3PhKeVz_2KxXdJtfY8g2Lto6q5bNa5woADPsm-94cf5C1PBstNztf9RhBEnhx4SOtPESYdflmMDdLzjK-M8UhVX-oQpn-sPA8uFWpxC4XgfiGupzQCC3PGRAGQXkTYXb--81m1eId8Xzl6Qz9bCePKM6VlP0XZF4-L59Rz4bgBph4MZyCNkBPwOURotJbqH8cXgKPE-VmRn37oTVcR2h8oPJjmQH8O0t52cL2QxgtV6KMFq9nqJNX_ZEFCgYNFPF5HGy7eM5aJ3xdiVpVYVCGJHydKcCTDaCQWgVoK9lkas7WMQb8PR9Q
+[ERROR] 24-08-2023 13:30:13 [main] Log - A JSONArray text must start with '[' at 1 [character 2 line 1]
+[INFO ] 24-08-2023 13:30:13 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 13:30:13 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 13:30:13 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 13:30:13 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 13:30:13 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 13:30:13 [main] Log - Method Test1.test2() on instance Test1@24313fcc depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@24313fcc]
+[INFO ] 24-08-2023 13:30:13 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 13:31:39 [main] Log - =================================================
+[INFO ] 24-08-2023 13:31:39 [main] Log - ====== START TEST AT [Thu Aug 24 13:31:39 ICT 2023]
+[INFO ] 24-08-2023 13:31:39 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 13:31:41 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJlN2VkODlkOS00YWRjLTQzZGItOGZhZS0yMjRjZGZjMzc2MTciLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyODU4NzAxLCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjg1ODcwMSwiZXhwIjoxNjkyODYyMzAxLCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwic2NvcGUiOiJ3cml0ZTpzZXJ2aWNlZGVzay1yZXF1ZXN0IHJlYWQ6c2VydmljZWRlc2stcmVxdWVzdCBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgcmVhZDpqaXJhLXVzZXIgcmVwb3J0OnBlcnNvbmFsLWRhdGEgbWFuYWdlOmppcmEtd2ViaG9vayBtYW5hZ2U6amlyYS1wcm9qZWN0IG1hbmFnZTpqaXJhLWRhdGEtcHJvdmlkZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOmppcmEtd29yayByZWFkOnNlcnZpY2VtYW5hZ2VtZW50LWluc2lnaHQtb2JqZWN0cyByZWFkOmFjY291bnQgcmVhZDptZSB3cml0ZTpqaXJhLXdvcmsiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vYXRsX3Rva2VuX3R5cGUiOiJBQ0NFU1MiLCJjbGllbnRfaWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9maXJzdFBhcnR5IjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tLzNsbyI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWxEb21haW4iOiJjb25uZWN0LmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudElkIjoiNzEyMDIwOjFlN2ZiYmEzLTk5NWQtNDEyOS1iNmM2LWNhOTc1YzhmZGIyMyJ9.Dycpua8h3fFPjkHsB11DNGAnnRcrlKK1zr67DKoEYSZCujgWJsCJF2PL7C4lYeDHAJRnq-qlYBVMV6ngklFybP-bYYT_wAPlCOmUVsdY6H9RQ4cyTCSwgmuc9XyOOSNvt8SbrQBK26cLAH_47VNbg_DAr0tEiTHLujR2VXq2f0YqPtFQu5AKJWpPntq5FfTmP0licP00f18XnmMd0So-7ZsV0BQrPR8KxE4K3QRBMs_tuRo9hc2UhJSMMRe4OSzM00kLnFI8JXNbDqFBKxhgQJyWxcIOZq5v-jcA31K2rAPSpe38m8y3poUIo9-E5XWUYkO74ZxQLnm3GnCXA974kA
+[INFO ] 24-08-2023 13:31:41 [main] Log - cloud_ID{"code":401,"message":"Unauthorized"}
+[ERROR] 24-08-2023 13:31:41 [main] Log - JSONObject["id"] not found.
+[INFO ] 24-08-2023 13:31:41 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 13:31:42 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 13:31:42 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 13:31:42 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 13:31:42 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 13:31:42 [main] Log - Method Test1.test2() on instance Test1@5e5d171f depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@5e5d171f]
+[INFO ] 24-08-2023 13:31:42 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 13:33:13 [main] Log - =================================================
+[INFO ] 24-08-2023 13:33:13 [main] Log - ====== START TEST AT [Thu Aug 24 13:33:13 ICT 2023]
+[INFO ] 24-08-2023 13:33:13 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 24-08-2023 13:33:15 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI0MGEwYmM5NC1hM2Q0LTQ3MjMtYmIzYy1iNjZkZmM1OGZhYjMiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkyODU4Nzk1LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5Mjg1ODc5NSwiZXhwIjoxNjkyODYyMzk1LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwic2NvcGUiOiJ3cml0ZTpzZXJ2aWNlZGVzay1yZXF1ZXN0IHJlYWQ6c2VydmljZWRlc2stcmVxdWVzdCBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgcmVhZDpqaXJhLXVzZXIgcmVwb3J0OnBlcnNvbmFsLWRhdGEgbWFuYWdlOmppcmEtd2ViaG9vayBtYW5hZ2U6amlyYS1wcm9qZWN0IG1hbmFnZTpqaXJhLWRhdGEtcHJvdmlkZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOmppcmEtd29yayByZWFkOnNlcnZpY2VtYW5hZ2VtZW50LWluc2lnaHQtb2JqZWN0cyByZWFkOmFjY291bnQgcmVhZDptZSB3cml0ZTpqaXJhLXdvcmsiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vYXRsX3Rva2VuX3R5cGUiOiJBQ0NFU1MiLCJjbGllbnRfaWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9maXJzdFBhcnR5IjpmYWxzZSwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tLzNsbyI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWxEb21haW4iOiJjb25uZWN0LmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudElkIjoiNzEyMDIwOjFlN2ZiYmEzLTk5NWQtNDEyOS1iNmM2LWNhOTc1YzhmZGIyMyJ9.p7TKi0_a5o5E1RsSHsYJZ6TKE_0KubmK8xBbjY16bkm2x877tlSVprBEawhWJ2OLeA-Xx-lO7gmbH-I95CkfbQSX4LfQSFnDfwmSkFIC5HHWyMQaBeQ2ZLA4ozvK0NkHk_Yq74_Z9B5UfmYXmarq8HbZyi50T92EJUhtm-ImIvjw7Ahpb3oovluBAQJmOhE39ghIEgcCs0u8Ip5i5IRYl9ATqH9SZyV7vCwH_6FnhoMK8F5LXHWnw8ueCgzqXdWmj6aqG0HZ5vrF_eWJHD2E8X3-N8fh_HQxcS9bAVzaSeBhl0qfEutfI9geI03bpa3MgtJKf5LAHKpCJkSYvXSLpA
+[INFO ] 24-08-2023 13:33:16 [main] Log - cloud_ID{"code":401,"message":"Unauthorized"}
+[ERROR] 24-08-2023 13:33:16 [main] Log - JSONObject["id"] not found.
+[INFO ] 24-08-2023 13:33:16 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 13:33:16 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 13:33:16 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 13:33:16 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 13:33:16 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 13:33:16 [main] Log - Method Test1.test2() on instance Test1@305b7c14 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@305b7c14]
+[INFO ] 24-08-2023 13:33:16 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 13:49:05 [main] Log - =================================================
+[INFO ] 24-08-2023 13:49:05 [main] Log - ====== START TEST AT [Thu Aug 24 13:49:04 ICT 2023]
+[INFO ] 24-08-2023 13:49:05 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 13:49:08 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 13:49:08 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 13:49:08 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 13:49:08 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 13:49:08 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 13:49:08 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 13:49:08 [main] Log - Method Test1.test2() on instance Test1@7bedc48a depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@7bedc48a]
+[INFO ] 24-08-2023 13:49:08 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 13:51:51 [main] Log - =================================================
+[INFO ] 24-08-2023 13:51:51 [main] Log - ====== START TEST AT [Thu Aug 24 13:51:51 ICT 2023]
+[INFO ] 24-08-2023 13:51:51 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 13:51:53 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 13:51:53 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 13:51:53 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 13:51:53 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 13:51:53 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 13:51:53 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 13:51:53 [main] Log - Method Test1.test2() on instance Test1@70325e14 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@70325e14]
+[INFO ] 24-08-2023 13:51:53 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 13:53:19 [main] Log - =================================================
+[INFO ] 24-08-2023 13:53:19 [main] Log - ====== START TEST AT [Thu Aug 24 13:53:18 ICT 2023]
+[INFO ] 24-08-2023 13:53:19 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 13:53:21 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 13:53:21 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 13:53:21 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 13:53:21 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 13:53:21 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 13:53:21 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 13:53:21 [main] Log - Method Test1.test2() on instance Test1@7770f470 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@7770f470]
+[INFO ] 24-08-2023 13:53:21 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 14:02:07 [main] Log - =================================================
+[INFO ] 24-08-2023 14:02:07 [main] Log - ====== START TEST AT [Thu Aug 24 14:02:06 ICT 2023]
+[INFO ] 24-08-2023 14:02:07 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 14:02:08 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 14:02:08 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 14:02:09 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 14:02:09 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 14:02:09 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 14:02:09 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 14:02:09 [main] Log - Method Test1.test2() on instance Test1@247bddad depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@247bddad]
+[INFO ] 24-08-2023 14:02:09 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 14:09:00 [main] Log - =================================================
+[INFO ] 24-08-2023 14:09:00 [main] Log - ====== START TEST AT [Thu Aug 24 14:09:00 ICT 2023]
+[INFO ] 24-08-2023 14:09:00 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 14:09:02 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 14:09:02 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 14:09:02 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 14:09:02 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 14:09:02 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 14:09:02 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 14:09:02 [main] Log - Method Test1.test2() on instance Test1@7d20d0b depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@7d20d0b]
+[INFO ] 24-08-2023 14:09:02 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 14:09:19 [main] Log - =================================================
+[INFO ] 24-08-2023 14:09:19 [main] Log - ====== START TEST AT [Thu Aug 24 14:09:18 ICT 2023]
+[INFO ] 24-08-2023 14:09:19 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 14:09:20 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 14:09:20 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 14:09:21 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 14:09:21 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 14:09:21 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 14:09:21 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 14:09:21 [main] Log - Method Test1.test2() on instance Test1@d35dea7 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@d35dea7]
+[INFO ] 24-08-2023 14:09:21 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 14:10:14 [main] Log - =================================================
+[INFO ] 24-08-2023 14:10:14 [main] Log - ====== START TEST AT [Thu Aug 24 14:10:13 ICT 2023]
+[INFO ] 24-08-2023 14:10:14 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 14:10:15 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 14:10:15 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 14:10:15 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 14:10:15 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 14:10:16 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 14:10:16 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 14:10:16 [main] Log - Method Test1.test2() on instance Test1@37ceb1df depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@37ceb1df]
+[INFO ] 24-08-2023 14:10:16 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 14:32:04 [main] Log - =================================================
+[INFO ] 24-08-2023 14:32:04 [main] Log - ====== START TEST AT [Thu Aug 24 14:32:04 ICT 2023]
+[INFO ] 24-08-2023 14:32:04 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 14:32:07 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 14:32:07 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 14:32:07 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 14:32:07 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 14:32:07 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 14:32:07 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 14:32:07 [main] Log - Method Test1.test2() on instance Test1@3bd82cf5 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@3bd82cf5]
+[INFO ] 24-08-2023 14:32:07 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 14:35:43 [main] Log - =================================================
+[INFO ] 24-08-2023 14:35:43 [main] Log - ====== START TEST AT [Thu Aug 24 14:35:42 ICT 2023]
+[INFO ] 24-08-2023 14:35:43 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 14:35:46 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 14:35:46 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 14:35:46 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 14:35:46 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 14:35:46 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 14:35:46 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 14:35:46 [main] Log - Method Test1.test2() on instance Test1@fa4c865 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@fa4c865]
+[INFO ] 24-08-2023 14:35:46 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 14:36:17 [main] Log - =================================================
+[INFO ] 24-08-2023 14:36:17 [main] Log - ====== START TEST AT [Thu Aug 24 14:36:16 ICT 2023]
+[INFO ] 24-08-2023 14:36:17 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 24-08-2023 14:36:19 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 24-08-2023 14:36:19 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 14:36:19 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 14:36:19 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 24-08-2023 14:36:19 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 14:36:19 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 14:36:19 [main] Log - Method Test1.test2() on instance Test1@23348b5d depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@23348b5d]
+[INFO ] 24-08-2023 14:36:19 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 14:50:47 [main] Log - =================================================
+[INFO ] 24-08-2023 14:50:47 [main] Log - ====== START TEST AT [Thu Aug 24 14:50:46 ICT 2023]
+[ERROR] 24-08-2023 14:50:49 [main] Log - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[INFO ] 24-08-2023 14:50:49 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 14:50:50 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 14:50:50 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 14:50:50 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 14:50:50 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 14:50:50 [main] Log - Method Test1.test2() on instance Test1@fa4c865 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@fa4c865]
+[INFO ] 24-08-2023 14:50:50 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 14:53:58 [main] Log - =================================================
+[INFO ] 24-08-2023 14:53:58 [main] Log - ====== START TEST AT [Thu Aug 24 14:53:57 ICT 2023]
+[ERROR] 24-08-2023 14:54:00 [main] Log - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[INFO ] 24-08-2023 14:54:00 [main] Log - null
+[INFO ] 24-08-2023 14:54:00 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 14:54:00 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 14:54:00 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 14:54:00 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 14:54:00 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 14:54:00 [main] Log - Method Test1.test2() on instance Test1@23348b5d depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@23348b5d]
+[INFO ] 24-08-2023 14:54:00 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 14:54:50 [main] Log - =================================================
+[INFO ] 24-08-2023 14:54:50 [main] Log - ====== START TEST AT [Thu Aug 24 14:54:50 ICT 2023]
+[ERROR] 24-08-2023 14:54:52 [main] Log - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[INFO ] 24-08-2023 14:54:52 [main] Log - Cloud Response: null
+[INFO ] 24-08-2023 14:54:52 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 14:54:53 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 14:54:53 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 14:54:53 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 14:54:53 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 14:54:53 [main] Log - Method Test1.test2() on instance Test1@23348b5d depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@23348b5d]
+[INFO ] 24-08-2023 14:54:53 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 14:58:42 [main] Log - =================================================
+[INFO ] 24-08-2023 14:58:42 [main] Log - ====== START TEST AT [Thu Aug 24 14:58:41 ICT 2023]
+[ERROR] 24-08-2023 14:58:44 [main] Log - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[INFO ] 24-08-2023 14:58:44 [main] Log - Cloud Response: null
+[INFO ] 24-08-2023 14:58:44 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 14:58:44 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 14:58:44 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 14:58:44 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 14:58:44 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 14:58:44 [main] Log - Method Test1.test2() on instance Test1@23348b5d depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@23348b5d]
+[INFO ] 24-08-2023 14:58:44 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 15:05:34 [main] Log - =================================================
+[INFO ] 24-08-2023 15:05:34 [main] Log - ====== START TEST AT [Thu Aug 24 15:05:33 ICT 2023]
+[ERROR] 24-08-2023 15:05:36 [main] Log - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[INFO ] 24-08-2023 15:05:36 [main] Log - Cloud Response: null
+[INFO ] 24-08-2023 15:05:36 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 15:05:36 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 15:05:36 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 15:05:36 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 15:05:36 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 15:05:36 [main] Log - Method Test1.test2() on instance Test1@7dc0f706 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@7dc0f706]
+[INFO ] 24-08-2023 15:05:36 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 15:15:19 [main] Log - =================================================
+[INFO ] 24-08-2023 15:15:19 [main] Log - ====== START TEST AT [Thu Aug 24 15:15:18 ICT 2023]
+[ERROR] 24-08-2023 15:15:20 [main] Log - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[INFO ] 24-08-2023 15:15:20 [main] Log - Cloud Response: null
+[INFO ] 24-08-2023 15:15:20 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 15:15:21 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 15:15:21 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 15:15:21 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 15:15:21 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 15:15:21 [main] Log - Method Test1.test2() on instance Test1@70325e14 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@70325e14]
+[INFO ] 24-08-2023 15:15:21 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 24-08-2023 15:19:25 [main] Log - =================================================
+[INFO ] 24-08-2023 15:19:25 [main] Log - ====== START TEST AT [Thu Aug 24 15:19:25 ICT 2023]
+[ERROR] 24-08-2023 15:19:27 [main] Log - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[INFO ] 24-08-2023 15:19:27 [main] Log - Cloud Response: null
+[INFO ] 24-08-2023 15:19:27 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 24-08-2023 15:19:27 [main] Log - [loginTest] is SKIPPED
+[INFO ] 24-08-2023 15:19:27 [main] Log - [CLOUD ID] - Failed to get Cloud ID
+[INFO ] 24-08-2023 15:19:27 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 24-08-2023 15:19:27 [main] Log - [test2] is SKIPPED
+[INFO ] 24-08-2023 15:19:27 [main] Log - Method Test1.test2() on instance Test1@37ceb1df depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@37ceb1df]
+[INFO ] 24-08-2023 15:19:27 [main] Log - Completed test case [RESULT]: Regression 1
