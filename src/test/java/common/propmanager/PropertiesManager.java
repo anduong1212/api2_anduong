@@ -14,7 +14,7 @@ public class PropertiesManager {
     private static String linkFile;
     private static FileInputStream fileIn;
     private static FileOutputStream fileOut;
-    private static String defaultProperFilePath = StringUtils.getCurrentDir() + "src/test/resources/token_storage.properties";
+    private static String defaultProperFilePath = "src/test/resources/token_storage.properties";
 
     public static Properties loadAllPropFiles(){
         LinkedList<String> filesName = new LinkedList<>();
@@ -63,7 +63,7 @@ public class PropertiesManager {
     }
 
     public static String getDefaultPropValue(String key){
-        String keyValue = null;
+        String keyValue;
         try {
             if (fileIn == null){
                 setDefaultFile();

@@ -1280,3 +1280,290 @@
 [INFO ] 30-08-2023 16:06:13 [main] Log - [test2] is FAILED
 [INFO ] 30-08-2023 16:06:13 [main] Log - expected [false] but found [true]
 [INFO ] 30-08-2023 16:06:13 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 19:51:36 [main] Log - =================================================
+[INFO ] 30-08-2023 19:51:36 [main] Log - ====== START TEST AT [Wed Aug 30 19:51:35 ICT 2023]
+[INFO ] 30-08-2023 19:51:36 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 19:51:39 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI1ZjY4ZTgzNi0wMjgzLTQ1ZGItOWNkYi01ZmI3ZGZkMjkzNWYiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkzMzk5ODk3LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5MzM5OTg5NywiZXhwIjoxNjkzNDAzNDk3LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsInNjb3BlIjoibWFuYWdlOmNvbmZsdWVuY2UtY29uZmlndXJhdGlvbiByZWFkOnNlcnZpY2VkZXNrLXJlcXVlc3Qgd3JpdGU6Y29uZmx1ZW5jZS1zcGFjZSByZWFkOmNvbmZsdWVuY2UtY29udGVudC5zdW1tYXJ5IHJlYWQ6Y29uZmx1ZW5jZS1jb250ZW50LmFsbCB3cml0ZTpjb25mbHVlbmNlLWZpbGUgd3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCByZWFkOmNvbmZsdWVuY2UtZ3JvdXBzIG1hbmFnZTpqaXJhLXByb2plY3QgcmVhZDpjb25mbHVlbmNlLXVzZXIgcmVhZDpzZXJ2aWNlbWFuYWdlbWVudC1pbnNpZ2h0LW9iamVjdHMgcmVhZDphY2NvdW50IHJlYWQ6Y29uZmx1ZW5jZS1wcm9wcyByZWFkb25seTpjb250ZW50LmF0dGFjaG1lbnQ6Y29uZmx1ZW5jZSBtYW5hZ2U6amlyYS13ZWJob29rIHdyaXRlOmppcmEtd29yayBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgd3JpdGU6Y29uZmx1ZW5jZS1ncm91cHMgcmVwb3J0OnBlcnNvbmFsLWRhdGEgd3JpdGU6Y29uZmx1ZW5jZS1jb250ZW50IHJlYWQ6amlyYS11c2VyIHJlYWQ6bWUgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiBtYW5hZ2U6amlyYS1kYXRhLXByb3ZpZGVyIHJlYWQ6Y29uZmx1ZW5jZS1jb250ZW50LnBlcm1pc3Npb24gcmVhZDpqaXJhLXdvcmsgc2VhcmNoOmNvbmZsdWVuY2UgcmVhZDpjb25mbHVlbmNlLXNwYWNlLnN1bW1hcnkgd3JpdGU6Y29uZmx1ZW5jZS1wcm9wcyIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRJZCI6IjcxMjAyMDoxZTdmYmJhMy05OTVkLTQxMjktYjZjNi1jYTk3NWM4ZmRiMjMifQ.RoHXAJ5MNRY4L9bW3zMgMQcBaHhOIqxkEX86lEUUDQySery2fMGf_43fiYmVw9EhPqbbLJunPYGDfKyybHhm-Wzj7nS_tHmXBZSQWeFzO5EYpU_dIJf6EGYlRnOCuQSHnWBDsZwjTdYR3i9JidyqWCX86qDPWC5d0rBEIqSpx52BDvHsQsL55Gru_TymVNWAyPo7e-oRgs8GmOBFBVh31AOtidKc45QzLamD72AkUerrTRomlzkHsL5B8-N6xWXNgvQGj-s7oI_HbK-5QgQ5XzkYr1ihfkmUaJetjdkqHPzfMt0YnT7E-tdanUU0Hoz5xSTSnHLRYa0TxfUStPLMkg
+[INFO ] 30-08-2023 19:51:40 [main] Log - Cloud ID: b14d6e65-9b65-4526-badd-b7c1a2490d2d
+[INFO ] 30-08-2023 19:51:40 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 19:51:40 [main] Log - [loginTest] is PASSED !
+[INFO ] 30-08-2023 19:51:40 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 19:51:40 [main] Log - [test2] is FAILED
+[INFO ] 30-08-2023 19:51:40 [main] Log - expected [false] but found [true]
+[INFO ] 30-08-2023 19:51:40 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 19:52:27 [main] Log - =================================================
+[INFO ] 30-08-2023 19:52:27 [main] Log - ====== START TEST AT [Wed Aug 30 19:52:26 ICT 2023]
+[INFO ] 30-08-2023 19:52:27 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 19:52:30 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI4NDBlOGVhNS0zZDljLTQwNTEtOGI1ZS01NGExMjkyYmIxMmQiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkzMzk5OTQ3LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5MzM5OTk0NywiZXhwIjoxNjkzNDAzNTQ3LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsInNjb3BlIjoicmVhZDptZSBtYW5hZ2U6amlyYS1jb25maWd1cmF0aW9uIG1hbmFnZTpqaXJhLWRhdGEtcHJvdmlkZXIgcmVhZDpjb25mbHVlbmNlLWNvbnRlbnQucGVybWlzc2lvbiByZWFkOmppcmEtd29yayBzZWFyY2g6Y29uZmx1ZW5jZSByZWFkOmNvbmZsdWVuY2Utc3BhY2Uuc3VtbWFyeSB3cml0ZTpjb25mbHVlbmNlLXByb3BzIG1hbmFnZTpjb25mbHVlbmNlLWNvbmZpZ3VyYXRpb24gcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IHdyaXRlOmNvbmZsdWVuY2Utc3BhY2UgcmVhZDpjb25mbHVlbmNlLWNvbnRlbnQuc3VtbWFyeSByZWFkOmNvbmZsdWVuY2UtY29udGVudC5hbGwgd3JpdGU6Y29uZmx1ZW5jZS1maWxlIHdyaXRlOnNlcnZpY2VkZXNrLXJlcXVlc3QgcmVhZDpjb25mbHVlbmNlLWdyb3VwcyBtYW5hZ2U6amlyYS1wcm9qZWN0IHJlYWQ6Y29uZmx1ZW5jZS11c2VyIHJlYWQ6c2VydmljZW1hbmFnZW1lbnQtaW5zaWdodC1vYmplY3RzIHJlYWQ6YWNjb3VudCByZWFkOmNvbmZsdWVuY2UtcHJvcHMgcmVhZG9ubHk6Y29udGVudC5hdHRhY2htZW50OmNvbmZsdWVuY2UgbWFuYWdlOmppcmEtd2ViaG9vayB3cml0ZTpqaXJhLXdvcmsgbWFuYWdlOnNlcnZpY2VkZXNrLWN1c3RvbWVyIHdyaXRlOmNvbmZsdWVuY2UtZ3JvdXBzIHJlcG9ydDpwZXJzb25hbC1kYXRhIHdyaXRlOmNvbmZsdWVuY2UtY29udGVudCByZWFkOmppcmEtdXNlciIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRJZCI6IjcxMjAyMDoxZTdmYmJhMy05OTVkLTQxMjktYjZjNi1jYTk3NWM4ZmRiMjMifQ.WbR51dTxGssjbHO51Xe206hbgCrN3Aq4cW56XTnuFoUPMrDUSTkPfhDUEtyO2Cp1pKCi_dhckd-vqR7XfnWEwlM1qcu_3lOHkTVN6HtB7hJnEMFIhb2p2zexSyGhc-8wvORrkIEoL9hgKMzMFGLK6BCw53tu9rdUj_QR6_YiDaSkUKC_enOvThtLg11Sve9zW7LR3L8G3HmMkEXZ5XSYAhyNZGjXEW32rbToDESt7Ji8AgL_Keu4GzG8db0kyrKJiH3Vii0Oz7xX-I30eo-f96G0v-hajp_6Z-he-DwMP2gV14EKgUcrjFyNek_DXYyfeUabJpWXKJy2InjvnitzgA
+[INFO ] 30-08-2023 19:52:30 [main] Log - Cloud ID: b14d6e65-9b65-4526-badd-b7c1a2490d2d
+[INFO ] 30-08-2023 19:52:30 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 19:52:31 [main] Log - [loginTest] is PASSED !
+[INFO ] 30-08-2023 19:52:31 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 19:52:31 [main] Log - [test2] is FAILED
+[INFO ] 30-08-2023 19:52:31 [main] Log - expected [false] but found [true]
+[INFO ] 30-08-2023 19:52:31 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:19:16 [main] Log - =================================================
+[INFO ] 30-08-2023 20:19:16 [main] Log - ====== START TEST AT [Wed Aug 30 20:19:16 ICT 2023]
+[INFO ] 30-08-2023 20:19:16 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 30-08-2023 20:19:19 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:19:19 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:19:19 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:19:19 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:19:19 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:19:19 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:19:19 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:19:19 [main] Log - Method Test1.test2() on instance Test1@38102d01 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@38102d01]
+[INFO ] 30-08-2023 20:19:19 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:20:15 [main] Log - =================================================
+[INFO ] 30-08-2023 20:20:15 [main] Log - ====== START TEST AT [Wed Aug 30 20:20:14 ICT 2023]
+[INFO ] 30-08-2023 20:20:15 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 30-08-2023 20:20:17 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:20:17 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:20:17 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:20:17 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:20:17 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:20:18 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:20:18 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:20:18 [main] Log - Method Test1.test2() on instance Test1@38e79ae3 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@38e79ae3]
+[INFO ] 30-08-2023 20:20:18 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:27:28 [main] Log - =================================================
+[INFO ] 30-08-2023 20:27:28 [main] Log - ====== START TEST AT [Wed Aug 30 20:27:27 ICT 2023]
+[INFO ] 30-08-2023 20:27:28 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 30-08-2023 20:27:31 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:27:31 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:27:31 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:27:31 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:27:31 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:27:31 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:27:31 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:27:31 [main] Log - Method Test1.test2() on instance Test1@28975c28 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@28975c28]
+[INFO ] 30-08-2023 20:27:31 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:30:26 [main] Log - =================================================
+[INFO ] 30-08-2023 20:30:26 [main] Log - ====== START TEST AT [Wed Aug 30 20:30:25 ICT 2023]
+[INFO ] 30-08-2023 20:30:26 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 30-08-2023 20:30:29 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:30:29 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:30:29 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:30:29 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:30:29 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:30:29 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:30:29 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:30:29 [main] Log - Method Test1.test2() on instance Test1@157853da depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@157853da]
+[INFO ] 30-08-2023 20:30:29 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:32:08 [main] Log - =================================================
+[INFO ] 30-08-2023 20:32:08 [main] Log - ====== START TEST AT [Wed Aug 30 20:32:07 ICT 2023]
+[INFO ] 30-08-2023 20:32:08 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:32:09 [main] Log - GET FROM FILE: SL7IIeIhaSUhBvbeA1e150S61M2xr9nH
+[ERROR] 30-08-2023 20:32:11 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:32:11 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:32:11 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:32:11 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:32:11 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:32:11 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:32:11 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:32:11 [main] Log - Method Test1.test2() on instance Test1@37f1104d depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@37f1104d]
+[INFO ] 30-08-2023 20:32:11 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:33:29 [main] Log - =================================================
+[INFO ] 30-08-2023 20:33:29 [main] Log - ====== START TEST AT [Wed Aug 30 20:33:28 ICT 2023]
+[INFO ] 30-08-2023 20:33:29 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:33:30 [main] Log - GET FROM FILE: SL7IIeIhaSUhBvbeA1e150S61M2xr9nH
+[ERROR] 30-08-2023 20:33:32 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:33:32 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:33:32 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:33:32 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:33:32 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:33:32 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:33:32 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:33:32 [main] Log - Method Test1.test2() on instance Test1@740773a3 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@740773a3]
+[INFO ] 30-08-2023 20:33:32 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:34:10 [main] Log - =================================================
+[INFO ] 30-08-2023 20:34:10 [main] Log - ====== START TEST AT [Wed Aug 30 20:34:10 ICT 2023]
+[INFO ] 30-08-2023 20:34:11 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:34:11 [main] Log - GET FROM FILE: SL7IIeIhaSUhBvbeA1e150S61M2xr9nH
+[ERROR] 30-08-2023 20:34:13 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:34:13 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:34:13 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:34:14 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:34:14 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:34:14 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:34:14 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:34:14 [main] Log - Method Test1.test2() on instance Test1@740773a3 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@740773a3]
+[INFO ] 30-08-2023 20:34:14 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:34:54 [main] Log - =================================================
+[INFO ] 30-08-2023 20:34:54 [main] Log - ====== START TEST AT [Wed Aug 30 20:34:53 ICT 2023]
+[INFO ] 30-08-2023 20:34:54 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:34:55 [main] Log - GET FROM FILE: SL7IIeIhaSUhBvbeA1e150S61M2xr9nH
+[INFO ] 30-08-2023 20:34:57 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJmYTU5MjEyNS0yZGNlLTRhM2ItODM4Zi02NzcwZjdkNzIyMzMiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkzNDAyNDk1LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5MzQwMjQ5NSwiZXhwIjoxNjkzNDA2MDk1LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwic2NvcGUiOiJtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgd3JpdGU6amlyYS13b3JrIG1hbmFnZTpqaXJhLXdlYmhvb2sgcmVhZG9ubHk6Y29udGVudC5hdHRhY2htZW50OmNvbmZsdWVuY2UgcmVhZDpjb25mbHVlbmNlLXByb3BzIHJlYWQ6YWNjb3VudCByZWFkOnNlcnZpY2VtYW5hZ2VtZW50LWluc2lnaHQtb2JqZWN0cyByZWFkOmNvbmZsdWVuY2UtdXNlciBtYW5hZ2U6amlyYS1wcm9qZWN0IHJlYWQ6Y29uZmx1ZW5jZS1ncm91cHMgd3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCB3cml0ZTpjb25mbHVlbmNlLWZpbGUgcmVhZDpjb25mbHVlbmNlLWNvbnRlbnQuYWxsIHJlYWQ6Y29uZmx1ZW5jZS1jb250ZW50LnN1bW1hcnkgd3JpdGU6Y29uZmx1ZW5jZS1zcGFjZSByZWFkOnNlcnZpY2VkZXNrLXJlcXVlc3QgbWFuYWdlOmNvbmZsdWVuY2UtY29uZmlndXJhdGlvbiB3cml0ZTpjb25mbHVlbmNlLXByb3BzIHJlYWQ6Y29uZmx1ZW5jZS1zcGFjZS5zdW1tYXJ5IHNlYXJjaDpjb25mbHVlbmNlIHJlYWQ6amlyYS13b3JrIHJlYWQ6Y29uZmx1ZW5jZS1jb250ZW50LnBlcm1pc3Npb24gbWFuYWdlOmppcmEtZGF0YS1wcm92aWRlciBtYW5hZ2U6amlyYS1jb25maWd1cmF0aW9uIHJlYWQ6bWUgcmVhZDpqaXJhLXVzZXIgd3JpdGU6Y29uZmx1ZW5jZS1jb250ZW50IHJlcG9ydDpwZXJzb25hbC1kYXRhIHdyaXRlOmNvbmZsdWVuY2UtZ3JvdXBzIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRJZCI6IjcxMjAyMDoxZTdmYmJhMy05OTVkLTQxMjktYjZjNi1jYTk3NWM4ZmRiMjMifQ.CKBxhhOfbvN-MTKTZJJAGUHcOB7zG3z_0JZknrcyI3an1jBBW5eEGDz5AuKW3eVtGWRN1qdEAfFov9eHQhUwuXlX0gw3y3PRJXcrwT86beeEeRfR1cVjW3U9SpztImwmcSGAjusC_sx0JRvLcy5xWNYgvGxFX4UMPe7bV5rNVyB1gEsCKmzUm5XOvmAY-7keBTPHmi0zrnsAGog6k7DWLRM0YTMUkZj9HdfYf9sQNQ23e0rDERE8jXI-4mzj0MPPkHD165P09Jugbz0Iv7e8WW1-49eOf1Hu9Uno0Hdjd_ifcLVdVS4zTDphw71asI4V-1UDWFLJWCXEkJLguT3fpA
+[INFO ] 30-08-2023 20:34:58 [main] Log - Cloud ID: b14d6e65-9b65-4526-badd-b7c1a2490d2d
+[INFO ] 30-08-2023 20:34:58 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:34:58 [main] Log - [loginTest] is PASSED !
+[INFO ] 30-08-2023 20:34:58 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:34:58 [main] Log - [test2] is FAILED
+[INFO ] 30-08-2023 20:34:58 [main] Log - expected [false] but found [true]
+[INFO ] 30-08-2023 20:34:58 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:36:19 [main] Log - =================================================
+[INFO ] 30-08-2023 20:36:19 [main] Log - ====== START TEST AT [Wed Aug 30 20:36:18 ICT 2023]
+[INFO ] 30-08-2023 20:36:19 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:36:19 [main] Log - GET FROM FILE: SL7IIeIhaSUhBvbeA1e150S61M2xr9nH
+[ERROR] 30-08-2023 20:36:21 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:36:21 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:36:21 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:36:22 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:36:22 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:36:22 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:36:22 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:36:22 [main] Log - Method Test1.test2() on instance Test1@3943a2be depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@3943a2be]
+[INFO ] 30-08-2023 20:36:22 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:36:44 [main] Log - =================================================
+[INFO ] 30-08-2023 20:36:44 [main] Log - ====== START TEST AT [Wed Aug 30 20:36:43 ICT 2023]
+[INFO ] 30-08-2023 20:36:44 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:36:45 [main] Log - GET FROM FILE: SL7IIeIhaSUhBvbeA1e150S61M2xr9nH
+[ERROR] 30-08-2023 20:36:47 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:36:47 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:36:47 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:36:47 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:36:47 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:36:47 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:36:47 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:36:47 [main] Log - Method Test1.test2() on instance Test1@740773a3 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@740773a3]
+[INFO ] 30-08-2023 20:36:47 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:37:33 [main] Log - =================================================
+[INFO ] 30-08-2023 20:37:33 [main] Log - ====== START TEST AT [Wed Aug 30 20:37:32 ICT 2023]
+[INFO ] 30-08-2023 20:37:33 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:37:33 [main] Log - GET FROM FILE: SL7IIeIhaSUhBvbeA1e150S61M2xr9nH
+[INFO ] 30-08-2023 20:37:33 [main] Log - GET FROM FILE - CLIENT_SECRET: ATOAY7FD6hCdIyd8bEwbMc_9CL9bZWLg59JVqM5HtWW8-GsIiRm9mN6aZYM4KhPW-wj0496C51AB;
+[ERROR] 30-08-2023 20:37:35 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:37:35 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:37:35 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:37:36 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:37:36 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:37:36 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:37:36 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:37:36 [main] Log - Method Test1.test2() on instance Test1@3943a2be depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@3943a2be]
+[INFO ] 30-08-2023 20:37:36 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:39:00 [main] Log - =================================================
+[INFO ] 30-08-2023 20:39:00 [main] Log - ====== START TEST AT [Wed Aug 30 20:39:00 ICT 2023]
+[INFO ] 30-08-2023 20:39:00 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:39:01 [main] Log - GET FROM FILE: SL7IIeIhaSUhBvbeA1e150S61M2xr9nH
+[INFO ] 30-08-2023 20:39:01 [main] Log - GET FROM FILE - CLIENT_SECRET: "ATOAY7FD6hCdIyd8bEwbMc_9CL9bZWLg59JVqM5HtWW8-GsIiRm9mN6aZYM4KhPW-wj0496C51AB";
+[ERROR] 30-08-2023 20:39:03 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:39:03 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:39:03 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:39:03 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:39:03 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:39:03 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:39:03 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:39:03 [main] Log - Method Test1.test2() on instance Test1@28975c28 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@28975c28]
+[INFO ] 30-08-2023 20:39:03 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:39:49 [main] Log - =================================================
+[INFO ] 30-08-2023 20:39:49 [main] Log - ====== START TEST AT [Wed Aug 30 20:39:49 ICT 2023]
+[INFO ] 30-08-2023 20:39:49 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:39:50 [main] Log - GET FROM FILE: SL7IIeIhaSUhBvbeA1e150S61M2xr9nH
+[INFO ] 30-08-2023 20:39:50 [main] Log - GET FROM FILE - CLIENT_SECRET: "ATOAY7FD6hCdIyd8bEwbMc_9CL9bZWLg59JVqM5HtWW8-GsIiRm9mN6aZYM4KhPW-wj0496C51AB";
+[ERROR] 30-08-2023 20:39:52 [main] Log - JSONObject["access_token"] not found.
+[INFO ] 30-08-2023 20:39:52 [main] Log - Access Token Response: {"error_description":"Unauthorized","error":"access_denied"}
+[INFO ] 30-08-2023 20:39:52 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:39:52 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 20:39:52 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 20:39:52 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:39:52 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 20:39:52 [main] Log - Method Test1.test2() on instance Test1@60015ef5 depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@60015ef5]
+[INFO ] 30-08-2023 20:39:52 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:40:51 [main] Log - =================================================
+[INFO ] 30-08-2023 20:40:51 [main] Log - ====== START TEST AT [Wed Aug 30 20:40:50 ICT 2023]
+[INFO ] 30-08-2023 20:40:51 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:40:52 [main] Log - GET FROM FILE: SL7IIeIhaSUhBvbeA1e150S61M2xr9nH
+[INFO ] 30-08-2023 20:40:52 [main] Log - GET FROM FILE - CLIENT_SECRET: ATOAY7FD6hCdIyd8bEwbMc_9CL9bZWLg59JVqM5HtWW8-GsIiRm9mN6aZYM4KhPW-wj0496C51AB
+[INFO ] 30-08-2023 20:40:54 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIxMDI4OTZjOC1lYWYwLTQzOTQtYjkzYi1iN2VhN2QwNzMzZDMiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkzNDAyODUyLCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5MzQwMjg1MiwiZXhwIjoxNjkzNDA2NDUyLCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJzY29wZSI6InJlYWRvbmx5OmNvbnRlbnQuYXR0YWNobWVudDpjb25mbHVlbmNlIHJlYWQ6Y29uZmx1ZW5jZS1wcm9wcyByZWFkOmFjY291bnQgcmVhZDpzZXJ2aWNlbWFuYWdlbWVudC1pbnNpZ2h0LW9iamVjdHMgcmVhZDpjb25mbHVlbmNlLXVzZXIgbWFuYWdlOmppcmEtcHJvamVjdCByZWFkOmNvbmZsdWVuY2UtZ3JvdXBzIHdyaXRlOnNlcnZpY2VkZXNrLXJlcXVlc3Qgd3JpdGU6Y29uZmx1ZW5jZS1maWxlIHJlYWQ6Y29uZmx1ZW5jZS1jb250ZW50LmFsbCByZWFkOmNvbmZsdWVuY2UtY29udGVudC5zdW1tYXJ5IHdyaXRlOmNvbmZsdWVuY2Utc3BhY2UgcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IG1hbmFnZTpjb25mbHVlbmNlLWNvbmZpZ3VyYXRpb24gd3JpdGU6Y29uZmx1ZW5jZS1wcm9wcyByZWFkOmNvbmZsdWVuY2Utc3BhY2Uuc3VtbWFyeSBzZWFyY2g6Y29uZmx1ZW5jZSByZWFkOmppcmEtd29yayByZWFkOmNvbmZsdWVuY2UtY29udGVudC5wZXJtaXNzaW9uIG1hbmFnZTpqaXJhLWRhdGEtcHJvdmlkZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOm1lIHJlYWQ6amlyYS11c2VyIHdyaXRlOmNvbmZsdWVuY2UtY29udGVudCByZXBvcnQ6cGVyc29uYWwtZGF0YSB3cml0ZTpjb25mbHVlbmNlLWdyb3VwcyBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgd3JpdGU6amlyYS13b3JrIG1hbmFnZTpqaXJhLXdlYmhvb2siLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRJZCI6IjcxMjAyMDoxZTdmYmJhMy05OTVkLTQxMjktYjZjNi1jYTk3NWM4ZmRiMjMifQ.Ifkvs6nvSu27zzm5c8zSPFBwGBQYvCsxm7-dG06Sl9rv0zAK9Mfjn35_xBirn4KY4jFuTzY3Ax_hAgMY8XaZP-POfbUH45P6GqCWrAoQglGsnEs_YzzzPZSZn3r_hSGi-ycnHvb-werRzaJ7hIDQmWU9JPCu4EXyv8WvfqBfhCWUCEo2iCpMiGY-NppTlkHCDcwUfChk4bgYzB17eTeIME3pVJe32d4ewIgws1Px62tXs6EWEQaG-7riGrV-G8TSIKL9i4LphxnnrRFtNsYC6APmw3IHTDrsgoPHiyDGE0E2mKBwiE7SN7qXRsrYa3PA3xFc6GC39XNyrLhaYrzH9w
+[INFO ] 30-08-2023 20:40:55 [main] Log - Cloud ID: b14d6e65-9b65-4526-badd-b7c1a2490d2d
+[INFO ] 30-08-2023 20:40:55 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:40:55 [main] Log - [loginTest] is PASSED !
+[INFO ] 30-08-2023 20:40:55 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:40:55 [main] Log - [test2] is FAILED
+[INFO ] 30-08-2023 20:40:55 [main] Log - expected [false] but found [true]
+[INFO ] 30-08-2023 20:40:55 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:42:00 [main] Log - =================================================
+[INFO ] 30-08-2023 20:42:00 [main] Log - ====== START TEST AT [Wed Aug 30 20:42:00 ICT 2023]
+[INFO ] 30-08-2023 20:42:00 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:42:03 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJhMjBhMzQ3NC04YjhmLTQyOTUtOWFkMC1kODk3NjdlZWU1N2EiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkzNDAyOTIxLCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5MzQwMjkyMSwiZXhwIjoxNjkzNDA2NTIxLCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsInNjb3BlIjoibWFuYWdlOmNvbmZsdWVuY2UtY29uZmlndXJhdGlvbiByZWFkOnNlcnZpY2VkZXNrLXJlcXVlc3Qgd3JpdGU6Y29uZmx1ZW5jZS1zcGFjZSByZWFkOmNvbmZsdWVuY2UtY29udGVudC5zdW1tYXJ5IHJlYWQ6Y29uZmx1ZW5jZS1jb250ZW50LmFsbCB3cml0ZTpjb25mbHVlbmNlLWZpbGUgd3JpdGU6c2VydmljZWRlc2stcmVxdWVzdCByZWFkOmNvbmZsdWVuY2UtZ3JvdXBzIG1hbmFnZTpqaXJhLXByb2plY3QgcmVhZDpjb25mbHVlbmNlLXVzZXIgcmVhZDpzZXJ2aWNlbWFuYWdlbWVudC1pbnNpZ2h0LW9iamVjdHMgcmVhZDphY2NvdW50IHJlYWQ6Y29uZmx1ZW5jZS1wcm9wcyByZWFkb25seTpjb250ZW50LmF0dGFjaG1lbnQ6Y29uZmx1ZW5jZSBtYW5hZ2U6amlyYS13ZWJob29rIHdyaXRlOmppcmEtd29yayBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgd3JpdGU6Y29uZmx1ZW5jZS1ncm91cHMgcmVwb3J0OnBlcnNvbmFsLWRhdGEgd3JpdGU6Y29uZmx1ZW5jZS1jb250ZW50IHJlYWQ6amlyYS11c2VyIHJlYWQ6bWUgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiBtYW5hZ2U6amlyYS1kYXRhLXByb3ZpZGVyIHJlYWQ6Y29uZmx1ZW5jZS1jb250ZW50LnBlcm1pc3Npb24gcmVhZDpqaXJhLXdvcmsgc2VhcmNoOmNvbmZsdWVuY2UgcmVhZDpjb25mbHVlbmNlLXNwYWNlLnN1bW1hcnkgd3JpdGU6Y29uZmx1ZW5jZS1wcm9wcyIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRJZCI6IjcxMjAyMDoxZTdmYmJhMy05OTVkLTQxMjktYjZjNi1jYTk3NWM4ZmRiMjMifQ.DwTSJYwpwuSnp7bljFQIZqiOmrqLxLJkNSPuEp7iZAyverlmB_BDAdLdQ4OAAFSgw1XkkDmEFV95gMyTGZWnzn2byvJuqCfUZmc0KleOn4gbD60VUnlE2Uft3_JCAktPOLxcmOMQAfBxBn6re1ssZExUkWlnt-gKPwKV7Gpggm-aqVG43XP7ong0QKwp9-TvX1OxwX8r4NYEwaUPmMVvftGJ8ktH4P7PIX0oeAJM9lsN6VdpwMNJBWU3S2-Jz2_h9loJLluLJVG3NMg0xT5gDpbVmstaqi-7IcnuqtTzA1bNMOBpxdjaZJCd94qm-P5EpaXlJqF0deUhOurwuYyN0Q
+[INFO ] 30-08-2023 20:42:04 [main] Log - Cloud ID: b14d6e65-9b65-4526-badd-b7c1a2490d2d
+[INFO ] 30-08-2023 20:42:04 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:42:04 [main] Log - [loginTest] is PASSED !
+[INFO ] 30-08-2023 20:42:04 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:42:04 [main] Log - [test2] is FAILED
+[INFO ] 30-08-2023 20:42:04 [main] Log - expected [false] but found [true]
+[INFO ] 30-08-2023 20:42:04 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 20:58:47 [main] Log - =================================================
+[INFO ] 30-08-2023 20:58:47 [main] Log - ====== START TEST AT [Wed Aug 30 20:58:47 ICT 2023]
+[INFO ] 30-08-2023 20:58:47 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 20:58:51 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI0MmNkM2RhZi1hOGI2LTQ2ZjItYTgwMC00ZjJlNTUzMjZiYWQiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkzNDAzOTI4LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5MzQwMzkyOCwiZXhwIjoxNjkzNDA3NTI4LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJzY29wZSI6InJlYWRvbmx5OmNvbnRlbnQuYXR0YWNobWVudDpjb25mbHVlbmNlIHJlYWQ6Y29uZmx1ZW5jZS1wcm9wcyByZWFkOmFjY291bnQgcmVhZDpzZXJ2aWNlbWFuYWdlbWVudC1pbnNpZ2h0LW9iamVjdHMgcmVhZDpjb25mbHVlbmNlLXVzZXIgbWFuYWdlOmppcmEtcHJvamVjdCByZWFkOmNvbmZsdWVuY2UtZ3JvdXBzIHdyaXRlOnNlcnZpY2VkZXNrLXJlcXVlc3Qgd3JpdGU6Y29uZmx1ZW5jZS1maWxlIHJlYWQ6Y29uZmx1ZW5jZS1jb250ZW50LmFsbCByZWFkOmNvbmZsdWVuY2UtY29udGVudC5zdW1tYXJ5IHdyaXRlOmNvbmZsdWVuY2Utc3BhY2UgcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IG1hbmFnZTpjb25mbHVlbmNlLWNvbmZpZ3VyYXRpb24gd3JpdGU6Y29uZmx1ZW5jZS1wcm9wcyByZWFkOmNvbmZsdWVuY2Utc3BhY2Uuc3VtbWFyeSBzZWFyY2g6Y29uZmx1ZW5jZSByZWFkOmppcmEtd29yayByZWFkOmNvbmZsdWVuY2UtY29udGVudC5wZXJtaXNzaW9uIG1hbmFnZTpqaXJhLWRhdGEtcHJvdmlkZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOm1lIHJlYWQ6amlyYS11c2VyIHdyaXRlOmNvbmZsdWVuY2UtY29udGVudCByZXBvcnQ6cGVyc29uYWwtZGF0YSB3cml0ZTpjb25mbHVlbmNlLWdyb3VwcyBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgd3JpdGU6amlyYS13b3JrIG1hbmFnZTpqaXJhLXdlYmhvb2siLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRJZCI6IjcxMjAyMDoxZTdmYmJhMy05OTVkLTQxMjktYjZjNi1jYTk3NWM4ZmRiMjMifQ.VEpLt289gb3JWJaZ5AcV-CpFZmWYfqg9EP06nkA10fbYcyJV41WnNpCqrmfYWKgB0uXncATFDxKiT9WcOrac1_DQ1KDf-es0jC706ED8d3FQ3hHvX-wYI-26ZDgU0TMExUYXUbOpIu4xQuRYpzMGfTOrcnT8nk1K6QQwo_6TzGNdVYOTDGc4SlWlfVscZNd429Lz8qC4MWlkeVl1euimwuZ6wE541x99XuFsCqj-ZVPwzWZW944ZPGX-QbcWpHGtNAJajFT6-470pPXP7k1bT0zagrxNpwU90_oHEN0saaXNT1Gie1l2cT69LmPZSvDQ-f97BJdEWZKaoFr-45--rg
+[INFO ] 30-08-2023 20:58:52 [main] Log - Cloud ID: null
+[INFO ] 30-08-2023 20:58:52 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 20:58:52 [main] Log - [loginTest] is PASSED !
+[INFO ] 30-08-2023 20:58:53 [main] Log - Cloud ID: null
+[INFO ] 30-08-2023 20:58:53 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 20:58:53 [main] Log - [test2] is FAILED
+[INFO ] 30-08-2023 20:58:53 [main] Log - expected [false] but found [true]
+[INFO ] 30-08-2023 20:58:53 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 21:24:23 [main] Log - =================================================
+[INFO ] 30-08-2023 21:24:23 [main] Log - ====== START TEST AT [Wed Aug 30 21:24:23 ICT 2023]
+[INFO ] 30-08-2023 21:24:23 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 21:24:24 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 21:24:24 [main] Log - null
+[INFO ] 30-08-2023 21:24:24 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 21:24:24 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 21:24:24 [main] Log - Method Test1.test2() on instance Test1@3943a2be depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@3943a2be]
+[INFO ] 30-08-2023 21:24:24 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 21:33:16 [main] Log - =================================================
+[INFO ] 30-08-2023 21:33:16 [main] Log - ====== START TEST AT [Wed Aug 30 21:33:15 ICT 2023]
+[INFO ] 30-08-2023 21:33:16 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 21:33:16 [main] Log - Token is good to use
+[INFO ] 30-08-2023 21:33:16 [main] Log - Access Token: null
+[INFO ] 30-08-2023 21:33:19 [main] Log - Cloud ID: null
+[INFO ] 30-08-2023 21:33:19 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 21:33:19 [main] Log - [loginTest] is PASSED !
+[INFO ] 30-08-2023 21:33:19 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 21:33:19 [main] Log - Token is good to use
+[INFO ] 30-08-2023 21:33:19 [main] Log - Access Token: null
+[INFO ] 30-08-2023 21:33:20 [main] Log - Cloud ID: null
+[INFO ] 30-08-2023 21:33:20 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 21:33:20 [main] Log - [test2] is FAILED
+[INFO ] 30-08-2023 21:33:20 [main] Log - expected [false] but found [true]
+[INFO ] 30-08-2023 21:33:20 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 21:34:50 [main] Log - =================================================
+[INFO ] 30-08-2023 21:34:50 [main] Log - ====== START TEST AT [Wed Aug 30 21:34:49 ICT 2023]
+[INFO ] 30-08-2023 21:34:50 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 21:34:50 [main] Log - Token is good to use
+[INFO ] 30-08-2023 21:34:50 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI0MmNkM2RhZi1hOGI2LTQ2ZjItYTgwMC00ZjJlNTUzMjZiYWQiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkzNDAzOTI4LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5MzQwMzkyOCwiZXhwIjoxNjkzNDA3NTI4LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJzY29wZSI6InJlYWRvbmx5OmNvbnRlbnQuYXR0YWNobWVudDpjb25mbHVlbmNlIHJlYWQ6Y29uZmx1ZW5jZS1wcm9wcyByZWFkOmFjY291bnQgcmVhZDpzZXJ2aWNlbWFuYWdlbWVudC1pbnNpZ2h0LW9iamVjdHMgcmVhZDpjb25mbHVlbmNlLXVzZXIgbWFuYWdlOmppcmEtcHJvamVjdCByZWFkOmNvbmZsdWVuY2UtZ3JvdXBzIHdyaXRlOnNlcnZpY2VkZXNrLXJlcXVlc3Qgd3JpdGU6Y29uZmx1ZW5jZS1maWxlIHJlYWQ6Y29uZmx1ZW5jZS1jb250ZW50LmFsbCByZWFkOmNvbmZsdWVuY2UtY29udGVudC5zdW1tYXJ5IHdyaXRlOmNvbmZsdWVuY2Utc3BhY2UgcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IG1hbmFnZTpjb25mbHVlbmNlLWNvbmZpZ3VyYXRpb24gd3JpdGU6Y29uZmx1ZW5jZS1wcm9wcyByZWFkOmNvbmZsdWVuY2Utc3BhY2Uuc3VtbWFyeSBzZWFyY2g6Y29uZmx1ZW5jZSByZWFkOmppcmEtd29yayByZWFkOmNvbmZsdWVuY2UtY29udGVudC5wZXJtaXNzaW9uIG1hbmFnZTpqaXJhLWRhdGEtcHJvdmlkZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOm1lIHJlYWQ6amlyYS11c2VyIHdyaXRlOmNvbmZsdWVuY2UtY29udGVudCByZXBvcnQ6cGVyc29uYWwtZGF0YSB3cml0ZTpjb25mbHVlbmNlLWdyb3VwcyBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgd3JpdGU6amlyYS13b3JrIG1hbmFnZTpqaXJhLXdlYmhvb2siLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRJZCI6IjcxMjAyMDoxZTdmYmJhMy05OTVkLTQxMjktYjZjNi1jYTk3NWM4ZmRiMjMifQ.VEpLt289gb3JWJaZ5AcV-CpFZmWYfqg9EP06nkA10fbYcyJV41WnNpCqrmfYWKgB0uXncATFDxKiT9WcOrac1_DQ1KDf-es0jC706ED8d3FQ3hHvX-wYI-26ZDgU0TMExUYXUbOpIu4xQuRYpzMGfTOrcnT8nk1K6QQwo_6TzGNdVYOTDGc4SlWlfVscZNd429Lz8qC4MWlkeVl1euimwuZ6wE541x99XuFsCqj-ZVPwzWZW944ZPGX-QbcWpHGtNAJajFT6-470pPXP7k1bT0zagrxNpwU90_oHEN0saaXNT1Gie1l2cT69LmPZSvDQ-f97BJdEWZKaoFr-45--rg
+[INFO ] 30-08-2023 21:34:53 [main] Log - Cloud ID: b14d6e65-9b65-4526-badd-b7c1a2490d2d
+[INFO ] 30-08-2023 21:34:53 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 21:34:53 [main] Log - [loginTest] is PASSED !
+[INFO ] 30-08-2023 21:34:53 [main] Log - GETTING ACCESS TOKEN
+[INFO ] 30-08-2023 21:34:53 [main] Log - Token is good to use
+[INFO ] 30-08-2023 21:34:53 [main] Log - Access Token: eyJraWQiOiJmZTM2ZThkMzZjMTA2N2RjYTgyNTg5MmEiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI0MmNkM2RhZi1hOGI2LTQ2ZjItYTgwMC00ZjJlNTUzMjZiYWQiLCJzdWIiOiJTTDdJSWVJaGFTVWhCdmJlQTFlMTUwUzYxTTJ4cjluSEBjbGllbnRzIiwibmJmIjoxNjkzNDAzOTI4LCJpc3MiOiJodHRwczovL2F1dGguYXRsYXNzaWFuLmNvbSIsImlhdCI6MTY5MzQwMzkyOCwiZXhwIjoxNjkzNDA3NTI4LCJhdWQiOiJhcGkuYXRsYXNzaWFuLmNvbSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9vYXV0aENsaWVudElkIjoiU0w3SUllSWhhU1VoQnZiZUExZTE1MFM2MU0yeHI5bkgiLCJodHRwczovL2lkLmF0bGFzc2lhbi5jb20vcHJvY2Vzc1JlZ2lvbiI6InVzLWVhc3QtMSIsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS9zeXN0ZW1BY2NvdW50RW1haWwiOiIxMDc3YWI4OS1kYjc2LTRiZTctOWM0OS05MDRkZmYxYjMzYTVAY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9pZC5hdGxhc3NpYW4uY29tL2F0bF90b2tlbl90eXBlIjoiQUNDRVNTIiwiY2xpZW50X2lkIjoiYXBpLmF0bGFzc2lhbi5jb20iLCJodHRwczovL2F0bGFzc2lhbi5jb20vZmlyc3RQYXJ0eSI6ZmFsc2UsImh0dHBzOi8vYXRsYXNzaWFuLmNvbS8zbG8iOmZhbHNlLCJzY29wZSI6InJlYWRvbmx5OmNvbnRlbnQuYXR0YWNobWVudDpjb25mbHVlbmNlIHJlYWQ6Y29uZmx1ZW5jZS1wcm9wcyByZWFkOmFjY291bnQgcmVhZDpzZXJ2aWNlbWFuYWdlbWVudC1pbnNpZ2h0LW9iamVjdHMgcmVhZDpjb25mbHVlbmNlLXVzZXIgbWFuYWdlOmppcmEtcHJvamVjdCByZWFkOmNvbmZsdWVuY2UtZ3JvdXBzIHdyaXRlOnNlcnZpY2VkZXNrLXJlcXVlc3Qgd3JpdGU6Y29uZmx1ZW5jZS1maWxlIHJlYWQ6Y29uZmx1ZW5jZS1jb250ZW50LmFsbCByZWFkOmNvbmZsdWVuY2UtY29udGVudC5zdW1tYXJ5IHdyaXRlOmNvbmZsdWVuY2Utc3BhY2UgcmVhZDpzZXJ2aWNlZGVzay1yZXF1ZXN0IG1hbmFnZTpjb25mbHVlbmNlLWNvbmZpZ3VyYXRpb24gd3JpdGU6Y29uZmx1ZW5jZS1wcm9wcyByZWFkOmNvbmZsdWVuY2Utc3BhY2Uuc3VtbWFyeSBzZWFyY2g6Y29uZmx1ZW5jZSByZWFkOmppcmEtd29yayByZWFkOmNvbmZsdWVuY2UtY29udGVudC5wZXJtaXNzaW9uIG1hbmFnZTpqaXJhLWRhdGEtcHJvdmlkZXIgbWFuYWdlOmppcmEtY29uZmlndXJhdGlvbiByZWFkOm1lIHJlYWQ6amlyYS11c2VyIHdyaXRlOmNvbmZsdWVuY2UtY29udGVudCByZXBvcnQ6cGVyc29uYWwtZGF0YSB3cml0ZTpjb25mbHVlbmNlLWdyb3VwcyBtYW5hZ2U6c2VydmljZWRlc2stY3VzdG9tZXIgd3JpdGU6amlyYS13b3JrIG1hbmFnZTpqaXJhLXdlYmhvb2siLCJodHRwczovL2F0bGFzc2lhbi5jb20vc3lzdGVtQWNjb3VudEVtYWlsRG9tYWluIjoiY29ubmVjdC5hdGxhc3NpYW4uY29tIiwiaHR0cHM6Ly9hdGxhc3NpYW4uY29tL3N5c3RlbUFjY291bnRJZCI6IjcxMjAyMDoxZTdmYmJhMy05OTVkLTQxMjktYjZjNi1jYTk3NWM4ZmRiMjMifQ.VEpLt289gb3JWJaZ5AcV-CpFZmWYfqg9EP06nkA10fbYcyJV41WnNpCqrmfYWKgB0uXncATFDxKiT9WcOrac1_DQ1KDf-es0jC706ED8d3FQ3hHvX-wYI-26ZDgU0TMExUYXUbOpIu4xQuRYpzMGfTOrcnT8nk1K6QQwo_6TzGNdVYOTDGc4SlWlfVscZNd429Lz8qC4MWlkeVl1euimwuZ6wE541x99XuFsCqj-ZVPwzWZW944ZPGX-QbcWpHGtNAJajFT6-470pPXP7k1bT0zagrxNpwU90_oHEN0saaXNT1Gie1l2cT69LmPZSvDQ-f97BJdEWZKaoFr-45--rg
+[INFO ] 30-08-2023 21:34:54 [main] Log - Cloud ID: b14d6e65-9b65-4526-badd-b7c1a2490d2d
+[INFO ] 30-08-2023 21:34:54 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 21:34:54 [main] Log - [test2] is FAILED
+[INFO ] 30-08-2023 21:34:54 [main] Log - expected [false] but found [true]
+[INFO ] 30-08-2023 21:34:54 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 21:38:41 [main] Log - =================================================
+[INFO ] 30-08-2023 21:38:41 [main] Log - ====== START TEST AT [Wed Aug 30 21:38:41 ICT 2023]
+[INFO ] 30-08-2023 21:38:41 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 21:38:42 [main] Log - [loginTest] is PASSED !
+[INFO ] 30-08-2023 21:38:42 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 21:38:42 [main] Log - [test2] is FAILED
+[INFO ] 30-08-2023 21:38:42 [main] Log - expected [false] but found [true]
+[INFO ] 30-08-2023 21:38:42 [main] Log - Completed test case [RESULT]: Regression 1

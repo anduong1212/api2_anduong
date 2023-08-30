@@ -9,8 +9,10 @@
     <classes>
       <class name="Test1">
         <methods>
+          <include name="setUp"/>
           <include name="test2"/>
           <include name="loginTest"/>
+          <include name="configure"/>
         </methods>
       </class> <!-- Test1 -->
     </classes>
