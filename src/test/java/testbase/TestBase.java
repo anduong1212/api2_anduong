@@ -7,7 +7,7 @@ public class TestBase {
 
     @BeforeMethod
     public void setUp(){
-//        TokenManager.getAccessToken();
+        TokenManager.getAccessToken();
         TokenManager.getCloudID();
     }
 }

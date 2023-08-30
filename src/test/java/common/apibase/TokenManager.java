@@ -27,13 +27,13 @@ public class TokenManager{
         // The payload definition using the Jackson library
         JsonNodeFactory jsonNodeFactory = JsonNodeFactory.instance;
         ObjectNode payload = jsonNodeFactory.objectNode();
-        {
-            payload.put("grant_type", "authorization_code");
-            payload.put("client_id", Constants.CLIENT_ID);
-            payload.put("client_secret", Constants.CLIENT_SECRET);
-            payload.put("redirect_uri", Constants.API_URL);
-            payload.put("scope", "read:jira-work manage:jira-project manage:jira-configuration read:jira-user write:jira-work manage:jira-webhook manage:jira-provider");
-        }
+
+        payload.put("grant_type", "client_credentials");
+        payload.put("client_id", Constants.CLIENT_ID);
+        payload.put("client_secret", Constants.CLIENT_SECRET);
+//        payload.put("code", Constants.AUTHORIZATION_CODE);
+        payload.put("scope", "read:jira-work manage:jira-project manage:jira-configuration read:jira-user write:jira-work manage:jira-webhook manage:jira-provider");
+        payload.put("redirect_uri", Constants.API_URL);
 
         JacksonObjectUtils.connectJacksonObjectMapperToUnirest();
 
@@ -61,12 +61,14 @@ public class TokenManager{
                 Constants.AUTH_RESPONSE = access_token_response_body.toString();
 
                 Constants.ACCESS_TOKEN = access_token_response_body.getString("access_token");
-//                Constants.AUTHORIZATION = String.format("Bearer %s", Constants.ACCESS_TOKEN);
+                Constants.AUTHORIZATION = String.format("Bearer %s", Constants.ACCESS_TOKEN);
                 Constants.EXPIRED_TIME = Instant.now().plusSeconds((long) (access_token_response_body.getInt("expires_in")) - 300);
 
             }
         } catch (Exception exception){
             Log.error(exception.getMessage());
+            Log.info("Access Token Response: " + Constants.AUTH_RESPONSE);
+
             throw new RuntimeException("[ACCESS TOKEN] - FAILED to get TOKEN");
         }
     }
@@ -74,7 +76,7 @@ public class TokenManager{
     public static void extractCloudIDResponse(){
         try {
             if(Constants.CLOUD_ID == null){
-                JSONObject cloud_id_response_body = new JSONObject(((
+                JSONArray cloud_id_response_body = new JSONArray(((
                         (RestAssured.given(SpecBuilder.getAuthRequestSpec(Constants.CLOUD_ID_URI))
                                 .header("Authorization", Constants.AUTHORIZATION)
                                 .when()
@@ -85,15 +87,11 @@ public class TokenManager{
                         .getBody()
                         .asString());
 
-                Log.info("cloud_ID" + cloud_id_response_body);
-
                 Constants.CLOUD_ID_RESPONSE = cloud_id_response_body.toString();
-
-                Constants.CLOUD_ID = ((JSONObject) cloud_id_response_body).getString("id");
+                Constants.CLOUD_ID = ((JSONObject)cloud_id_response_body.get(0)).getString("id");
             }
         } catch (Exception exception){
             Log.error(exception.getMessage());
-
             Log.info("Cloud Response: " + Constants.CLOUD_ID_RESPONSE);
 
             throw new RuntimeException("[CLOUD ID] - Failed to get Cloud ID");
