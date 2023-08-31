@@ -28,7 +28,7 @@ public class TokenManager{
     private static final String CLOUD_ID = PropertiesManager.getDefaultPropValue("cloud_id");
     private static final String API_SCOPE = PropertiesManager.getDefaultPropValue("scope");
     private static final String ACCESS_TOKEN = PropertiesManager.getDefaultPropValue("access_token");
-    private static final Instant EXPIRED_TIME = DateTimeUtils.convertDateTime(PropertiesManager.getDefaultPropValue("expired_time"),"yyyy-MM-dd'T'HH:mm:ssXXX");
+    private static final Instant EXPIRED_TIME = DateTimeUtils.convertDateTime(PropertiesManager.getDefaultPropValue("expired_time"));
 
     //Create a payload for direct the user to the authorization URL to get an authorization code
     private static Object oauth2Payload(){

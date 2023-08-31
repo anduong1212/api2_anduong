@@ -101,7 +101,6 @@ public class ExtentReportManager {
         getTest().createNode("<b style =\"color:Blue\">JSON STEP </b>" + nodeName).info(MarkupHelper.createCodeBlock(description,CodeLanguage.JSON));
     }
 
-
     public static Markup createMarkup(String message, ExtentColor color){
         Markup markup = MarkupHelper.createLabel(message,color);
         return markup;

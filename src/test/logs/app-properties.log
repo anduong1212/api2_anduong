@@ -1280,6 +1280,19 @@
 [INFO ] 30-08-2023 16:06:13 [main] Log - [test2] is FAILED
 [INFO ] 30-08-2023 16:06:13 [main] Log - expected [false] but found [true]
 [INFO ] 30-08-2023 16:06:13 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 30-08-2023 17:34:09 [main] Log - =================================================
+[INFO ] 30-08-2023 17:34:09 [main] Log - ====== START TEST AT [Wed Aug 30 17:34:09 ICT 2023]
+[INFO ] 30-08-2023 17:34:09 [main] Log - GETTING ACCESS TOKEN
+[ERROR] 30-08-2023 17:34:10 [main] Log - [Properties] Unable to get Properties value
+[INFO ] 30-08-2023 17:34:10 [main] Log - Access Token Response: null
+[INFO ] 30-08-2023 17:34:10 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 30-08-2023 17:34:10 [main] Log - [loginTest] is SKIPPED
+[INFO ] 30-08-2023 17:34:10 [main] Log - [ACCESS TOKEN] - FAILED to get TOKEN
+[INFO ] 30-08-2023 17:34:10 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 30-08-2023 17:34:10 [main] Log - [test2] is SKIPPED
+[INFO ] 30-08-2023 17:34:10 [main] Log - Method Test1.test2() on instance Test1@7bedc48a depends on not successfully finished methods 
+[Test1.loginTest() on instance Test1@7bedc48a]
+[INFO ] 30-08-2023 17:34:10 [main] Log - Completed test case [RESULT]: Regression 1
 [INFO ] 30-08-2023 19:51:36 [main] Log - =================================================
 [INFO ] 30-08-2023 19:51:36 [main] Log - ====== START TEST AT [Wed Aug 30 19:51:35 ICT 2023]
 [INFO ] 30-08-2023 19:51:36 [main] Log - GETTING ACCESS TOKEN
@@ -1567,3 +1580,19 @@
 [INFO ] 30-08-2023 21:38:42 [main] Log - [test2] is FAILED
 [INFO ] 30-08-2023 21:38:42 [main] Log - expected [false] but found [true]
 [INFO ] 30-08-2023 21:38:42 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 31-08-2023 10:42:12 [main] Log - =================================================
+[INFO ] 31-08-2023 10:42:12 [main] Log - ====== START TEST AT [Thu Aug 31 10:42:11 ICT 2023]
+[INFO ] 31-08-2023 10:42:12 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 31-08-2023 10:42:12 [main] Log - [loginTest] is PASSED !
+[INFO ] 31-08-2023 10:42:12 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 31-08-2023 10:42:12 [main] Log - [test2] is FAILED
+[INFO ] 31-08-2023 10:42:12 [main] Log - expected [false] but found [true]
+[INFO ] 31-08-2023 10:42:13 [main] Log - Completed test case [RESULT]: Regression 1
+[INFO ] 31-08-2023 14:59:24 [main] Log - =================================================
+[INFO ] 31-08-2023 14:59:24 [main] Log - ====== START TEST AT [Thu Aug 31 14:59:23 ICT 2023]
+[INFO ] 31-08-2023 14:59:24 [main] Log - [RUNNING THE TEST: loginTest]
+[INFO ] 31-08-2023 14:59:24 [main] Log - [loginTest] is PASSED !
+[INFO ] 31-08-2023 14:59:24 [main] Log - [RUNNING THE TEST: test2]
+[INFO ] 31-08-2023 14:59:24 [main] Log - [test2] is FAILED
+[INFO ] 31-08-2023 14:59:24 [main] Log - expected [false] but found [true]
+[INFO ] 31-08-2023 14:59:24 [main] Log - Completed test case [RESULT]: Regression 1

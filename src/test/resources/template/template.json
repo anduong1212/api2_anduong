@@ -1,0 +1,8 @@
+{
+  "newIssue" : {
+    "summary" : "[JIRA - RESTAPI] - %s",
+    "type": "Task",
+    "projectKey": "ADAPI",
+    "description": "This is issue is created by An Duong at %s"
+  }
+}
