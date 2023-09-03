@@ -1,12 +1,23 @@
 package utilities;
 
 import com.google.gson.JsonObject;
+import common.propmanager.PropertiesManager;
 import constant.Constants;
 import controller.jiraapi.issueenum.IssueType;
 
 public class JsonHelper {
     public static JsonObject getJsonTemplateObject(){
-        return JsonUtils.getJsonObjects(Constants.TEMPLATE_DIRECTORY);
+        String environment = PropertiesManager.getCustomPropValue("environment");
+        JsonObject object = null;
+        switch (environment){
+            case "Default" :
+                object = JsonUtils.getJsonObjects(Constants.TEMPLATE_DIRECTORY);
+                break;
+            case "QA":
+                object = JsonUtils.getJsonObjects(Constants.QA_TEMPLATE_DIRECTORY);
+        }
+
+        return object;
     }
 
     public static String getFieldFromTemplate(String templateName, String field){

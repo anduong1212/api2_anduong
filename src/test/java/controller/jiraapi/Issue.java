@@ -30,6 +30,10 @@ public class Issue {
         return String.format(Constants.ISSUE_ENDPOINT, issueIdOrKey);
     }
 
+    private String setSearchEndPoint(String project_key){
+        return String.format(Constants.SEARCH_ENDPOINT, project_key);
+    }
+
     public Object payloadCreateIssue(){
         JsonNodeFactory jsonNodeFactory = JsonNodeFactory.instance;
         ObjectNode createIssuePayload = jsonNodeFactory.objectNode();
@@ -83,6 +87,13 @@ public class Issue {
         Log.info("[CREATING AN ISSUE] - using these endpoint: " + issueEndPoint);
 
         return SpecBuilder.post(issueEndPoint, PropertiesManager.getDefaultPropValue("access_token"), payloadCreateIssue());
+    }
+
+    public synchronized Response getAllIssuesFromProject(){
+        String searchEndPoint = setSearchEndPoint("ADAPI");
+        Log.info("[GETTING ALL ISSUE] - using these endpoint: " + searchEndPoint);
+
+        return SpecBuilder.get(searchEndPoint, PropertiesManager.getDefaultPropValue("access_token"));
     }
 
 }
