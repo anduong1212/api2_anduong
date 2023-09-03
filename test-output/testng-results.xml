@@ -1,76 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-30T21:38:41 ICT" name="API 2_Jira RestAPI" finished-at="2023-08-30T21:38:42 ICT" duration-ms="1189">
+  <suite started-at="2023-09-03T11:13:02 ICT" name="API 2_Jira RestAPI" finished-at="2023-09-03T11:13:08 ICT" duration-ms="5468">
     <groups>
     </groups>
-    <test started-at="2023-08-30T21:38:41 ICT" name="Regression 1" finished-at="2023-08-30T21:38:42 ICT" duration-ms="1189">
+    <test started-at="2023-09-03T11:13:02 ICT" name="Regression 1" finished-at="2023-09-03T11:13:08 ICT" duration-ms="5468">
       <class name="Test1">
-        <test-method is-config="true" signature="configure()[pri:0, instance:Test1@3943a2be]" started-at="2023-08-30T21:38:41 ICT" name="configure" finished-at="2023-08-30T21:38:41 ICT" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="configure()[pri:0, instance:Test1@7748410a]" started-at="2023-09-03T11:13:03 ICT" name="configure" finished-at="2023-09-03T11:13:03 ICT" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configure -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Test1@3943a2be]" started-at="2023-08-30T21:38:41 ICT" name="setUp" finished-at="2023-08-30T21:38:41 ICT" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test1@7748410a]" started-at="2023-09-03T11:13:03 ICT" name="setUp" finished-at="2023-09-03T11:13:06 ICT" duration-ms="2576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:1, instance:Test1@3943a2be]" started-at="2023-08-30T21:38:41 ICT" name="loginTest" description="description for test 1" finished-at="2023-08-30T21:38:42 ICT" duration-ms="470" status="PASS">
+        <test-method signature="loginTest()[pri:1, instance:Test1@7748410a]" started-at="2023-09-03T11:13:06 ICT" name="loginTest" description="description for test 1" finished-at="2023-09-03T11:13:08 ICT" duration-ms="2163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Test1@3943a2be]" started-at="2023-08-30T21:38:42 ICT" name="setUp" finished-at="2023-08-30T21:38:42 ICT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test2()[pri:1, instance:Test1@3943a2be]" started-at="2023-08-30T21:38:42 ICT" name="test2" description="description for test 2" finished-at="2023-08-30T21:38:42 ICT" depends-on-methods="Test1.loginTest" duration-ms="22" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1066)
-at org.testng.Assert.assertEquals(Assert.java:1030)
-at org.testng.Assert.assertEquals(Assert.java:1076)
-at Test1.test2(Test1.java:17)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
       </class> <!-- Test1 -->
     </test> <!-- Regression 1 -->
   </suite> <!-- API 2_Jira RestAPI -->

@@ -1,23 +1,33 @@
 package controller.jiraapi.dataobjects;
 
+import controller.jiraapi.issueenum.IssueType;
 import utilities.DateTimeUtils;
-import utilities.JsonFormatter;
+import utilities.JsonHelper;
 
 public enum NewIssue {
-    NEW_ISSUE(String.format(JsonFormatter.getFieldFromTemplate("newIssue", "summary"), DateTimeUtils.getCurrentDateTime())
-            ,JsonFormatter.getFieldFromTemplate("newIssue", "type")
-            ,JsonFormatter.getFieldFromTemplate("newIssue", "projectKey")
-            ,String.format(JsonFormatter.getFieldFromTemplate("newIssue", "description"), DateTimeUtils.getCurrentDate()));
+    NEW_ISSUE(JsonHelper.formatJsonValue("newIssue", "summary", DateTimeUtils.getCurrentDate())
+            , IssueType.getIssueTypeFromJson("newIssue")
+            , JsonHelper.getFieldFromTemplate("newIssue", "projectKey")
+            , JsonHelper.formatJsonValue("newIssue", "description", DateTimeUtils.getCurrentDate())
+    , JsonHelper.getFieldFromTemplate("newIssue","issueIdOrKey")),
+
+    NEW_ISSUE_WITHOUT_SUMMARY(null,
+              JsonHelper.getFieldFromTemplate("newIssue", "type")
+            , IssueType.getIssueTypeFromJson("newIssue")
+            , JsonHelper.formatJsonValue("newIssue", "description", DateTimeUtils.getCurrentDate())
+            , JsonHelper.getFieldFromTemplate("newIssue","issueIdOrKey"));
     private final String issueSummary;
     private final String issueType;
     private final String projectKey;
     private final String description;
+    private String issueIdOrKey = "";
 
-    private NewIssue(String issueSummary, String issueType, String projectKey, String description) {
+    private NewIssue(String issueSummary, String issueType, String projectKey, String description, String issueIdOrKey) {
         this.issueSummary = issueSummary;
         this.issueType = issueType;
         this.projectKey = projectKey;
         this.description = description;
+        this.issueIdOrKey = issueIdOrKey;
     }
 
     public String getIssueSummary() {
@@ -35,4 +45,6 @@ public enum NewIssue {
     public String getDescription() {
         return description;
     }
+
+    public String getIssueIdOrKey(){ return  issueIdOrKey; }
 }

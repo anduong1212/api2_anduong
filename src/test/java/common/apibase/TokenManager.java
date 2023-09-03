@@ -36,11 +36,9 @@ public class TokenManager{
         // The payload definition using the Jackson library
         JsonNodeFactory jsonNodeFactory = JsonNodeFactory.instance;
         ObjectNode payload = jsonNodeFactory.objectNode();
-
         payload.put("grant_type", "client_credentials");
         payload.put("client_id", CLIENT_ID);
         payload.put("client_secret", CLIENT_SECRET);
-//        payload.put("code", Constants.AUTHORIZATION_CODE);
         payload.put("scope", API_SCOPE);
         payload.put("redirect_uri", Constants.API_URL);
 
@@ -73,6 +71,8 @@ public class TokenManager{
                 PropertiesManager.setDefaultPropValue("authorization", "Bearer " + access_token_response_body.getString("access_token"));
                 PropertiesManager.setDefaultPropValue("expired_time", String.valueOf(Instant.now().plusSeconds((long) (access_token_response_body.getInt("expires_in")) - 300)));
 
+                Log.info("[GET ACCESS TOKEN] A new token has been fetched !");
+
             }
         } catch (Exception exception){
             Log.error(exception.getMessage());
@@ -82,7 +82,7 @@ public class TokenManager{
 
     public static void extractCloudIDResponse(){
         try {
-            if(CLOUD_ID == null){
+
                 JSONArray cloud_id_response_body = new JSONArray(((
                         (RestAssured.given(SpecBuilder.getAuthRequestSpec(Constants.CLOUD_ID_URI))
                                 .header(RequestHeaders.AUTHORIZATION.toString(), PropertiesManager.getDefaultPropValue("authorization"))
@@ -96,7 +96,7 @@ public class TokenManager{
 
                 Constants.CLOUD_ID_RESPONSE = cloud_id_response_body.toString();
                 PropertiesManager.setDefaultPropValue("cloud_id", ((JSONObject)cloud_id_response_body.get(0)).getString("id"));
-            }
+
         } catch (Exception exception){
             Log.error(exception.getMessage());
             throw new RuntimeException("[CLOUD ID] - Failed to get Cloud ID");
@@ -104,16 +104,12 @@ public class TokenManager{
     }
 
     public static void getAccessToken(){
-        if (ACCESS_TOKEN == null){
             extractAccessTokenResponse();
             Log.info("Access Token: " + PropertiesManager.getDefaultPropValue("access_token"));
-        }
     }
 
     public static void getCloudID(){
-        if(CLOUD_ID == null){
             extractCloudIDResponse();
             Log.info("Cloud ID: " + PropertiesManager.getDefaultPropValue("cloud_id"));
-        }
     }
 }
