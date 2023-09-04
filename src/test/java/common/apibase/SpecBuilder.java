@@ -63,5 +63,18 @@ public class SpecBuilder {
                 .spec(getResponseBodySpec()).extract().response();
     }
 
+    public static Response delete(String path, String token){
+        return (((RestAssured.given(getRequestSpec())
+                .accept(ContentType.JSON)
+                .contentType(ContentType.JSON)
+                .auth()
+                .oauth2(token)
+                .when()
+                .delete(path))
+                .then())
+                .spec(getResponseStatusSpec()))
+                .spec(getResponseBodySpec()).extract().response();
+    }
+
 
 }

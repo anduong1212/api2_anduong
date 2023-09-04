@@ -89,6 +89,13 @@ public class Issue {
         return SpecBuilder.post(issueEndPoint, PropertiesManager.getDefaultPropValue("access_token"), payloadCreateIssue());
     }
 
+    public synchronized Response deleteIssue(String issueIdOrKey) {
+        String issueEndPoint = setIssueEndPoint(issueIdOrKey);
+        Log.info("[DELETING AN ISSUE] - using these endpoint: " + issueEndPoint);
+
+        return SpecBuilder.delete(issueEndPoint, PropertiesManager.getDefaultPropValue("access_token"));
+    }
+
     public synchronized Response getAllIssuesFromProject(){
         String searchEndPoint = setSearchEndPoint("ADAPI");
         Log.info("[GETTING ALL ISSUE] - using these endpoint: " + searchEndPoint);

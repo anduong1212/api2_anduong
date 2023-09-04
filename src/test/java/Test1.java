@@ -18,6 +18,8 @@ import utilities.ResponseUtils;
 
 import java.io.Reader;
 import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 public class Test1 extends TestBase {
     Issue issueController = new Issue(NewIssue.NEW_ISSUE);
@@ -27,7 +29,6 @@ public class Test1 extends TestBase {
         ExtentReportManager.stepNode("GET ALL ISSUE", "ADAPI");
         Response getAllIssues = issueController.getAllIssuesFromProject();
         ExtentReportManager.stepJsonNode("Step 2: Verify response", getAllIssues.getBody().asString());
-
 
     }
 

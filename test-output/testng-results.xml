@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-03T21:33:10 ICT" name="API 2_Jira RestAPI" finished-at="2023-09-03T21:33:16 ICT" duration-ms="6168">
+  <suite started-at="2023-09-04T08:14:31 ICT" name="API 2_Jira RestAPI" finished-at="2023-09-04T08:14:56 ICT" duration-ms="24947">
     <groups>
     </groups>
-    <test started-at="2023-09-03T21:33:10 ICT" name="Regression 1" finished-at="2023-09-03T21:33:16 ICT" duration-ms="6168">
+    <test started-at="2023-09-04T08:14:31 ICT" name="Regression 1" finished-at="2023-09-04T08:14:56 ICT" duration-ms="24947">
       <class name="Test1">
-        <test-method is-config="true" signature="configure(java.lang.String)[pri:0, instance:Test1@659499f1]" started-at="2023-09-03T21:33:10 ICT" name="configure" finished-at="2023-09-03T21:33:10 ICT" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="configure(java.lang.String)[pri:0, instance:Test1@71a8adcf]" started-at="2023-09-04T08:14:32 ICT" name="configure" finished-at="2023-09-04T08:14:32 ICT" duration-ms="30" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,63 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configure -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Test1@659499f1]" started-at="2023-09-03T21:33:10 ICT" name="setUp" finished-at="2023-09-03T21:33:13 ICT" duration-ms="2832" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test1@71a8adcf]" started-at="2023-09-04T08:14:32 ICT" name="setUp" finished-at="2023-09-04T08:14:35 ICT" duration-ms="3004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:1, instance:Test1@659499f1]" started-at="2023-09-03T21:33:13 ICT" name="loginTest" description="description for test 1" finished-at="2023-09-03T21:33:16 ICT" duration-ms="2614" status="FAIL">
-          <exception class="com.google.gson.JsonSyntaxException">
-            <message>
-              <![CDATA[com.google.gson.stream.MalformedJsonException: Expected ':' at line 1 column 46 path $[0].versionedRepresentations]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 1 column 46 path $[0].versionedRepresentations
-at com.google.gson.Gson.fromJson(Gson.java:942)
-at com.google.gson.Gson.fromJson(Gson.java:892)
-at com.google.gson.Gson.fromJson(Gson.java:841)
-at com.google.gson.Gson.fromJson(Gson.java:813)
-at Test1.loginTest(Test1.java:33)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 1 column 46 path $[0].versionedRepresentations
-at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1568)
-at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:530)
-at com.google.gson.stream.JsonReader.peek(JsonReader.java:425)
-at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:700)
-at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:723)
-at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:715)
-at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:698)
-at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:894)
-at com.google.gson.Gson.fromJson(Gson.java:927)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- com.google.gson.JsonSyntaxException -->
+        <test-method signature="loginTest()[pri:1, instance:Test1@71a8adcf]" started-at="2023-09-04T08:14:35 ICT" name="loginTest" description="description for test 1" finished-at="2023-09-04T08:14:56 ICT" duration-ms="21258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
