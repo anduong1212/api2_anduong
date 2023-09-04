@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Test1 extends TestBase {
-    Issue issueController = new Issue(NewIssue.NEW_ISSUE);
+    Issue issueController = new Issue();
     SoftAssert softAssert = new SoftAssert();
     @Test(testName = "C0001", priority = 1, description = "description for test 1")
     public void loginTest(){

@@ -19,6 +19,11 @@ public class ResponseUtils {
         return response.getBody().jsonPath().getString(key);
     }
 
+    public static boolean isValueIsNullOrEmpty(Response response, String key){
+        String value = getValueFromBody(response, key);
+        return value.isEmpty() || value == null;
+    }
+
     public static void archiveValueToProp(Response response,String storingKey){
         String value = response.getBody().jsonPath().getString(storingKey);
         PropertiesManager.setConfigPropValue(storingKey, value);
@@ -30,4 +35,5 @@ public class ResponseUtils {
 
         return (List<Map<String, Object>>) responseAsObject.get(fields);
     }
+
 }

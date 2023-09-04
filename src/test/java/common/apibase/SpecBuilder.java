@@ -50,6 +50,20 @@ public class SpecBuilder {
                 .spec(getResponseBodySpec()).extract().response();
     }
 
+    public static Response put(String path, String token, Object object){
+        return (((RestAssured.given(getRequestSpec())
+                .accept(ContentType.JSON)
+                .contentType(ContentType.JSON)
+                .body(object)
+                .auth()
+                .oauth2(token)
+                .when()
+                .put(path))
+                .then())
+                .spec(getResponseStatusSpec()))
+                .spec(getResponseBodySpec()).extract().response();
+    }
+
     public static Response get(String path, String token){
         return (((RestAssured.given(getRequestSpec())
                 .accept(ContentType.JSON)

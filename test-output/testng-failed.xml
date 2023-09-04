@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" name="Regression 1(failed)">
     <classes>
-      <class name="Test1">
+      <class name="testcases.jiraapi.assignuser.AP004">
         <methods>
           <include name="setUp"/>
-          <include name="loginTest"/>
+          <include name="AP004"/>
           <include name="configure"/>
         </methods>
-      </class> <!-- Test1 -->
+      </class> <!-- testcases.jiraapi.assignuser.AP004 -->
     </classes>
   </test> <!-- Regression 1(failed) -->
 </suite> <!-- Failed suite [API 2_Jira RestAPI] -->

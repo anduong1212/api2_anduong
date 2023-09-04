@@ -5,5 +5,8 @@
     "projectKey": "ADAPI",
     "description": "This is issue is created by An Duong at %s",
     "issueIdOrKey": ""
+  },
+  "assignee": {
+    "accountId" : "712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23"
   }
 }

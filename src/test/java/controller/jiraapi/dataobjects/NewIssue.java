@@ -5,7 +5,7 @@ import utilities.DateTimeUtils;
 import utilities.JsonHelper;
 
 public enum NewIssue {
-    NEW_ISSUE(JsonHelper.formatJsonValue("newIssue", "summary", DateTimeUtils.getCurrentDate())
+    NEW_ISSUE(JsonHelper.formatJsonValue("newIssue", "summary", DateTimeUtils.getCurrentDateTime())
             , IssueType.getIssueTypeFromJson("newIssue")
             , JsonHelper.getFieldFromTemplate("newIssue", "projectKey")
             , JsonHelper.formatJsonValue("newIssue", "description", DateTimeUtils.getCurrentDate())

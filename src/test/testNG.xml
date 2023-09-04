@@ -7,7 +7,7 @@
     <parameter name="Environment" value="QA"></parameter>
     <test name="Regression 1">
         <classes>
-            <class name="Test1"/>
+            <class name="testcases.jiraapi.assignuser.AP004"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

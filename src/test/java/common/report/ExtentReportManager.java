@@ -81,8 +81,8 @@ public class ExtentReportManager {
         getTest().warning(throwable);
     }
 
-    public static void logJson(String jsonContext){
-        getTest().info(MarkupHelper.createCodeBlock(jsonContext, CodeLanguage.JSON));
+    public static void logVerifyStep(String message){
+        getTest().info(createMarkup(message, ExtentColor.LIME));
     }
 
     public static void logHeaders(List<Header> headerList){
@@ -91,6 +91,7 @@ public class ExtentReportManager {
         getTest().info(MarkupHelper.createTable(headerArray));
     }
 
+    //Still not able to change its status when reporting a failed step -> need improve
     public static void stepNode(String nodeName, String nodeDesc){
         logMessage(Status.INFO, nodeName);
         getTest().createNode("<b style =\"color:Orange\">STEP </b>" + nodeName).info(createMarkup(nodeDesc, ExtentColor.PINK));

@@ -2,6 +2,7 @@ package testbase;
 
 import common.apibase.TokenManager;
 import common.propmanager.PropertiesManager;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -17,7 +18,7 @@ public class TestBase {
         PropertiesManager.setConfigPropValue("environment", environment);
     }
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp(){
         TokenManager.getAccessToken();
         TokenManager.getCloudID();
