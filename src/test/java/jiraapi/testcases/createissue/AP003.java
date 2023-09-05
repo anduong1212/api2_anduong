@@ -1,10 +1,10 @@
-package testcases.jiraapi.createissue;
+package jiraapi.testcases.createissue;
 
 import com.aventstack.extentreports.Status;
 import common.apibase.StatusCode;
 import common.report.ExtentReportManager;
-import controller.jiraapi.Issue;
-import controller.jiraapi.dataobjects.NewIssue;
+import jiraapi.controller.issue.Issue;
+import jiraapi.controller.issue.dataobjects.NewIssue;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;

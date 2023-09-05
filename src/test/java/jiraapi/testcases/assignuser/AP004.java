@@ -1,15 +1,14 @@
-package testcases.jiraapi.assignuser;
+package jiraapi.testcases.assignuser;
 
 import com.aventstack.extentreports.Status;
 import common.apibase.StatusCode;
 import common.report.ExtentReportManager;
-import controller.jiraapi.Issue;
-import controller.jiraapi.dataobjects.Assignee;
-import controller.jiraapi.dataobjects.NewIssue;
+import jiraapi.controller.issue.Issue;
+import jiraapi.controller.issue.dataobjects.Assignee;
+import jiraapi.controller.issue.dataobjects.NewIssue;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import testbase.TestBase;
 import utilities.ResponseUtils;
 
@@ -18,7 +17,7 @@ public class AP004 extends TestBase {
 
     String newIssueID = "";
 
-    @Test(testName = "AP004", description = "Verify that an successfull response is given when user assign an user to specific ticket")
+    @Test(testName = "AP004", description = "Verify that an successful response is given when user assign an user to specific ticket")
     public void AP004(){
         ExtentReportManager.logMessage(Status.INFO, "[PRE-CONDITION]: Create new issue with valid fields");
         Response newIssueResponse = assignIssueMethods.createIssue(NewIssue.NEW_ISSUE);

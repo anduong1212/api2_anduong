@@ -3,7 +3,6 @@ package utilities;
 import com.google.gson.JsonObject;
 import common.propmanager.PropertiesManager;
 import constant.Constants;
-import controller.jiraapi.issueenum.IssueType;
 
 public class JsonHelper {
     public static JsonObject getJsonTemplateObject(){

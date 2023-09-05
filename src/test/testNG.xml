@@ -4,10 +4,15 @@
     <listeners>
         <listener class-name="common.listener.TestListener"></listener>
     </listeners>
-    <parameter name="Environment" value="QA"></parameter>
+    <parameter name="Environment" value="Default"></parameter>
     <test name="Regression 1">
         <classes>
-            <class name="testcases.jiraapi.assignuser.AP004"/>
+            <class name="jiraapi.testcases.getissue.API001"></class>
+            <class name="jiraapi.testcases.getissue.API002"></class>
+            <class name="jiraapi.testcases.createissue.AP003"></class>
+            <class name="jiraapi.testcases.assignuser.AP004"></class>
+            <class name="jiraapi.testcases.deleteissue.API005"/>
+            <class name="jiraapi.testcases.deleteissue.API006"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

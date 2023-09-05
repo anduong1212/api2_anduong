@@ -1,6 +1,6 @@
-package controller.jiraapi.dataobjects;
+package jiraapi.controller.issue.dataobjects;
 
-import controller.jiraapi.issueenum.IssueType;
+import jiraapi.controller.issue.dataobjects.issueenum.IssueType;
 import utilities.DateTimeUtils;
 import utilities.JsonHelper;
 

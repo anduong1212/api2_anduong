@@ -1,4 +1,4 @@
-package controller.jiraapi.issueenum;
+package jiraapi.controller.issue.dataobjects.issueenum;
 
 import utilities.JsonHelper;
 

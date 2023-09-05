@@ -1,4 +1,4 @@
-package controller.jiraapi;
+package jiraapi.controller.issue;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.JsonNodeFactory;
@@ -7,10 +7,9 @@ import common.apibase.SpecBuilder;
 import common.logger.Log;
 import common.propmanager.PropertiesManager;
 import constant.Constants;
-import controller.jiraapi.dataobjects.Assignee;
-import controller.jiraapi.dataobjects.NewIssue;
+import jiraapi.controller.issue.dataobjects.Assignee;
+import jiraapi.controller.issue.dataobjects.NewIssue;
 import io.restassured.response.Response;
-import utilities.JacksonObjectUtils;
 
 public class Issue {
 

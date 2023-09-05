@@ -1,6 +1,5 @@
-package controller.jiraapi.dataobjects;
+package jiraapi.controller.issue.dataobjects;
 
-import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 
 import java.util.Map;

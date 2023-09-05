@@ -1,9 +1,9 @@
-package controller.jiraapi.dataobjects;
+package jiraapi.controller.issue.dataobjects;
 
 import utilities.JsonHelper;
 
 public enum Assignee {
-    ASSIGNEE("712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23");
+    ASSIGNEE(JsonHelper.getFieldFromTemplate("assignee", "accountId"));
 
     private final String accountId;
 
