@@ -24,13 +24,12 @@ public class ResponseUtils {
         return value.isEmpty() || value == null;
     }
 
-    public static void archiveValueToProp(Response response,String storingKey){
-        String value = response.getBody().jsonPath().getString(storingKey);
-        PropertiesManager.setConfigPropValue(storingKey, value);
-    }
+//    public static void archiveValueToProp(Response response,String storingKey){
+//        String value = response.getBody().jsonPath().getString(storingKey);
+//        PropertiesManager.setConfigPropValue(storingKey, value);
+//    }
 
     public static List<Map<String, Object>> getResponseAsList(ResponseBody response, String fields){
-        ArrayList<Object> needDeletedIssue = null;
         Map<String, Object> responseAsObject = (Map<String, Object>) response.as(Object.class);
 
         return (List<Map<String, Object>>) responseAsObject.get(fields);

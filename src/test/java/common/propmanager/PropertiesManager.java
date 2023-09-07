@@ -1,124 +1,74 @@
 package common.propmanager;
 
-import common.logger.Log;
 import utilities.DateTimeUtils;
 import utilities.StringUtils;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.LinkedList;
 import java.util.Properties;
+import java.util.concurrent.LinkedBlockingDeque;
 
 public class PropertiesManager {
-    private static Properties properties;
-    private static String linkFile;
-    private static FileInputStream fileIn;
-    private static FileOutputStream fileOut;
-    private static String defaultProperFilePath = "src/test/resources/token_storage.properties";
-    private static String configProperFilePath = "src/test/resources/config.properties";
+   private static Properties defaultProperties;
+   private static String linkFile;
+   private static FileInputStream defaultFileInputStream;
+   private static FileOutputStream defaultFileOutputStream;
+   private static String defaultPropertiesFile = "src/test/resources/token_storage.properties";
 
-    public static Properties loadAllPropFiles(){
-        LinkedList<String> filesName = new LinkedList<>();
+   public static Properties loadAllPropFiles(){
+       LinkedBlockingDeque<String> allPropertiesFiles = new LinkedBlockingDeque<>();
+        allPropertiesFiles.add(defaultPropertiesFile);
 
-        filesName.add("src/test/resources/token_storage.properties");
-        filesName.add("src/test/resources/config.properties");
         try{
-            properties = new Properties();
-            for (String f : filesName){
-                Properties tempProp = new Properties();
-                linkFile = StringUtils.getCurrentDir() + f;
-                fileIn = new FileInputStream(linkFile);
-                tempProp.load(fileIn);
-                properties.putAll(tempProp);
+            defaultProperties = new Properties();
+
+            for (String file : allPropertiesFiles){
+                Properties tempProperties = new Properties();
+                defaultFileInputStream = new FileInputStream(StringUtils.getCurrentDir() + file);
+                tempProperties.load(defaultFileInputStream);
+                defaultProperties.putAll(tempProperties);
             }
-            return properties;
+            return defaultProperties;
         } catch (IOException e){
-            Log.error(e.getMessage());
             return new Properties();
         }
-    }
+   }
 
-    //Using for specific env
-    //Need implement for read and write specific Properties file;
-    public static void setCustomFile(String propertiesFilePath){
-        properties = new Properties();
-        try{
-            linkFile = propertiesFilePath;
-            fileIn = new FileInputStream(linkFile);
-            properties.load(fileIn);
-            fileIn.close();
-        } catch (IOException exception){
-            throw new RuntimeException("[PropertiesManager] - unable to read given properties file");
-        }
-    }
+   public static String getDefaultPropValue(String key){
+       String keyValue = "";
+       try{
+           if(defaultFileInputStream == null){
+               defaultProperties = new Properties();
+               defaultFileInputStream = new FileInputStream(StringUtils.getCurrentDir() + defaultPropertiesFile);
+               defaultProperties.load(defaultFileInputStream);
+               defaultFileInputStream.close();
+           }
+           keyValue = defaultProperties.getProperty(key);
+       } catch (IOException e){
+           throw new RuntimeException("[DEFAULT PROPERTIES FILE]- Unable to get value from Properties file");
+       }
+       return keyValue;
+   }
 
-    public static void setDefaultFile(){
-        properties = new Properties();
-        try{
-            linkFile = StringUtils.getCurrentDir() + defaultProperFilePath;
-            fileIn = new FileInputStream(linkFile);
-            properties.load(fileIn);
-            fileIn.close();
-        } catch (IOException exception){
-            throw new RuntimeException("[PropertiesManager] - unable to read DEFAULT properties file");
-        }
-    }
+   public static void setDefaultPropValue(String key, String keyValue){
+       try{
+           if(defaultFileInputStream == null){
+               defaultProperties = new Properties();
+               defaultFileInputStream = new FileInputStream(StringUtils.getCurrentDir() + defaultPropertiesFile);
+               defaultProperties.load(defaultFileInputStream);
+               defaultFileInputStream.close();
 
-    public static String getDefaultPropValue(String key){
-        String keyValue;
-        try {
-//            if (fileIn == null){
-                setDefaultFile();
-//            }
-            keyValue = properties.getProperty(key);
-        } catch (Exception exception){
-            throw new RuntimeException("[Properties] Unable to get Properties value");
-        }
+               defaultFileOutputStream = new FileOutputStream(StringUtils.getCurrentDir() + defaultPropertiesFile);
+           }
 
-        return keyValue;
-    }
+           defaultFileOutputStream = new FileOutputStream(StringUtils.getCurrentDir() + defaultPropertiesFile);
 
-    public static String getCustomPropValue(String customKey){
-        String keyValue;
-        try{
-            setCustomFile(StringUtils.getCurrentDir() + configProperFilePath);
-            keyValue = properties.getProperty(customKey);
-        } catch (Exception exception){
-            throw new RuntimeException("[Config Properties] Unable to get Properties value");
-        }
-        return keyValue;
-    }
-
-    public static void setConfigPropValue(String key, String value){
-        try{
-            properties = new Properties();
-            setCustomFile(StringUtils.getCurrentDir() + configProperFilePath);
-            fileOut = new FileOutputStream(StringUtils.getCurrentDir() + configProperFilePath);
-
-            properties.setProperty(key, value);
-            properties.store(fileOut, "Written at: " + DateTimeUtils.getCurrentDateTime());
-            fileOut.close();
-        } catch (Exception exception){
-            throw new RuntimeException("[Properties] Unable to set the value to " + linkFile + " file");
-        }
-    }
-
-
-    public static void setDefaultPropValue(String key, String value){
-        try {
-//            if (fileIn == null){
-                properties = new Properties();
-                setDefaultFile();
-                fileOut = new FileOutputStream(StringUtils.getCurrentDir() + defaultProperFilePath);
-//            }
-            fileOut = new FileOutputStream(linkFile);
-            properties.setProperty(key, value);
-            properties.store(fileOut, "Written at: ...");
-            fileOut.close();
-        } catch (Exception exception){
-            throw new RuntimeException("[Properties] Unable to set the value to " + linkFile + " file");
-        }
-    }
-
+           defaultProperties.setProperty(key, keyValue);
+           defaultProperties.store(defaultFileOutputStream, "Written at: " + DateTimeUtils.getCurrentDateTime());
+           defaultFileOutputStream.close();
+       } catch (IOException e){
+           throw new RuntimeException("[SET DEFAULT PROPERTIES FILE] - Unable to set value to Properties file");
+       }
+   }
 }

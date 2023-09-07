@@ -15,7 +15,7 @@ public class TestBase {
     @Parameters("Environment")
     public void configure(String environment){
         PropertiesManager.loadAllPropFiles();
-        PropertiesManager.setConfigPropValue("environment", environment);
+//        PropertiesManager.setConfigPropValue("environment", environment);
     }
 
     @BeforeClass

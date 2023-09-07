@@ -6,16 +6,7 @@ import constant.Constants;
 
 public class JsonHelper {
     public static JsonObject getJsonTemplateObject(){
-        String environment = PropertiesManager.getCustomPropValue("environment");
-        JsonObject object = null;
-        switch (environment){
-            case "Default" :
-                object = JsonUtils.getJsonObjects(Constants.TEMPLATE_DIRECTORY);
-                break;
-            case "QA":
-                object = JsonUtils.getJsonObjects(Constants.QA_TEMPLATE_DIRECTORY);
-        }
-
+        JsonObject object = JsonUtils.getJsonObjects(Constants.TEMPLATE_DIRECTORY);
         return object;
     }
 

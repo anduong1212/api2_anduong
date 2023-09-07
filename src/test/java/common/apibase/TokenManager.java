@@ -23,10 +23,10 @@ import java.util.function.LongFunction;
 
 public class TokenManager{
 
-    private static final String CLIENT_ID = PropertiesManager.getDefaultPropValue("client_id");
-    private static final String CLIENT_SECRET = PropertiesManager.getDefaultPropValue("client_secret");
+    private static final String CLIENT_ID = System.getenv("client_id");
+    private static final String CLIENT_SECRET = System.getenv("client_secret");
     private static final String CLOUD_ID = PropertiesManager.getDefaultPropValue("cloud_id");
-    private static final String API_SCOPE = PropertiesManager.getDefaultPropValue("scope");
+    private static final String API_SCOPE = System.getenv("scope");
     private static final String ACCESS_TOKEN = PropertiesManager.getDefaultPropValue("access_token");
     private static final Instant EXPIRED_TIME = DateTimeUtils.convertDateTime(PropertiesManager.getDefaultPropValue("expired_time"));
 
@@ -109,7 +109,9 @@ public class TokenManager{
     }
 
     public static void getCloudID(){
+        if(CLOUD_ID == null){
             extractCloudIDResponse();
             Log.info("Cloud ID: " + PropertiesManager.getDefaultPropValue("cloud_id"));
+        }
     }
 }
