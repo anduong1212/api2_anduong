@@ -97,6 +97,11 @@ public class ExtentReportManager {
         getTest().createNode("<b style =\"color:Orange\">STEP </b>" + nodeName).info(createMarkup(nodeDesc, ExtentColor.PINK));
     }
 
+    public static void stepNodeVerify(String nodeName, String nodeDesc){
+        logVerifyStep(nodeName);
+        getTest().createNode("<b style =\"color:Orange\">VERIFY </b>" + nodeName).info(createMarkup(nodeDesc, ExtentColor.ORANGE));
+    }
+
     public static void stepJsonNode(String nodeName, String description){
         logMessage(Status.INFO, nodeName);
         getTest().createNode("<b style =\"color:Blue\">JSON STEP </b>" + nodeName).info(MarkupHelper.createCodeBlock(description,CodeLanguage.JSON));

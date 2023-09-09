@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">API Level 2 - Jira API</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Sep 07, 2023 21:42:38 PM</span></a>
+<a href="#"><span class="badge badge-primary">Sep 09, 2023 18:12:55 PM</span></a>
 </li>
 </ul>
 </div>
@@ -79,9 +79,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">API001</p>
+            <p class="name">API009</p>
             <p class="text-sm">
-              <span>9:42:38 PM</span> / <span>00:00:06:136</span>
+              <span>6:12:55 PM</span> / <span>00:00:06:055</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -89,15 +89,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">API001</h5>
-<span class='badge badge-success'>09.07.2023 9:42:38 PM</span>
-<span class='badge badge-danger'>09.07.2023 9:42:44 PM</span>
-<span class='badge badge-default'>00:00:06:136</span>
+<h5 class="test-status text-pass">API009</h5>
+<span class='badge badge-success'>09.09.2023 6:12:55 PM</span>
+<span class='badge badge-danger'>09.09.2023 6:13:01 PM</span>
+<span class='badge badge-default'>00:00:06:055</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">Verify that success response when user get an exist issue</div>
+<div class="m-t-10 m-l-5">Verify that successful response is given when user get an exist comment from an exist issue</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -105,37 +105,86 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:38 PM</td>
+        <td>6:12:55 PM</td>
         <td>
-          [PRE-CONDITION]: Create a new issue
+          [PRE-CONDITION] Create new issue 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:42 PM</td>
+        <td>6:12:57 PM</td>
         <td>
-          [CREATED] - ISSUE IS CREATED
+          CREATED new issue: 10079
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:42 PM</td>
+        <td>6:12:57 PM</td>
         <td>
-          STEP 1: Get an exist issue
+          [PRE-CONDITION] Add new comment to issue: 10079
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:43 PM</td>
+        <td>6:12:58 PM</td>
         <td>
-          [POST-CONDITION]: Delete the created issue
+          ADDED Comment to Issue: 10079
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:58 PM</td>
+        <td>
+          Step 1: Get a comment from exist issue
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:59 PM</td>
+        <td>
+          GET comment from issue
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:59 PM</td>
+        <td>
+          <span class='badge white-text lime'>Step 2: Verify that status code is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:59 PM</td>
+        <td>
+          <span class='badge white-text lime'>Step 3: Verify that comment id is returned</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:59 PM</td>
+        <td>
+          <span class='badge white-text lime'>Step 4: Verify that comment body is correct</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:59 PM</td>
+        <td>
+          [POST-CONDITION] Delete new added comment
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:00 PM</td>
+        <td>
+          [POST-CONDITION] Delete created issue
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:42:44 PM</td>
+        <td>6:13:01 PM</td>
         <td>
-          <span class='badge white-text green'><b>[API001]</b> is PASSED</span>
+          <span class='badge white-text green'><b>[API009]</b> is PASSED</span>
         </td>
       </tr>
   </tbody>
@@ -147,12 +196,12 @@
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:00:162</span></li>
+              <li><span class='badge badge-default'>00:00:154</span></li>
               <li></li>
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="4"><span><b style ="color:Blue">JSON STEP </b>[CREATED] - ISSUE IS CREATED</span></a>
+            <a class="node " id="2"><span><b style ="color:Blue">JSON STEP </b>CREATED new issue: 10079</span></a>
             <div class="node-attr">
             </div>
           </div>
@@ -164,12 +213,16 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:42 PM</td>
+        <td>6:12:57 PM</td>
         <td>
            <div class='json-tree' id='code-block-json-0'></div>
  <script>
   function jsonTreeCreate0() { 
-   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({"id":"10067","key":"ADAPI-67","self":"https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/issue/10067"}); 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({
+    "id": "10079",
+    "key": "ADAPI-79",
+    "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/issue/10079"
+}); 
   }
   jsonTreeCreate0();
  </script>
@@ -191,7 +244,7 @@
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="5"><span><b style ="color:Orange">STEP </b>STEP 1: Get an exist issue</span></a>
+            <a class="node " id="3"><span><b style ="color:Blue">JSON STEP </b>ADDED Comment to Issue: 10079</span></a>
             <div class="node-attr">
             </div>
           </div>
@@ -203,259 +256,63 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:42 PM</td>
-        <td>
-          <span class='badge white-text pink'>Issue ID: 10067</span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header">
-          <div class="card-toolbar node-info">
-            <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:00:001</span></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="card-title">
-            <a class="node " id="6"><span><b style ="color:Orange">STEP </b>[POST-CONDITION]: Delete the created issue</span></a>
-            <div class="node-attr">
-            </div>
-          </div>
-        </div>
-        <div class="collapse">
-          <div class="card-body">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:43 PM</td>
-        <td>
-          <span class='badge white-text pink'>IssueID: 10067</span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-          </div>
-        </div>
-      </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="2"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">API002</p>
-            <p class="text-sm">
-              <span>9:42:38 PM</span> / <span>00:00:04:940</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">API002</h5>
-<span class='badge badge-success'>09.07.2023 9:42:38 PM</span>
-<span class='badge badge-danger'>09.07.2023 9:42:43 PM</span>
-<span class='badge badge-default'>00:00:04:940</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5">Verify that an unsuccessful response is given when user get an un-exist issue id</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:38 PM</td>
-        <td>
-          [PRE-CONDITION] - Get latest issue ID
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:41 PM</td>
-        <td>
-          1: Get an non-existing issue
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:42 PM</td>
-        <td>
-          <span class='badge white-text lime'>[VERIFY] - Verify that response code is 404</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:42 PM</td>
-        <td>
-          <span class='badge white-text lime'>[VERIFY] - Verify that an error message is returned to inform that an issue doesn't exist</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:42:43 PM</td>
-        <td>
-          <span class='badge white-text green'><b>[API002]</b> is PASSED</span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-  <div class="mt-4">  <div class="accordion" role="tablist">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-toolbar node-info">
-            <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:00:002</span></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="card-title">
-            <a class="node " id="3"><span><b style ="color:Orange">STEP </b>1: Get an non-existing issue</span></a>
-            <div class="node-attr">
-            </div>
-          </div>
-        </div>
-        <div class="collapse">
-          <div class="card-body">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:41 PM</td>
-        <td>
-          <span class='badge white-text pink'>989986</span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-          </div>
-        </div>
-      </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="7"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">AP003</p>
-            <p class="text-sm">
-              <span>9:42:43 PM</span> / <span>00:00:02:503</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">AP003</h5>
-<span class='badge badge-success'>09.07.2023 9:42:43 PM</span>
-<span class='badge badge-danger'>09.07.2023 9:42:45 PM</span>
-<span class='badge badge-default'>00:00:02:503</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5">Verify that an successful response is given when user create issue with valid fields</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:43 PM</td>
-        <td>
-          Step 1: Create an issue with valid
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:44 PM</td>
-        <td>
-          [CREATED - ISSUE] ADAPI-68
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:44 PM</td>
-        <td>
-          <span class='badge white-text lime'>[VERIFY] - Verify that the response status code is 201</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:44 PM</td>
-        <td>
-          <span class='badge white-text lime'>[VERIFY] - Verify that created issue ID and Key is returned</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:44 PM</td>
-        <td>
-          [POST-CONDITION]: Delete the created issue
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:42:45 PM</td>
-        <td>
-          <span class='badge white-text green'><b>[AP003]</b> is PASSED</span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-  <div class="mt-4">  <div class="accordion" role="tablist">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-toolbar node-info">
-            <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:00:001</span></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="card-title">
-            <a class="node " id="9"><span><b style ="color:Blue">JSON STEP </b>[CREATED - ISSUE] ADAPI-68</span></a>
-            <div class="node-attr">
-            </div>
-          </div>
-        </div>
-        <div class="collapse">
-          <div class="card-body">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:44 PM</td>
+        <td>6:12:58 PM</td>
         <td>
            <div class='json-tree' id='code-block-json-1'></div>
  <script>
   function jsonTreeCreate1() { 
-   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({"id":"10068","key":"ADAPI-68","self":"https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/issue/10068"}); 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({
+    "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/issue/10079/comment/10005",
+    "id": "10005",
+    "author": {
+        "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/user?accountId=712020%3A1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
+        "accountId": "712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
+        "emailAddress": "1077ab89-db76-4be7-9c49-904dff1b33a5@connect.atlassian.com",
+        "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/32"
+        },
+        "displayName": "an_duong_API2_token",
+        "active": true,
+        "timeZone": "Asia/Bangkok",
+        "accountType": "app"
+    },
+    "body": {
+        "content": [
+            {
+                "type": "paragraph",
+                "content": [
+                    {
+                        "text": "NEW COMMENT HAS BEEN ADDED BY AN DUONG AT 09/09/2023 18:12:57",
+                        "type": "text"
+                    }
+                ]
+            }
+        ],
+        "type": "doc",
+        "version": 1
+    },
+    "updateAuthor": {
+        "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/user?accountId=712020%3A1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
+        "accountId": "712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
+        "emailAddress": "1077ab89-db76-4be7-9c49-904dff1b33a5@connect.atlassian.com",
+        "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/32"
+        },
+        "displayName": "an_duong_API2_token",
+        "active": true,
+        "timeZone": "Asia/Bangkok",
+        "accountType": "app"
+    },
+    "created": "2023-09-09T18:12:53.755+0700",
+    "updated": "2023-09-09T18:12:53.755+0700",
+    "jsdPublic": true
+}); 
   }
   jsonTreeCreate1();
  </script>
@@ -472,12 +329,12 @@
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li><span class='badge badge-default'>00:00:005</span></li>
               <li></li>
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="10"><span><b style ="color:Orange">STEP </b>[POST-CONDITION]: Delete the created issue</span></a>
+            <a class="node " id="4"><span><b style ="color:Orange">STEP </b>Step 1: Get a comment from exist issue</span></a>
             <div class="node-attr">
             </div>
           </div>
@@ -489,113 +346,9 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:44 PM</td>
+        <td>6:12:58 PM</td>
         <td>
-          <span class='badge white-text pink'>IssueID: 10068</span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-          </div>
-        </div>
-      </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="8"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">AP004</p>
-            <p class="text-sm">
-              <span>9:42:44 PM</span> / <span>00:00:03:484</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">AP004</h5>
-<span class='badge badge-success'>09.07.2023 9:42:44 PM</span>
-<span class='badge badge-danger'>09.07.2023 9:42:48 PM</span>
-<span class='badge badge-default'>00:00:03:484</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5">Verify that an successful response is given when user assign an user to specific ticket</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:44 PM</td>
-        <td>
-          [PRE-CONDITION]: Create new issue with valid fields
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:45 PM</td>
-        <td>
-          Step 1: Assign User to the ticket
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:46 PM</td>
-        <td>
-          <span class='badge white-text lime'>[VERIFY] - Verify that the status code is 204</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:46 PM</td>
-        <td>
-          [POST-CONDITION]: Delete the created issue
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:42:48 PM</td>
-        <td>
-          <span class='badge white-text green'><b>[AP004]</b> is PASSED</span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-  <div class="mt-4">  <div class="accordion" role="tablist">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-toolbar node-info">
-            <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:00:001</span></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="card-title">
-            <a class="node " id="11"><span><b style ="color:Orange">STEP </b>Step 1: Assign User to the ticket</span></a>
-            <div class="node-attr">
-            </div>
-          </div>
-        </div>
-        <div class="collapse">
-          <div class="card-body">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:45 PM</td>
-        <td>
-          <span class='badge white-text pink'>User ID712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23</span>
+          <span class='badge white-text pink'>10005</span>
         </td>
       </tr>
   </tbody>
@@ -613,7 +366,7 @@
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="12"><span><b style ="color:Orange">STEP </b>[POST-CONDITION]: Delete the created issue</span></a>
+            <a class="node " id="5"><span><b style ="color:Orange">STEP </b>GET comment from issue</span></a>
             <div class="node-attr">
             </div>
           </div>
@@ -625,9 +378,220 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:46 PM</td>
+        <td>6:12:59 PM</td>
         <td>
-          <span class='badge white-text pink'>IssueID: 10069</span>
+          <span class='badge white-text pink'>{
+    "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/issue/10079/comment/10005",
+    "id": "10005",
+    "author": {
+        "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/user?accountId=712020%3A1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
+        "accountId": "712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
+        "emailAddress": "1077ab89-db76-4be7-9c49-904dff1b33a5@connect.atlassian.com",
+        "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/32"
+        },
+        "displayName": "an_duong_API2_token",
+        "active": true,
+        "timeZone": "Asia/Bangkok",
+        "accountType": "app"
+    },
+    "body": {
+        "content": [
+            {
+                "type": "paragraph",
+                "content": [
+                    {
+                        "text": "NEW COMMENT HAS BEEN ADDED BY AN DUONG AT 09/09/2023 18:12:57",
+                        "type": "text"
+                    }
+                ]
+            }
+        ],
+        "type": "doc",
+        "version": 1
+    },
+    "updateAuthor": {
+        "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/user?accountId=712020%3A1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
+        "accountId": "712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
+        "emailAddress": "1077ab89-db76-4be7-9c49-904dff1b33a5@connect.atlassian.com",
+        "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23/159476a8-40ae-4c93-b64f-2545a6bb712b/32"
+        },
+        "displayName": "an_duong_API2_token",
+        "active": true,
+        "timeZone": "Asia/Bangkok",
+        "accountType": "app"
+    },
+    "created": "2023-09-09T18:12:53.755+0700",
+    "updated": "2023-09-09T18:12:53.755+0700",
+    "jsdPublic": true
+}</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="6"><span><b style ="color:Orange">VERIFY </b>Step 2: Verify that status code is 200</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:59 PM</td>
+        <td>
+          <span class='badge white-text orange'>200</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="7"><span><b style ="color:Orange">VERIFY </b>Step 3: Verify that comment id is returned</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:59 PM</td>
+        <td>
+          <span class='badge white-text orange'>10005</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="8"><span><b style ="color:Orange">VERIFY </b>Step 4: Verify that comment body is correct</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:59 PM</td>
+        <td>
+          <span class='badge white-text orange'>NEW COMMENT HAS BEEN ADDED BY AN DUONG AT 09/09/2023 18:12:57</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="9"><span><b style ="color:Orange">STEP </b>[POST-CONDITION] Delete new added comment</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:59 PM</td>
+        <td>
+          <span class='badge white-text pink'>10005</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="10"><span><b style ="color:Orange">STEP </b>[POST-CONDITION] Delete created issue</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:00 PM</td>
+        <td>
+          <span class='badge white-text pink'>10079</span>
         </td>
       </tr>
   </tbody>
@@ -653,19 +617,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Sep 07, 2023 21:42:38 PM</h3>
+<h3>Sep 09, 2023 18:12:55 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Sep 07, 2023 21:42:48 PM</h3>
+<h3>Sep 09, 2023 18:13:01 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>4</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -688,7 +652,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>4</b> tests passed
+<b>1</b> tests passed
 </small>
 </div>
 <div>
@@ -710,7 +674,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>8</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>9</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -730,10 +694,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='13%'><b>4</b> events passed</small></div>
+<div><small data-tooltip='4%'><b>1</b> events passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>25</b> others
+<b data-tooltip='%'>20</b> others
 </small>
 </div>
 </div>
@@ -772,12 +736,12 @@
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 4,
+passParent: 1,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 8,
+passChild: 9,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
@@ -789,11 +753,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 4,
+passEvents: 1,
 failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 25
+infoEvents: 20
 };
 </script>        </div>
       </div>

@@ -1,4 +1,4 @@
-package jiraapi.testcases.deleteissue;
+package jiraapi.testcases.issue.deleteissue;
 
 import com.aventstack.extentreports.Status;
 import common.apibase.StatusCode;

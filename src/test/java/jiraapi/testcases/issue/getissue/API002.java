@@ -1,4 +1,4 @@
-package jiraapi.testcases.getissue;
+package jiraapi.testcases.issue.getissue;
 
 import com.aventstack.extentreports.Status;
 import common.apibase.StatusCode;

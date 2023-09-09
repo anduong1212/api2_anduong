@@ -1,4 +1,4 @@
-package jiraapi.controller.issue.dataobjects;
+package jiraapi.controller;
 
 import io.restassured.response.ResponseBody;
 

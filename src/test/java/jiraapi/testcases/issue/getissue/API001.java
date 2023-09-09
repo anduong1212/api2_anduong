@@ -1,10 +1,10 @@
-package jiraapi.testcases.getissue;
+package jiraapi.testcases.issue.getissue;
 
 import com.aventstack.extentreports.Status;
 import common.apibase.StatusCode;
 import common.report.ExtentReportManager;
 import jiraapi.controller.issue.Issue;
-import jiraapi.controller.issue.dataobjects.DataTransfer;
+import jiraapi.controller.DataTransfer;
 import jiraapi.controller.issue.dataobjects.NewIssue;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;

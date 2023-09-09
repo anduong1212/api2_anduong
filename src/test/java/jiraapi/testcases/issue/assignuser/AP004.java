@@ -1,4 +1,4 @@
-package jiraapi.testcases.assignuser;
+package jiraapi.testcases.issue.assignuser;
 
 import com.aventstack.extentreports.Status;
 import common.apibase.StatusCode;

@@ -1,12 +1,10 @@
-package jiraapi.testcases.deleteissue;
+package jiraapi.testcases.issue.deleteissue;
 
 import com.aventstack.extentreports.Status;
 import common.apibase.StatusCode;
 import common.report.ExtentReportManager;
 import io.restassured.response.Response;
 import jiraapi.controller.issue.Issue;
-import jiraapi.controller.issue.dataobjects.NewIssue;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import testbase.TestBase;

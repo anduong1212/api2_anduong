@@ -8,5 +8,8 @@
   },
   "assignee": {
     "accountId" : "712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23"
+  },
+  "newComment": {
+    "body": "NEW COMMENT HAS BEEN ADDED BY AN DUONG AT %s"
   }
 }

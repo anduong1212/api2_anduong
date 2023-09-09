@@ -11,6 +11,7 @@ import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -24,15 +25,22 @@ public class ResponseUtils {
         return value.isEmpty() || value == null;
     }
 
-//    public static void archiveValueToProp(Response response,String storingKey){
-//        String value = response.getBody().jsonPath().getString(storingKey);
-//        PropertiesManager.setConfigPropValue(storingKey, value);
-//    }
-
     public static List<Map<String, Object>> getResponseAsList(ResponseBody response, String fields){
         Map<String, Object> responseAsObject = (Map<String, Object>) response.as(Object.class);
 
         return (List<Map<String, Object>>) responseAsObject.get(fields);
+    }
+
+    public static Boolean isValueContainInListRes(ResponseBody responseBody, String fields, String value){
+        Boolean result = false;
+        Iterator iterator = getResponseAsList(responseBody, fields).listIterator();
+        while (iterator.hasNext()){
+            result =((Map<String, Object>) iterator.next()).containsValue(value);
+            if (result == true){
+                break;
+            }
+        }
+        return result;
     }
 
 }
