@@ -27,11 +27,11 @@ public class API007 extends TestBase {
         Response createdIssueRes = issue.createIssue(NewIssue.NEW_ISSUE);
 
         createdIssueId = ResponseUtils.getValueFromBody(createdIssueRes, "id");
-        ExtentReportManager.stepJsonNode("CREATED new issue: " + createdIssueId, createdIssueRes.asString());
+        ExtentReportManager.stepJsonNode("","CREATED new issue: " + createdIssueId, createdIssueRes.asString());
 
         ExtentReportManager.logMessage(Status.INFO, "Step 1: Add new comment to issue: " + createdIssueId);
         Response addedCommentRes = issueComment.addNewComment(createdIssueId, NewComment.NEW_COMMENT);
-        ExtentReportManager.stepJsonNode("ADDED Comment to Issue: " + createdIssueId, addedCommentRes.asPrettyString());
+        ExtentReportManager.stepJsonNode("","ADDED Comment to Issue: " + createdIssueId, addedCommentRes.asPrettyString());
 
         ExtentReportManager.stepNodeVerify("Step 2: Verify that status code is 201", String.valueOf(addedCommentRes.getStatusCode()));
         softAssert.assertEquals(addedCommentRes.getStatusCode(), StatusCode.CODE_201.getStatusCode());
@@ -42,10 +42,10 @@ public class API007 extends TestBase {
         softAssert.assertAll();
 
 
-        ExtentReportManager.stepNode("[POST-CONDITION] Delete new added comment", addedCommentId);
+        ExtentReportManager.stepNode("[POST-CONDITION] Delete new added comment","", addedCommentId);
         issueComment.deleteComment(createdIssueId, addedCommentId);
 
-        ExtentReportManager.stepNode("[POST-CONDITION] Delete created issue", createdIssueId);
+        ExtentReportManager.stepNode("[POST-CONDITION] Delete created issue","", createdIssueId);
         issue.deleteIssue(createdIssueId);
     }
 }

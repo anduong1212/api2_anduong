@@ -25,14 +25,14 @@ public class API008 extends TestBase {
         ExtentReportManager.logMessage(Status.INFO, "[PRE-CONDITION] Create new issue ");
         Response createdIssueRes = issue.createIssue(NewIssue.NEW_ISSUE);
         createdIssueId = ResponseUtils.getValueFromBody(createdIssueRes, "id");
-        ExtentReportManager.stepJsonNode("CREATED new issue: " + createdIssueId, createdIssueRes.asPrettyString());
+        ExtentReportManager.stepJsonNode("","CREATED new issue: " + createdIssueId, createdIssueRes.asPrettyString());
 
         ExtentReportManager.logMessage(Status.INFO, "[PRE-CONDITION] Add new comment to issue: " + createdIssueId);
         Response addedCommentRes = issueComment.addNewComment(createdIssueId, NewComment.NEW_COMMENT);
         addedCommentId = ResponseUtils.getValueFromBody(addedCommentRes,"id");
-        ExtentReportManager.stepJsonNode("ADDED Comment to Issue: " + createdIssueId, addedCommentRes.asPrettyString());
+        ExtentReportManager.stepJsonNode("","ADDED Comment to Issue: " + createdIssueId, addedCommentRes.asPrettyString());
 
-        ExtentReportManager.stepNode("Step 1: Delete a comment from exist issue", addedCommentId);
+        ExtentReportManager.stepNode("1", "Delete a comment from exist issue", addedCommentId);
         Response deletedCommentRes = issueComment.deleteComment(createdIssueId, addedCommentId);
 
         ExtentReportManager.stepNodeVerify("Step 2: Verify that status code is 204", String.valueOf(deletedCommentRes.getStatusCode()));
@@ -43,7 +43,7 @@ public class API008 extends TestBase {
         softAssert.assertFalse(ResponseUtils.isValueContainInListRes(getAllCommentRes.getBody(), "comments", addedCommentId));
         softAssert.assertAll();
 
-        ExtentReportManager.stepNode("[POST-CONDITION] Delete created issue", createdIssueId);
+        ExtentReportManager.stepNode("","[POST-CONDITION] Delete created issue", createdIssueId);
         issue.deleteIssue(createdIssueId);
 
     }

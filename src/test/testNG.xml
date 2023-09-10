@@ -7,7 +7,7 @@
     <parameter name="Environment" value="Default"></parameter>
     <test name="Regression 1">
         <classes>
-            <class name="jiraapi.testcases.issuecomment.getcomment.API009"></class>
+            <class name="jiraapi.testcases.issuecomment.updatecomment.API010"></class>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

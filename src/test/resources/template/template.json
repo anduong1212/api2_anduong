@@ -11,5 +11,8 @@
   },
   "newComment": {
     "body": "NEW COMMENT HAS BEEN ADDED BY AN DUONG AT %s"
+  },
+  "updateComment" : {
+    "body": "UPDATE COMMENT BY AN DUONG AT %s"
   }
 }

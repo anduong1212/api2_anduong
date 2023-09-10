@@ -1,4 +1,4 @@
-package jiraapi.testcases.issuecomment.getcomment;
+package jiraapi.testcases.issuecomment.updatecomment;
 
 import com.aventstack.extentreports.Status;
 import common.apibase.StatusCode;
@@ -8,21 +8,22 @@ import jiraapi.controller.issue.Issue;
 import jiraapi.controller.issue.dataobjects.NewIssue;
 import jiraapi.controller.issuecomment.IssueComment;
 import jiraapi.controller.issuecomment.dataobject.NewComment;
+import jiraapi.controller.issuecomment.dataobject.UpdateComment;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import testbase.TestBase;
 import utilities.ResponseUtils;
 
-public class API009 extends TestBase {
+public class API010 extends TestBase {
     Issue issue = new Issue();
     IssueComment issueComment = new IssueComment();
     SoftAssert softAssert = new SoftAssert();
     String createdIssueId;
     String addedCommentId;
-    String getCommentId;
     String commentBody;
-    @Test(testName = "API009", description = "Verify that successful response is given when user get an exist comment from an exist issue")
-    public void API009(){
+
+    @Test(testName = "API010", description = "Verify that successful response is given when user update an exist comment with valid fields")
+    public void API010(){
         ExtentReportManager.logMessage(Status.INFO, "[PRE-CONDITION] Create new issue ");
         Response createdIssueRes = issue.createIssue(NewIssue.NEW_ISSUE);
         createdIssueId = ResponseUtils.getValueFromBody(createdIssueRes, "id");
@@ -33,20 +34,16 @@ public class API009 extends TestBase {
         addedCommentId = ResponseUtils.getValueFromBody(addedCommentRes,"id");
         ExtentReportManager.stepJsonNode("","ADDED Comment to Issue: " + createdIssueId, addedCommentRes.asPrettyString());
 
-        ExtentReportManager.stepNode("1", "Get a comment from exist issue", addedCommentId);
-        Response getCommentRes = issueComment.getComment(createdIssueId, addedCommentId);
-        ExtentReportManager.stepJsonNode("","GET comment from issue", getCommentRes.getBody().asPrettyString());
+        ExtentReportManager.stepNode("1", "Update comment from exist issue", addedCommentId);
+        Response updateCommentRes = issueComment.updateComment(createdIssueId, addedCommentId, UpdateComment.UPDATE_COMMENT);
+        ExtentReportManager.stepJsonNode("","UPDATE comment from issue", updateCommentRes.getBody().asPrettyString());
 
-        ExtentReportManager.stepNodeVerify("Step 2: Verify that status code is 200", String.valueOf(getCommentRes.getStatusCode()));
-        softAssert.assertEquals(getCommentRes.getStatusCode(), StatusCode.CODE_200.getStatusCode());
+        ExtentReportManager.stepNodeVerify("Step 2: Verify that status code is 200", String.valueOf(updateCommentRes.getStatusCode()));
+        softAssert.assertEquals(updateCommentRes.getStatusCode(), StatusCode.CODE_200.getStatusCode());
 
-        getCommentId = ResponseUtils.getValueFromBody(getCommentRes, "id");
-        ExtentReportManager.stepNodeVerify("Step 3: Verify that comment id is returned", getCommentId);
-        softAssert.assertFalse(ResponseUtils.isValueIsNullOrEmpty(addedCommentRes, "id"));
-
-        commentBody = ResponseUtils.getValueFromBody(getCommentRes, "body.content[0].content[0].text");
-        ExtentReportManager.stepNodeVerify("Step 4: Verify that comment body is correct", commentBody);
-        softAssert.assertEquals(commentBody, NewComment.NEW_COMMENT.getCommentBody());
+        commentBody = ResponseUtils.getValueFromBody(updateCommentRes, "body.content[0].content[0].text");
+        ExtentReportManager.stepNodeVerify("Step 3: Verify that comment body is correct", commentBody);
+        softAssert.assertEquals(commentBody, UpdateComment.UPDATE_COMMENT.getUpdateCommentBody());
         softAssert.assertAll();
 
         ExtentReportManager.stepNode("[POST-CONDITION]", "Delete new added comment", addedCommentId);
@@ -55,4 +52,5 @@ public class API009 extends TestBase {
         ExtentReportManager.stepNode("[POST-CONDITION]", "Delete created issue", createdIssueId);
         issue.deleteIssue(createdIssueId);
     }
+
 }

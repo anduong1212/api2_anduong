@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">API Level 2 - Jira API</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Sep 09, 2023 18:12:55 PM</span></a>
+<a href="#"><span class="badge badge-primary">Sep 10, 2023 21:18:28 PM</span></a>
 </li>
 </ul>
 </div>
@@ -79,9 +79,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">API009</p>
+            <p class="name">API010</p>
             <p class="text-sm">
-              <span>6:12:55 PM</span> / <span>00:00:06:055</span>
+              <span>9:18:28 PM</span> / <span>00:00:09:696</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -89,15 +89,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">API009</h5>
-<span class='badge badge-success'>09.09.2023 6:12:55 PM</span>
-<span class='badge badge-danger'>09.09.2023 6:13:01 PM</span>
-<span class='badge badge-default'>00:00:06:055</span>
+<h5 class="test-status text-pass">API010</h5>
+<span class='badge badge-success'>09.10.2023 9:18:28 PM</span>
+<span class='badge badge-danger'>09.10.2023 9:18:38 PM</span>
+<span class='badge badge-default'>00:00:09:696</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">Verify that successful response is given when user get an exist comment from an exist issue</div>
+<div class="m-t-10 m-l-5">Verify that successful response is given when user update an exist comment with valid fields</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -105,86 +105,79 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:55 PM</td>
+        <td>9:18:28 PM</td>
         <td>
           [PRE-CONDITION] Create new issue 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:57 PM</td>
+        <td>9:18:33 PM</td>
         <td>
-          CREATED new issue: 10079
+          CREATED new issue: 10081
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:57 PM</td>
+        <td>9:18:34 PM</td>
         <td>
-          [PRE-CONDITION] Add new comment to issue: 10079
+          [PRE-CONDITION] Add new comment to issue: 10081
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:58 PM</td>
+        <td>9:18:34 PM</td>
         <td>
-          ADDED Comment to Issue: 10079
+          ADDED Comment to Issue: 10081
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:58 PM</td>
+        <td>9:18:34 PM</td>
         <td>
-          Step 1: Get a comment from exist issue
+          Step 1: Update comment from exist issue
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:59 PM</td>
+        <td>9:18:35 PM</td>
         <td>
-          GET comment from issue
+          UPDATE comment from issue
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:59 PM</td>
+        <td>9:18:35 PM</td>
         <td>
           <span class='badge white-text lime'>Step 2: Verify that status code is 200</span>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:59 PM</td>
+        <td>9:18:36 PM</td>
         <td>
-          <span class='badge white-text lime'>Step 3: Verify that comment id is returned</span>
+          <span class='badge white-text lime'>Step 3: Verify that comment body is correct</span>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:59 PM</td>
-        <td>
-          <span class='badge white-text lime'>Step 4: Verify that comment body is correct</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:59 PM</td>
+        <td>9:18:36 PM</td>
         <td>
           [POST-CONDITION] Delete new added comment
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:13:00 PM</td>
+        <td>9:18:37 PM</td>
         <td>
           [POST-CONDITION] Delete created issue
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:13:01 PM</td>
+        <td>9:18:38 PM</td>
         <td>
-          <span class='badge white-text green'><b>[API009]</b> is PASSED</span>
+          <span class='badge white-text green'><b>[API010]</b> is PASSED</span>
         </td>
       </tr>
   </tbody>
@@ -196,12 +189,12 @@
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:00:154</span></li>
+              <li><span class='badge badge-default'>00:00:176</span></li>
               <li></li>
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="2"><span><b style ="color:Blue">JSON STEP </b>CREATED new issue: 10079</span></a>
+            <a class="node " id="2"><span><b style ="color:Blue">JSON STEP </b>CREATED new issue: 10081</span></a>
             <div class="node-attr">
             </div>
           </div>
@@ -213,15 +206,15 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:57 PM</td>
+        <td>9:18:34 PM</td>
         <td>
            <div class='json-tree' id='code-block-json-0'></div>
  <script>
   function jsonTreeCreate0() { 
    document.getElementById('code-block-json-0').innerHTML = JSONTree.create({
-    "id": "10079",
-    "key": "ADAPI-79",
-    "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/issue/10079"
+    "id": "10081",
+    "key": "ADAPI-81",
+    "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/issue/10081"
 }); 
   }
   jsonTreeCreate0();
@@ -244,7 +237,7 @@
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="3"><span><b style ="color:Blue">JSON STEP </b>ADDED Comment to Issue: 10079</span></a>
+            <a class="node " id="3"><span><b style ="color:Blue">JSON STEP </b>ADDED Comment to Issue: 10081</span></a>
             <div class="node-attr">
             </div>
           </div>
@@ -256,14 +249,14 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:58 PM</td>
+        <td>9:18:34 PM</td>
         <td>
            <div class='json-tree' id='code-block-json-1'></div>
  <script>
   function jsonTreeCreate1() { 
    document.getElementById('code-block-json-1').innerHTML = JSONTree.create({
-    "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/issue/10079/comment/10005",
-    "id": "10005",
+    "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/issue/10081/comment/10007",
+    "id": "10007",
     "author": {
         "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/user?accountId=712020%3A1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
         "accountId": "712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
@@ -285,7 +278,7 @@
                 "type": "paragraph",
                 "content": [
                     {
-                        "text": "NEW COMMENT HAS BEEN ADDED BY AN DUONG AT 09/09/2023 18:12:57",
+                        "text": "NEW COMMENT HAS BEEN ADDED BY AN DUONG AT 10/09/2023 21:18:34",
                         "type": "text"
                     }
                 ]
@@ -309,8 +302,8 @@
         "timeZone": "Asia/Bangkok",
         "accountType": "app"
     },
-    "created": "2023-09-09T18:12:53.755+0700",
-    "updated": "2023-09-09T18:12:53.755+0700",
+    "created": "2023-09-10T21:18:29.580+0700",
+    "updated": "2023-09-10T21:18:29.580+0700",
     "jsdPublic": true
 }); 
   }
@@ -329,12 +322,12 @@
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:00:005</span></li>
+              <li><span class='badge badge-default'>00:00:003</span></li>
               <li></li>
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="4"><span><b style ="color:Orange">STEP </b>Step 1: Get a comment from exist issue</span></a>
+            <a class="node " id="4"><span><b style ="color:Orange">STEP </b>Step 1: Update comment from exist issue</span></a>
             <div class="node-attr">
             </div>
           </div>
@@ -346,9 +339,9 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:58 PM</td>
+        <td>9:18:34 PM</td>
         <td>
-          <span class='badge white-text pink'>10005</span>
+          <span class='badge white-text pink'>10007</span>
         </td>
       </tr>
   </tbody>
@@ -366,7 +359,7 @@
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="5"><span><b style ="color:Orange">STEP </b>GET comment from issue</span></a>
+            <a class="node " id="5"><span><b style ="color:Blue">JSON STEP </b>UPDATE comment from issue</span></a>
             <div class="node-attr">
             </div>
           </div>
@@ -378,11 +371,14 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:59 PM</td>
+        <td>9:18:35 PM</td>
         <td>
-          <span class='badge white-text pink'>{
-    "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/issue/10079/comment/10005",
-    "id": "10005",
+           <div class='json-tree' id='code-block-json-2'></div>
+ <script>
+  function jsonTreeCreate2() { 
+   document.getElementById('code-block-json-2').innerHTML = JSONTree.create({
+    "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/issue/10081/comment/10007",
+    "id": "10007",
     "author": {
         "self": "https://api.atlassian.com/ex/jira/b14d6e65-9b65-4526-badd-b7c1a2490d2d/rest/api/3/user?accountId=712020%3A1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
         "accountId": "712020:1e7fbba3-995d-4129-b6c6-ca975c8fdb23",
@@ -404,7 +400,7 @@
                 "type": "paragraph",
                 "content": [
                     {
-                        "text": "NEW COMMENT HAS BEEN ADDED BY AN DUONG AT 09/09/2023 18:12:57",
+                        "text": "UPDATE COMMENT BY AN DUONG AT 10/09/2023 21:18:34",
                         "type": "text"
                     }
                 ]
@@ -428,10 +424,14 @@
         "timeZone": "Asia/Bangkok",
         "accountType": "app"
     },
-    "created": "2023-09-09T18:12:53.755+0700",
-    "updated": "2023-09-09T18:12:53.755+0700",
+    "created": "2023-09-10T21:18:29.580+0700",
+    "updated": "2023-09-10T21:18:30.558+0700",
     "jsdPublic": true
-}</span>
+}); 
+  }
+  jsonTreeCreate2();
+ </script>
+
         </td>
       </tr>
   </tbody>
@@ -461,7 +461,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:59 PM</td>
+        <td>9:18:35 PM</td>
         <td>
           <span class='badge white-text orange'>200</span>
         </td>
@@ -481,7 +481,7 @@
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="7"><span><b style ="color:Orange">VERIFY </b>Step 3: Verify that comment id is returned</span></a>
+            <a class="node " id="7"><span><b style ="color:Orange">VERIFY </b>Step 3: Verify that comment body is correct</span></a>
             <div class="node-attr">
             </div>
           </div>
@@ -493,9 +493,9 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:59 PM</td>
+        <td>9:18:36 PM</td>
         <td>
-          <span class='badge white-text orange'>10005</span>
+          <span class='badge white-text orange'>UPDATE COMMENT BY AN DUONG AT 10/09/2023 21:18:34</span>
         </td>
       </tr>
   </tbody>
@@ -513,7 +513,7 @@
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="8"><span><b style ="color:Orange">VERIFY </b>Step 4: Verify that comment body is correct</span></a>
+            <a class="node " id="8"><span><b style ="color:Orange">STEP </b>[POST-CONDITION] Delete new added comment</span></a>
             <div class="node-attr">
             </div>
           </div>
@@ -525,9 +525,9 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:59 PM</td>
+        <td>9:18:36 PM</td>
         <td>
-          <span class='badge white-text orange'>NEW COMMENT HAS BEEN ADDED BY AN DUONG AT 09/09/2023 18:12:57</span>
+          <span class='badge white-text pink'>10007</span>
         </td>
       </tr>
   </tbody>
@@ -545,7 +545,7 @@
             </ul>
           </div>
           <div class="card-title">
-            <a class="node " id="9"><span><b style ="color:Orange">STEP </b>[POST-CONDITION] Delete new added comment</span></a>
+            <a class="node " id="9"><span><b style ="color:Orange">STEP </b>[POST-CONDITION] Delete created issue</span></a>
             <div class="node-attr">
             </div>
           </div>
@@ -557,41 +557,9 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:12:59 PM</td>
+        <td>9:18:37 PM</td>
         <td>
-          <span class='badge white-text pink'>10005</span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header">
-          <div class="card-toolbar node-info">
-            <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:00:000</span></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="card-title">
-            <a class="node " id="10"><span><b style ="color:Orange">STEP </b>[POST-CONDITION] Delete created issue</span></a>
-            <div class="node-attr">
-            </div>
-          </div>
-        </div>
-        <div class="collapse">
-          <div class="card-body">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:13:00 PM</td>
-        <td>
-          <span class='badge white-text pink'>10079</span>
+          <span class='badge white-text pink'>10081</span>
         </td>
       </tr>
   </tbody>
@@ -617,13 +585,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Sep 09, 2023 18:12:55 PM</h3>
+<h3>Sep 10, 2023 21:18:28 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Sep 09, 2023 18:13:01 PM</h3>
+<h3>Sep 10, 2023 21:18:38 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -674,7 +642,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>9</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>8</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -694,10 +662,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='4%'><b>1</b> events passed</small></div>
+<div><small data-tooltip='5%'><b>1</b> events passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>20</b> others
+<b data-tooltip='%'>18</b> others
 </small>
 </div>
 </div>
@@ -741,7 +709,7 @@ failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 9,
+passChild: 8,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
@@ -757,7 +725,7 @@ passEvents: 1,
 failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 20
+infoEvents: 18
 };
 </script>        </div>
       </div>

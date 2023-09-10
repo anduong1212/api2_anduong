@@ -35,6 +35,8 @@ public class AP003 extends TestBase {
         ExtentReportManager.stepNode("[POST-CONDITION]: Delete the created issue", "IssueID: " + createdIssueID);
         createIssueMethods.deleteIssue(createdIssueID);
 
+        ExtentReportManager.("1", "Create an issue with valid field");
+
 
 
     }
