@@ -4,6 +4,7 @@ import com.aventstack.extentreports.Status;
 import common.apibase.StatusCode;
 import common.report.ExtentReportManager;
 import io.restassured.response.Response;
+import jiraapi.controller.ErrorMessages;
 import jiraapi.controller.issue.Issue;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -12,26 +13,31 @@ import utilities.FakerUtils;
 import utilities.ResponseUtils;
 
 public class API006 extends TestBase {
-    Issue deleteIssueMethods = new Issue();
+    Issue issue = new Issue();
     SoftAssert softAssert = new SoftAssert();
-    String latestIssueID = "";
-
+    String latestIssueID;
     String randomIssueID;
 
     @Test(testName = "AP006", description = "Verify that a unsuccessful response is given when user delete an non-existing issue")
     public void AP006(){
-        Response lastestIssueIdResponse = deleteIssueMethods.getAllIssuesFromProject();
-        latestIssueID = ResponseUtils.getResponseAsList(lastestIssueIdResponse.getBody(), "issues").get(0).get("id").toString();
+
+        ExtentReportManager.logStep("PRE-CONDITION", "Get latest issue id");
+        Response latestIssueRes = issue.getAllIssuesFromProject();
+        latestIssueID = ResponseUtils.getResponseAsList(latestIssueRes.getBody(),"issues").get(0).get("id").toString();
         randomIssueID = String.valueOf(FakerUtils.generateRandomIssueID(latestIssueID));
-        ExtentReportManager.logMessage(Status.INFO, "Step 1: Delete an non-existing issue ID: " + randomIssueID);
-        Response deleteIssueResponse = deleteIssueMethods.deleteIssue(randomIssueID);
 
-        ExtentReportManager.logVerifyStep("[VERIFY] - Verify that response code is 404");
-        softAssert.assertEquals(deleteIssueResponse.getStatusCode(), StatusCode.CODE_404_ISSUE_DOES_NOT_EXIST.getStatusCode());
+        ExtentReportManager.logStep("1", "Delete non-exist issue" + randomIssueID);
+        Response deleteIssueRes = issue.deleteIssue(randomIssueID);
+        ExtentReportManager.stepJsonNode("", "DELETE NON-EXIST ISSUE: " + randomIssueID, deleteIssueRes.asPrettyString());
 
-        ExtentReportManager.logVerifyStep("[VERIFY] - Verify that an error message is returned to inform that an issue doesn't exist");
-        softAssert.assertEquals(ResponseUtils.getValueFromBody(deleteIssueResponse,"errorMessages[0]"), StatusCode.CODE_404_ISSUE_DOES_NOT_EXIST.getErrorMessage());
+        ExtentReportManager.stepNodeVerify("Step 2: Verify that response code is 404", String.valueOf(deleteIssueRes.getStatusCode()));
+        softAssert.assertEquals(deleteIssueRes.getStatusCode(), StatusCode.CODE_404.getStatusCode());
+
+        ExtentReportManager.stepNodeVerify("Step 3: Verify that error message is returned", ResponseUtils.getValueFromBody(deleteIssueRes, "errorMessages[0]"));
+        softAssert.assertEquals(ResponseUtils.getValueFromBody(deleteIssueRes, "errorMessages[0]"), ErrorMessages.ISSUE_DOES_NOT_EXIST.toString());
         softAssert.assertAll();
+
+
 
     }
 }

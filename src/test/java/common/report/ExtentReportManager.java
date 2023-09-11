@@ -93,7 +93,7 @@ public class ExtentReportManager {
 
     //Still not able to change its status when reporting a failed step -> need improve
     public static void stepNode(String numberOfStep, String nodeName, String nodeDesc){
-        logMessage(Status.INFO, "<b style =\"color: BLUE\">STEP </b>" + numberOfStep + ":" + nodeName);
+        logMessage(Status.INFO, "<b style =\"color: BLUE\">STEP </b>" + numberOfStep + ": " + nodeName);
         getTest().createNode("<b style =\"color:Orange\">STEP </b>" + nodeName).info(createMarkup(nodeDesc, ExtentColor.PINK));
     }
 
@@ -103,12 +103,12 @@ public class ExtentReportManager {
     }
 
     public static void stepJsonNode(String numberOfStep, String nodeName, String description){
-        logMessage(Status.INFO, "<b style =\"color: BLUE\">STEP </b>" + numberOfStep + ":" + nodeName);
+        logMessage(Status.INFO, "<b style =\"color: BLUE\">STEP </b>" + numberOfStep + ": " + nodeName);
         getTest().createNode("<b style =\"color:Blue\">JSON STEP </b>" + nodeName).info(MarkupHelper.createCodeBlock(description,CodeLanguage.JSON));
     }
 
     public static void logStep(String numberOfStep, String nodeName){
-        logMessage(Status.INFO, "<b style =\"color: BLUE\">STEP </b>" + numberOfStep + ":" + nodeName);
+        logMessage(Status.INFO, "<b style =\"color: BLUE\">STEP </b>" + numberOfStep + ": " + nodeName);
     }
 
     public static Markup createMarkup(String message, ExtentColor color){

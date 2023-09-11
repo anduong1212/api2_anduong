@@ -20,7 +20,6 @@ public class AP004 extends TestBase {
 
     @Test(testName = "AP004", description = "Verify that an successful response is given when user assign an user to specific ticket")
     public void AP004(){
-
         ExtentReportManager.logStep("", "[PRE-CONDITION]: Create issue with valid field");
         Response newIssueResponse = assignIssueMethods.createIssue(NewIssue.NEW_ISSUE);
         newIssueID = ResponseUtils.getValueFromBody(newIssueResponse, "id");
@@ -35,15 +34,11 @@ public class AP004 extends TestBase {
 
         ExtentReportManager.stepNodeVerify("Step 3: Verify that account id has been added to assigned issue", Assignee.ASSIGNEE.getAccountId());
         Response getIssueRes = assignIssueMethods.getIssue(newIssueID);
-        softAssert.assertEquals(ResponseUtils.getValueFromBody(getIssueRes, "fields.assignee"), Assignee.ASSIGNEE.getAccountId());
+        softAssert.assertEquals(ResponseUtils.getValueFromBody(getIssueRes, "fields.assignee.accountId"), Assignee.ASSIGNEE.getAccountId());
         softAssert.assertAll();
 
         ExtentReportManager.stepNode("[POST-CONDITION] Delete created issue","", newIssueID);
         assignIssueMethods.deleteIssue(newIssueID);
-
-
-
-
 
     }
 }

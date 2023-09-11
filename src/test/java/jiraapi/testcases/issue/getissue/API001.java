@@ -13,29 +13,31 @@ import testbase.TestBase;
 import utilities.ResponseUtils;
 
 public class API001 extends TestBase {
-    Issue createIssueMethods = new Issue();
+    Issue issue = new Issue();
     SoftAssert softAssert = new SoftAssert();
-
     DataTransfer createdIssueDataTrans = new DataTransfer();
     String createdIssueID = "";
 
     @Test(testName = "AP001", description = "Verify that success response when user get an exist issue")
     public void API001(){
-        ExtentReportManager.logMessage(Status.INFO, "[PRE-CONDITION]: Create a new issue");
-        Response createIssueResponse = createIssueMethods.createIssue(NewIssue.NEW_ISSUE);
-        ExtentReportManager.stepJsonNode("[CREATED] - ISSUE IS CREATED", createIssueResponse.asString());
+        ExtentReportManager.logStep("", "[PRE-CONDITION]: Create issue with valid field");
+        Response newIssueResponse = issue.createIssue(NewIssue.NEW_ISSUE);
+        createdIssueID = ResponseUtils.getValueFromBody(newIssueResponse, "id");
+        ExtentReportManager.stepJsonNode("", "CREATED issue: " + createdIssueID, newIssueResponse.asPrettyString());
 
-        createdIssueDataTrans.setResponseBody(createIssueResponse.getBody());
-        createdIssueID = createdIssueDataTrans.getResponseBody().get("id").toString();
-        ExtentReportManager.stepNode("STEP 1: Get an exist issue", "Issue ID: " + createdIssueID);
-        Response getIssueResponse = createIssueMethods.getIssue(createdIssueID);
+        ExtentReportManager.stepNode("1", "Get an exist issue from current project", createdIssueID);
+        Response getIssueRes = issue.getIssue(createdIssueID);
+        ExtentReportManager.stepJsonNode("", "GET issue: " + createdIssueID, getIssueRes.asPrettyString());
 
-        softAssert.assertEquals(getIssueResponse.getStatusCode(), StatusCode.CODE_200.getStatusCode());
-        softAssert.assertEquals(ResponseUtils.getValueFromBody(getIssueResponse, "id"), createdIssueID);
+        ExtentReportManager.stepNodeVerify("Step 2: Verify that status code is 200", String.valueOf(getIssueRes.getStatusCode()));
+        softAssert.assertEquals(getIssueRes.getStatusCode(), StatusCode.CODE_200.getStatusCode());
+
+        ExtentReportManager.stepNodeVerify("Step 3: Verify that issue summary is correct", ResponseUtils.getValueFromBody(getIssueRes,"fields.summary"));
+        softAssert.assertEquals(ResponseUtils.getValueFromBody(getIssueRes,"fields.summary"), NewIssue.NEW_ISSUE.getIssueSummary());
         softAssert.assertAll();
 
-        ExtentReportManager.stepNode("[POST-CONDITION]: Delete the created issue", "IssueID: " + createdIssueID);
-        createIssueMethods.deleteIssue(createdIssueID);
+        ExtentReportManager.stepNode("","[POST-CONDITION] Delete created issue", createdIssueID);
+        issue.deleteIssue(createdIssueID);
     }
 
 }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
 <suite name="API 2_Jira RestAPI">
     <listeners>
         <listener class-name="common.listener.TestListener"></listener>
@@ -7,7 +8,7 @@
     <parameter name="Environment" value="Default"></parameter>
     <test name="Regression 1">
         <classes>
-            <class name="jiraapi.testcases.issuecomment.updatecomment.API010"></class>
+            <class name="jiraapi.testcases.issue.getissue.API002"></class>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
